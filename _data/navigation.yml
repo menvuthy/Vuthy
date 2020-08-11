@@ -2,8 +2,6 @@
 main:
   - title: "Imagery and Data"
     url: /imagery-data/
-  # - title: "News Feed"
-  #   url: /newsfeed/
   - title: "About"
     url: /about/
   # - title: "Sample Collections"
