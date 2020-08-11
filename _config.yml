@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Men Vuthy"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/homepage_image.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Satellite Imagery and Data Portfolio - Cambodia"
   location         : "Tokyo, Japan"
   email            :
