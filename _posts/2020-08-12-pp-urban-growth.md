@@ -1,8 +1,8 @@
 ---
 title: "Urban Growth: Phnom Penh City from 1987 to 2020"
 permalink: /imagery-data/
-header:
-    image: "/images/pp-growth/pp-growth.gif"
+# header:
+#     image: "/images/pp-growth/pp-growth.gif"
 # categories:
 #   - Landsat
 # tags:
