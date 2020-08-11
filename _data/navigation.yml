@@ -2,8 +2,8 @@
 main:
   - title: "Imagery and Data"
     url: /imagery-data/
-  - title: "About"
-    url: /about/
+  # - title: "About"
+  #   url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
