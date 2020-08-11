@@ -1,7 +1,7 @@
 ---
 title: "Edge Case: Nested and Mixed Lists"
 header:
-    image: "/images/homepage_image.jpg"
+    image: "/images/homepage_img.jpg"
 categories:
   - Edge Case
 tags:
