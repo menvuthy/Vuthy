@@ -2,7 +2,7 @@
 title: "Phnom Penh: Urban Growth from 1988 to 2020 by Landsat Satellite Imagery"
 tagline: "This timelapse image reveals 33-year growth of Phnom Penh city."
 header:
-  overlay_image: /images/unsplash-image-2.jpg
+  overlay_image: /images/pp-growth/pp-collage.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories:
   - Layout
