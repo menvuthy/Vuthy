@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Men Vuthy"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/profile_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Water Engineer, MEng from The University of Tokyo."
   location         : "Tokyo, Japan"
   email            :
