@@ -1,68 +1,22 @@
 ---
-title: "Edge Case: Nested and Mixed Lists"
+title: "Post: Header Image with OpenGraph Override"
 header:
-    image: "/images/homepage_img.jpg"
+  image: /images/page-header-image.png
+  og_image: /images/page-header-image.png
 categories:
-  - Edge Case
+  - Layout
+  - Uncategorized
 tags:
-  - content
-  - css
   - edge case
-  - lists
-  - markup
+  - image
+  - layout
+last_modified_at: 2017-10-26T15:12:19-04:00
 ---
 
-Nested and mixed lists are an interesting beast. It's a corner case to make sure that
+This post has a header image with an OpenGraph override.
 
-* Lists within lists do not break the ordered list numbering order
-* Your list styles go deep enough.
-
-### Ordered -- Unordered -- Ordered
-
-1. ordered item
-2. ordered item 
-   * **unordered**
-   * **unordered** 
-     1. ordered item
-     2. ordered item
-3. ordered item
-4. ordered item
-
-### Ordered -- Unordered -- Unordered
-
-1. ordered item
-2. ordered item 
-   * **unordered**
-   * **unordered** 
-     * unordered item
-     * unordered item
-3. ordered item
-4. ordered item
-
-### Unordered -- Ordered -- Unordered
-
-* unordered item
-* unordered item 
-  1. ordered
-  2. ordered 
-     * unordered item
-     * unordered item
-* unordered item
-* unordered item
-
-### Unordered -- Unordered -- Ordered
-
-* unordered item
-* unordered item 
-  * unordered
-  * unordered 
-    1. **ordered item**
-    2. **ordered item**
-* unordered item
-* unordered item
-
-### Task Lists
-
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
+```yaml
+header:
+  image: /images/page-header-image.png
+  og_image: /images/page-header-image.png
+```
