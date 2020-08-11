@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
   - title: "Imagery and Data"
     url: /imagery-data/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "News Feed"
+    url: /newsfeed/
+  - title: "About"
+    url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
