@@ -10,7 +10,6 @@ permalink: /imagery-data/
 #   - lists
 #   - markup
 date: 2020-08-12
-<img src="{{ site.url }}{{ site.baseurl }}/images/pp-growth/pp-collage.jpg" alt="linearly separable data">
 ---
 <img src="{{ site.url }}{{ site.baseurl }}/images/pp-growth/pp-collage.jpg" alt="linearly separable data">
 
