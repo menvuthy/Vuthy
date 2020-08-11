@@ -1,7 +1,7 @@
 # main links
 main:
   - title: News Feed
-    url:/newsfeed/
+    url: /newsfeed/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
