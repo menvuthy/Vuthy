@@ -253,7 +253,11 @@ geemap.download_ee_video(PhnomPenh14to20, video_args, out_gif)
 
 ## Timelapse Video of Urban Growth in Phnom Penh City
 
-<iframe width="640" height="360" src="https://www.youtube.com/watch?v=cAylX9PC8OU" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="640" height="360" src="https://www.youtube.com/watch?v=cAylX9PC8OU" frameborder="0" allowfullscreen></iframe> -->
+
+<iframe width="640" height="360" src="https://youtu.be/xHj0juUACFk" frameborder="0" allowfullscreen></iframe>
+
+
 
 ## That's all, everyone !
 
