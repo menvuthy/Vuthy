@@ -46,8 +46,8 @@ The development of image for each year was performed in Jupiter Notebook without
 8. After receiving the cloudMasked images of each year, composite them into a timelapse imagery in a GIF format or a video based on own's interest. 
 
 # Sample Scripts
-**Import `geemap package` into Python**
 
+**1. Import** `geemap package` **into Python**
 ```yaml
 ---
 # Installs geemap package
@@ -72,8 +72,8 @@ except Exception as e:
     ee.Initialize()  
 ---
 ```
-**Create an interactive map (Map)**
 
+**2. Create an interactive map (Map)**
 ```yaml
 ---
 # Map zooming at Phnom Penh city
@@ -82,7 +82,9 @@ Map.setCenter(104.8997174646636, 11.555294803579315, 11);
 Map
 ---
 ```
-**Add boundary of region of interest (roi) in to Map**
+
+**3. Add boundary of region of interest (roi) in to Map**
+
 In this project, I used shapefile of Phnom Penh boundary as my region of interest.
 ```yaml
 ---
