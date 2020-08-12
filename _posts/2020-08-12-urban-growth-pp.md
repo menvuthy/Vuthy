@@ -10,12 +10,12 @@ toc: true
 toc_label: "Content"
 toc_icon: "cog"
 categories:
-  - Layout
-  - Uncategorized
+  - Remote Sensing
+  - Landsat Satellite
 tags:
-  - edge case
-  - image
-  - layout
+  - Landsat
+  - Geemap
+  - Earth Engine API
 last_modified_at: 2020-08-12
 permalink: /newsfeed/
 ---
@@ -250,6 +250,10 @@ out_gif = os.path.join(work_dir, "PhnomPenh14to20.gif")
 geemap.download_ee_video(PhnomPenh14to20, video_args, out_gif)
 ---
 ```
+
+## Timelapse Video of Urban Growth in Phnom Penh City
+
+<iframe width="640" height="360" src="https://www.youtube.com/watch?v=cAylX9PC8OU" frameborder="0" allowfullscreen></iframe>
 
 ## That's all, everyone !
 
