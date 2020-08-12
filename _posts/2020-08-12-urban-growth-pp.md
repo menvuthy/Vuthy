@@ -4,6 +4,11 @@ tagline: "This timelapse image reveals 33-year growth of Phnom Penh city."
 header:
   overlay_image: /images/pp-growth/head-image.png
   caption: "Photo credit: [**Photopea**](https://photopea.com)"
+tags:
+  - table of contents
+toc: true
+toc_label: "Content"
+toc_icon: "cog"
 categories:
   - Layout
   - Uncategorized
@@ -35,7 +40,7 @@ Here is the **Timelapse of Phnom Penh city** (1987 - 2020):
 
 # Landsat Processing Methods
 
-The development of image for each year was performed in Jupiter Notebook without having to download any image collection from the satellite's website and resort to any GIS Desktop software. The entire geoprocessing and remote sensing routine requires `Earth Engine Python API` and `geemap`. The geemap Python package is built upon the `ipyleaflet` and `folium` packages and implements several methods for interacting with Earth Engine data layers, such as `Map.addLayer()`, `Map.setCenter()`, and `Map.centerObject()`. After installation of these packages into your library based on the guidline in `https://geemap.readthedocs.io/en/latest/`, you may follow the main steps below to develop the image:
+The development of image for each year was performed in Jupiter Notebook without having to download any image collection from the satellite's website and resort to any GIS Desktop software. The entire geoprocessing and remote sensing routine requires `Earth Engine Python API` and `geemap`. The geemap Python package is built upon the `ipyleaflet` and `folium` packages and implements several methods for interacting with Earth Engine data layers, such as `Map.addLayer()`, `Map.setCenter()`, and `Map.centerObject()`. After installation of these packages into your library based on the guidline of [geemap](https://geemap.readthedocs.io/en/latest/), you may follow the main steps below to develop the image:
 1. Import `geemap package` into Python
 2. Create an interactive map (Map)
 3. Add boundary of region of interest (roi) in to Map
@@ -93,10 +98,6 @@ Map.addLayer(roi, {}, 'PhnomPenh_Boundary')
 ---
 ```
 
+**4. Define a function to mask clouds for Landsat 4, 5, 7 and 8**
 
-
-
-
-
-
-cloudMask script is available at (though need to convert to Python Script): https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_SR
+CloudMask script is available at [Earth Engine Data Catalog](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_SR); however, converting from Java scripts to Python scripts is necessary. 
