@@ -251,11 +251,11 @@ geemap.download_ee_video(PhnomPenh14to20, video_args, out_gif)
 ---
 ```
 
-## Timelapse Video
+# Timelapse Video
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/cAylX9PC8OU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## That's all, everyone !
+# That's all, everyone !
 
 That's it for this piece of work! We have successfully implemented classic geoprocessing and remote sensing workflows without having to use ArcGIS or QGIS. For the whole workflow, you may contact me directly. If you have questions or suggestions especially on the problem I couldn't solve above, please feel free to let me know.
 
