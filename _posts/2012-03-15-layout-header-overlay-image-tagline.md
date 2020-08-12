@@ -14,9 +14,7 @@ tags:
 last_modified_at: 2020-08-12
 permalink: /newsfeed/
 ---
-{% capture fig_img %}
-![Foo]({{ "/images/pp-collage.jpg" | relative_url }})
-{% endcapture %}
+<img src="{{ site.url }}{{ site.baseurl }}/images/filename.jpg" alt="">
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
