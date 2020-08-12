@@ -168,7 +168,6 @@ PP_2020 = collection_2020 \
 
 **7. Add layer of each image into interactive Map.**
 
-
 ```yaml
 ---
 # visulization bands for Landsat 5
