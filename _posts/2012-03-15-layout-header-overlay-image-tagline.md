@@ -17,11 +17,17 @@ permalink: /newsfeed/
 
 More than thirty years ago, buildings and streets were barely on the map of Phnom Penh city. In 1988 it was home to approximately 615,000 people; however, 33 years later that had risen to more than 2 million according to worldpopulationreview.com.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/pp-growth/pp-collage.jpg" alt="linearly separable data">
+<figure class="half">
+    <a href="/images/pp-growth/pp-collage.jpg"><img src="/images/pp-growth/pp-collage.jpg"></a>
+    <!-- <a href="/assets/images/image-filename-2-large.jpg"><img src="/assets/images/image-filename-2.jpg"></a> -->
+    <figcaption>Phnom Penh city in 1988 (population ~615,000) and 2020 (population ~2,080,000). Images: Landsat Satellite</figcaption>
+</figure>
+
+<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/pp-growth/pp-collage.jpg" alt="linearly separable data">
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
   <figcaption>Phnom Penh city in 1988 (population ~615,000) and 2020 (population ~2,080,000). Images: Landsat Satellite</figcaption>
-</figure>
+</figure> -->
 
 The yearly images were produced from the images of Landsat Satellite 5, 7 and 8 aiming at illustrating the spatial and temporal changes of urban growth in Phnom Penh city from 1988 to 2020.
 
