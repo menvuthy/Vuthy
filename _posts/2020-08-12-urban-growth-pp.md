@@ -33,7 +33,7 @@ Here is the **Timelapse of Phnom Penh city** (1987 - 2020):
   <figcaption>Phnom Penh city from 1987 to 2020.</figcaption>
 </figure>
 
-## Landsat Processing Methods
+# Landsat Processing Methods
 
 The development of image for each year was performed in Jupiter Notebook without having to download any image collection from the satellite's website and resort to any GIS Desktop software. The entire geoprocessing and remote sensing routine requires `Earth Engine Python API` and `geemap`. The geemap Python package is built upon the `ipyleaflet` and `folium` packages and implements several methods for interacting with Earth Engine data layers, such as `Map.addLayer()`, `Map.setCenter()`, and `Map.centerObject()`. After installation of these packages into your library based on the guidline in `https://geemap.readthedocs.io/en/latest/`, you may follow the main steps below to develop the image:
 1. Import `geemap package` into Python
@@ -45,8 +45,8 @@ The development of image for each year was performed in Jupiter Notebook without
 7. Add layer of each image following the target year into Map. For viewing, selection of Bands is different following to the type of Landsat Image.
 8. After receiving the cloudMasked images of each year, composite them into a timelapse imagery in a GIF format or a video based on own's interest. 
 
-**Sample Scripts**
-1. Import `geemap package` into Python
+# Sample Scripts
+**Import `geemap package` into Python**
 
 ```yaml
 ---
@@ -72,7 +72,7 @@ except Exception as e:
     ee.Initialize()  
 ---
 ```
-2. Create an interactive map (Map)
+**Create an interactive map (Map)**
 
 ```yaml
 ---
@@ -82,8 +82,7 @@ Map.setCenter(104.8997174646636, 11.555294803579315, 11);
 Map
 ---
 ```
-3. Add boundary of region of interest (roi) in to Map
-
+**Add boundary of region of interest (roi) in to Map**
 In this project, I used shapefile of Phnom Penh boundary as my region of interest.
 ```yaml
 ---
