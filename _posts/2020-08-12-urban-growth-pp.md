@@ -54,6 +54,7 @@ After installation of these packages into your library based on the guideline of
 8. After receiving the cloudMasked images of each year, composite them into a timelapse imagery in a GIF format or a video based on own's interest. 
 
 # Sample Scripts
+
 In this sample script, I raised three years (i.e. 2000, 2010, and 2020) for different Landsat satellite images. As for other years, you modify and add more by yourself following the instruction below. 
 
 **1. Import** `geemap package` **into Python**
@@ -83,6 +84,7 @@ except Exception as e:
 ```
 
 **2. Create an interactive map (Map)**
+
 ```yaml
 ---
 # Map zooming at Phnom Penh city
@@ -120,6 +122,7 @@ def cloudMaskL457(image):
   return image.updateMask(cloud.Not()).updateMask(mask2)
 ---
 ```
+
 **5. Import Landsat image collection based on target year**
 
 The Landsat satellite images are followed by the year. For instance, Lansat 5 is 1984-2012, Landsat 7 is 1999-present, and Landsat 8 is 2013-present. Further details about each Landsat satellite image is described [Here](https://developers.google.com/earth-engine/datasets/catalog/landsat). Therefore, the earlier years can also be found in the image collection of older satellite, too.
@@ -207,6 +210,7 @@ Map.addLayer(PP_2020, vis_3, 'Phnom Penh-2020')
 In order to composite images into a timelapse imagery, you need to have a collection of several images following a time frame. Due to different band type for visualization of Landsat satellite, I haven't found a way to write a single script to make GIF images from each satellite. Therefore, I composite the images from each satellite separately. For example, a composite of image collection from Landsat 5, a composite of image collection from Landsat 7, and a composite of image collection from Landsat 8. In the sample script above, there are only three years. Given that, there's no need to composite these three images in Python. You can make it manually by using online or computer application.
 
 However, you maybe use the below script in case you have more years of images from different Landsat satellite.
+
 ```yaml
 ---
 # Composite all images into a collection
