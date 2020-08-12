@@ -35,6 +35,10 @@ Here is the **Timelapse of Phnom Penh city** (1987 - 2020):
 
 ## Landsat Processing Methods
 
+The development of image for each year was performed in Jupiter Notebook without having to download any image collection from the satellite's website and resort to any GIS Desktop software. The entire geoprocessing and remote sensing routine requires use `geemap package`. After installing this package based on the guidline in `https://geemap.readthedocs.io/en/latest/`, you may follow the main steps to develop the image as shown below:
+1. import `geemap package`
+2. 
+
 This post should display a **header with an overlay image** and **custom tagline**, if the theme supports it.
 
 Non-square images can provide some unique styling issues.
