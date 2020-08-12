@@ -43,7 +43,8 @@ The development of image for each year was performed in Jupiter Notebook without
 5. Define a function to mask clouds for Landsat 4, 5, 7 and 8
 6. Import Landsat image collection based on target year by filtering the date, and roi
 7. Mask the clouds of the imported image and clip the image within roi
-8. 
+8. Add layer of each image following the target year into Map. For viewing, selection of Bands is different following to the type of Landsat Image.
+9. After receiving the cloudMasked images of each year, composite them into a timelapse imagery in a GIF format or a video based on own's interest. 
 
 
 cloudMask script is available at (though need to convert to Python Script): https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_SR
