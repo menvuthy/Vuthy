@@ -260,4 +260,5 @@ geemap.download_ee_video(PhnomPenh14to20, video_args, out_gif)
 That's it for this piece of work! We have successfully implemented classic geoprocessing and remote sensing workflows without having to use ArcGIS or QGIS. For the whole workflow, you may contact me directly. If you have questions or suggestions especially on the problem I couldn't solve above, please feel free to let me know.
 
 Cheers,
+
 Vuthy
