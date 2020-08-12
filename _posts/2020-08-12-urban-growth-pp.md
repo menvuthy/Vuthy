@@ -48,31 +48,30 @@ The development of image for each year was performed in Jupiter Notebook without
 
 **Sample Scripts**
 2. Import `geemap package` into Python
+
 ```yaml
+---
 # Installs geemap package
 import subprocess
-
 try:
     import geemap
 except ImportError:
     print('geemap package not installed. Installing ...')
     subprocess.check_call(["python", '-m', 'pip', 'install', 'geemap'])
-
 # Checks whether this notebook is running on Google Colab
 try:
     import google.colab
     import geemap.eefolium as geemap
 except:
     import geemap
-
 # Authenticates and initializes Earth Engine
 import ee
-
 try:
     ee.Initialize()
 except Exception as e:
     ee.Authenticate()
     ee.Initialize()  
+---
 ```
 
 cloudMask script is available at (though need to convert to Python Script): https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_SR
