@@ -35,19 +35,18 @@ Here is the **Timelapse of Phnom Penh city** (1987 - 2020):
 
 ## Landsat Processing Methods
 
-The development of image for each year was performed in Jupiter Notebook without having to download any image collection from the satellite's website and resort to any GIS Desktop software. The entire geoprocessing and remote sensing routine requires `Earth Engine Python API` and `geemap`. The geemap Python package is built upon the `ipyleaflet` and `folium` packages and implements several methods for interacting with Earth Engine data layers, such as `Map.addLayer()`, `Map.setCenter()`, and `Map.centerObject()`. Below are the main steps to develop the image:
-1. Install `Earth Engine Python API` and `geemap` based on the guidline in `https://geemap.readthedocs.io/en/latest/`
-2. Import `geemap package` into Python
-3. Create an interactive map (Map)
-4. Add boundary of region of interest (roi) in to Map
-5. Define a function to mask clouds for Landsat 4, 5, 7 and 8
-6. Import Landsat image collection based on target year by filtering the date, and roi
-7. Mask the clouds of the imported image and clip the image within roi
-8. Add layer of each image following the target year into Map. For viewing, selection of Bands is different following to the type of Landsat Image.
-9. After receiving the cloudMasked images of each year, composite them into a timelapse imagery in a GIF format or a video based on own's interest. 
+The development of image for each year was performed in Jupiter Notebook without having to download any image collection from the satellite's website and resort to any GIS Desktop software. The entire geoprocessing and remote sensing routine requires `Earth Engine Python API` and `geemap`. The geemap Python package is built upon the `ipyleaflet` and `folium` packages and implements several methods for interacting with Earth Engine data layers, such as `Map.addLayer()`, `Map.setCenter()`, and `Map.centerObject()`. After installation of these packages into your library based on the guidline in `https://geemap.readthedocs.io/en/latest/`, you may follow the main steps below to develop the image:
+1. Import `geemap package` into Python
+2. Create an interactive map (Map)
+3. Add boundary of region of interest (roi) in to Map
+4. Define a function to mask clouds for Landsat 4, 5, 7 and 8
+5. Import Landsat image collection based on target year by filtering the date, and roi
+6. Mask the clouds of the imported image and clip the image within roi
+7. Add layer of each image following the target year into Map. For viewing, selection of Bands is different following to the type of Landsat Image.
+8. After receiving the cloudMasked images of each year, composite them into a timelapse imagery in a GIF format or a video based on own's interest. 
 
 **Sample Scripts**
-2. Import `geemap package` into Python
+1. Import `geemap package` into Python
 
 ```yaml
 ---
@@ -73,14 +72,30 @@ except Exception as e:
     ee.Initialize()  
 ---
 ```
-
-cloudMask script is available at (though need to convert to Python Script): https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_SR
-
-
+2. Create an interactive map (Map)
 
 ```yaml
-tagline: "This is a custom tagline content which overrides the default page excerpt."
-header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+---
+# Map zooming at Phnom Penh city
+Map = geemap.Map(zoom=4)
+Map.setCenter(104.8997174646636, 11.555294803579315, 11);
+Map
+---
 ```
+3. Add boundary of region of interest (roi) in to Map
+
+In this project, I used shapefile of Phnom Penh boundary as my region of interest.
+```yaml
+---
+roi = geemap.shp_to_ee('~/PhnomPenh.shp')
+Map.addLayer(roi, {}, 'PhnomPenh_Boundary')
+---
+```
+
+
+
+
+
+
+
+cloudMask script is available at (though need to convert to Python Script): https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_SR
