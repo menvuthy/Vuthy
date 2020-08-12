@@ -203,7 +203,7 @@ Map.addLayer(PP_2020, vis_3, 'Phnom Penh-2020')
 
 **8. Composite images into a timelapse imagery in a GIF format.**
 
-In order to composite images into a timelapse imagery, you need to have a collection of several images following a time frame. Due to different band type for visualization of Landsat satellite, I haven't found a way to write a single script to make GIF images from each satellite. Therefore, I composite the images from each satellite separately. For example, a composite of image collection from Landsat 5, a composite of image collection from Landsat 7, and a composite of image collection from Landsat 8. In the sample script above, there are only three years. Given that, there's no need to composite these three images in Python. You can make it manually online or using application in computer or mobile phone.
+In order to composite images into a timelapse imagery, you need to have a collection of several images following a time frame. Due to different band type for visualization of Landsat satellite, I haven't found a way to write a single script to make GIF images from each satellite. Therefore, I composite the images from each satellite separately. For example, a composite of image collection from Landsat 5, a composite of image collection from Landsat 7, and a composite of image collection from Landsat 8. In the sample script above, there are only three years. Given that, there's no need to composite these three images in Python. You can make it manually by using online or computer application.
 
 However, you maybe use the below script in case you have more years of images from different Landsat satellite.
 ```yaml
@@ -251,3 +251,9 @@ geemap.download_ee_video(PhnomPenh14to20, video_args, out_gif)
 ---
 ```
 
+## That's all, everyone !
+
+That's it for this piece of work! We have successfully implemented classic geoprocessing and remote sensing workflows without having to use ArcGIS or QGIS. For the whole workflow, you may contact me directly. If you have questions or suggestions especially on the problem I couldn't solve above, please feel free to let me know.
+
+Cheers,
+Vuthy
