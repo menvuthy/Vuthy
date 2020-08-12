@@ -14,7 +14,7 @@ tags:
 last_modified_at: 2020-08-12
 permalink: /newsfeed/
 ---
-
+# Phnom Penh City: 1988 - 2020
 More than thirty years ago, buildings and streets were barely on the map of Phnom Penh city. In 1988 it was home to approximately 615,000 people; however, 33 years later that had risen to more than 2 million according to worldpopulationreview.com.
 
 
