@@ -40,7 +40,9 @@ Here is the **Timelapse of Phnom Penh city** (1987 - 2020):
 
 # Landsat Processing Methods
 
-The development of image for each year was performed in Jupiter Notebook without having to download any image collection from the satellite's website and resort to any GIS Desktop software. The entire geoprocessing and remote sensing routine requires `Earth Engine Python API` and `geemap`. The geemap Python package is built upon the `ipyleaflet` and `folium` packages and implements several methods for interacting with Earth Engine data layers, such as `Map.addLayer()`, `Map.setCenter()`, and `Map.centerObject()`. After installation of these packages into your library based on the guidline of [geemap](https://geemap.readthedocs.io/en/latest/), you may follow the main steps below to develop the image:
+The development of image for each year was performed in Jupiter Notebook without having to download any image collection from the satellite's website and resort to any GIS Desktop software. The entire geoprocessing and remote sensing routine requires `Earth Engine Python API` and `geemap`. The geemap Python package is built upon the `ipyleaflet` and `folium` packages and implements several methods for interacting with Earth Engine data layers, such as `Map.addLayer()`, `Map.setCenter()`, and `Map.centerObject()`. 
+
+After installation of these packages into your library based on the guideline of [geemap](https://geemap.readthedocs.io/en/latest/), you may follow the main steps below to develop the image:
 1. Import `geemap package` into Python
 2. Create an interactive map (Map)
 3. Add boundary of region of interest (roi) in to Map
@@ -101,3 +103,79 @@ Map.addLayer(roi, {}, 'PhnomPenh_Boundary')
 **4. Define a function to mask clouds for Landsat 4, 5, 7 and 8**
 
 CloudMask script is available at [Earth Engine Data Catalog](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_SR); however, converting from Java scripts to Python scripts is necessary. 
+```yaml
+---
+# Surface reflectance QA band to mask clouds.
+def cloudMaskL457(image):
+  qa = image.select('pixel_qa')
+  # If the cloud bit (5) is set and the cloud confidence (7) is high
+  # or the cloud shadow bit is set (3), then it's a bad pixel.
+  cloud = qa.bitwiseAnd(1 << 5) \
+          .And(qa.bitwiseAnd(1 << 7)) \
+          .Or(qa.bitwiseAnd(1 << 3))
+# Remove edge pixels that don't occur in all bands
+  mask2 = image.mask().reduce(ee.Reducer.min())
+  return image.updateMask(cloud.Not()).updateMask(mask2)
+---
+```
+**5. Import Landsat image collection based on target year**
+
+The Landsat satellite images are followed by the year. For instance, Lansat 5 is 1984-2012, Landsat 7 is 1999-present, and Landsat 8 is 2013-present. Further details about each Landsat satellite image is described [Here](https://developers.google.com/earth-engine/datasets/catalog/landsat). Therefore, the earlier years can also be found in the image collection of old satellite, too.
+
+```yaml
+---
+# Landsat 5, Year: 2000
+collection_2000 = ee.ImageCollection('LANDSAT/LT05/C01/T1_SR') \
+    .filterDate('2000-01-01', '2000-12-31')\
+    .filterBounds(roi)
+
+PP_2000 = collection_2000 \
+    .map(cloudMaskL457) \
+    .median()\
+    .clip(roi)
+
+# Landsat 7, Year: 2010
+collection_2010 = ee.ImageCollection('LANDSAT/LE07/C01/T1_SR') \
+    .filterDate('2010-01-01', '2010-12-31')\
+    .filterBounds(roi)
+
+PP_2010 = collection_2010 \
+    .map(cloudMaskL457) \
+    .median()\
+    .clip(roi)
+
+# Landsat 8, Year: 2020
+collection_2020 = ee.ImageCollection('LANDSAT/LC08/C01/T1_SR') \
+    .filterDate('2020-01-01', '2020-08-05')\
+    .filterBounds(roi)
+
+PP_2020 = collection_2020 \
+    .map(cloudMaskL457) \
+    .median()\
+    .clip(roi)
+---
+```
+
+**6. Mask the clouds of the imported image and clip the image within roi**
+
+```yaml
+---
+# Mask cloud of image in 2000
+PP_2000 = collection_2000 \
+    .map(cloudMaskL457) \
+    .median()\
+    .clip(roi)
+
+# Mask cloud of image in 2010
+PP_2010 = collection_2010 \
+    .map(cloudMaskL457) \
+    .median()\
+    .clip(roi)
+
+# Mask cloud of image in 2020
+PP_2020 = collection_2020 \
+    .map(cloudMaskL457) \
+    .median()\
+    .clip(roi)
+---
+```
