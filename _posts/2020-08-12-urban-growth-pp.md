@@ -120,7 +120,7 @@ def cloudMaskL457(image):
 ```
 **5. Import Landsat image collection based on target year**
 
-The Landsat satellite images are followed by the year. For instance, Lansat 5 is 1984-2012, Landsat 7 is 1999-present, and Landsat 8 is 2013-present. Further details about each Landsat satellite image is described [Here](https://developers.google.com/earth-engine/datasets/catalog/landsat). Therefore, the earlier years can also be found in the image collection of old satellite, too.
+The Landsat satellite images are followed by the year. For instance, Lansat 5 is 1984-2012, Landsat 7 is 1999-present, and Landsat 8 is 2013-present. Further details about each Landsat satellite image is described [Here](https://developers.google.com/earth-engine/datasets/catalog/landsat). Therefore, the earlier years can also be found in the image collection of older satellite, too.
 
 ```yaml
 ---
@@ -129,34 +129,19 @@ collection_2000 = ee.ImageCollection('LANDSAT/LT05/C01/T1_SR') \
     .filterDate('2000-01-01', '2000-12-31')\
     .filterBounds(roi)
 
-PP_2000 = collection_2000 \
-    .map(cloudMaskL457) \
-    .median()\
-    .clip(roi)
-
 # Landsat 7, Year: 2010
 collection_2010 = ee.ImageCollection('LANDSAT/LE07/C01/T1_SR') \
     .filterDate('2010-01-01', '2010-12-31')\
     .filterBounds(roi)
 
-PP_2010 = collection_2010 \
-    .map(cloudMaskL457) \
-    .median()\
-    .clip(roi)
-
 # Landsat 8, Year: 2020
 collection_2020 = ee.ImageCollection('LANDSAT/LC08/C01/T1_SR') \
     .filterDate('2020-01-01', '2020-08-05')\
     .filterBounds(roi)
-
-PP_2020 = collection_2020 \
-    .map(cloudMaskL457) \
-    .median()\
-    .clip(roi)
 ---
 ```
 
-**6. Mask the clouds of the imported image and clip the image within roi**
+**6. Mask the clouds of satellite image and clip within roi**
 
 ```yaml
 ---
@@ -179,3 +164,6 @@ PP_2020 = collection_2020 \
     .clip(roi)
 ---
 ```
+
+**7. Add layer of each image into interactive Map.**
+
