@@ -22,9 +22,8 @@ More than thirty years ago, buildings and streets were barely on the map of Phno
 	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
 </figure>
 
-<figure class="half">
+<figure>
     <a href="/images/pp-growth/pp-collage.jpg"><img src="/images/pp-growth/pp-collage.jpg"></a>
-    <!-- <a href="/assets/images/image-filename-2-large.jpg"><img src="/assets/images/image-filename-2.jpg"></a> -->
     <figcaption>Phnom Penh city in 1988 (population ~615,000) and 2020 (population ~2,080,000). Images: Landsat Satellite</figcaption>
 </figure>
 
