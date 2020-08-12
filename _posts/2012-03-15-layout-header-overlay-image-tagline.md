@@ -14,6 +14,17 @@ tags:
 last_modified_at: 2020-01-07T13:05:25-05:00
 permalink: /newsfeed/
 ---
+{% capture fig_img %}
+![Foo]({{ "/images/pp-collage.jpg" | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Phnom Penh city in 1988 (population ~615,000) and 2020 (population ~2,080,000). Images: Landsat Satellite</figcaption>
+</figure>
+
+
+
 
 This post should display a **header with an overlay image** and **custom tagline**, if the theme supports it.
 
