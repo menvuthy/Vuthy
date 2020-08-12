@@ -35,7 +35,7 @@ Here is the **Timelapse of Phnom Penh city** (1987 - 2020):
 
 ## Landsat Processing Methods
 
-The development of image for each year was performed in Jupiter Notebook without having to download any image collection from the satellite's website and resort to any GIS Desktop software. The entire geoprocessing and remote sensing routine requires use `Earth Engine Python API` and `geemap`. The geemap Python package is built upon the `ipyleaflet` and `folium` packages and implements several methods for interacting with Earth Engine data layers, such as `Map.addLayer()`, `Map.setCenter()`, and `Map.centerObject()`. Below are the main steps to develop the image:
+The development of image for each year was performed in Jupiter Notebook without having to download any image collection from the satellite's website and resort to any GIS Desktop software. The entire geoprocessing and remote sensing routine requires `Earth Engine Python API` and `geemap`. The geemap Python package is built upon the `ipyleaflet` and `folium` packages and implements several methods for interacting with Earth Engine data layers, such as `Map.addLayer()`, `Map.setCenter()`, and `Map.centerObject()`. Below are the main steps to develop the image:
 1. Install `Earth Engine Python API` and `geemap` based on the guidline in `https://geemap.readthedocs.io/en/latest/`
 2. Import `geemap package` into Python
 3. Create an interactive map (Map)
