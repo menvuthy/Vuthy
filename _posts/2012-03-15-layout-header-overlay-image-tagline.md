@@ -21,7 +21,7 @@ More than thirty years ago, buildings and streets were barely on the map of Phno
 <img src="{{ site.url }}{{ site.baseurl }}/images/pp-growth/pp-collage.jpg" alt="">
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Phnom Penh city in 1988 (population ~615,000) and 2020 (population ~2,080,000). Images: Landsat Satellite</figcaption>
+  <figcaption>Phnom Penh city in 1988 (population ~615,000) and 2020 (population ~2,080,000).</figcaption>
 </figure>
 
 The yearly images were produced from the images of Landsat Satellite 5, 7 and 8 aiming at illustrating the spatial and temporal changes of urban growth in Phnom Penh city from 1988 to 2020.
@@ -30,7 +30,7 @@ Here is the **Timelapse of Phnom Penh city** (1987 - 2020):
 <img src="{{ site.url }}{{ site.baseurl }}/images/pp-growth/pp-growth.gif" alt="">
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Phnom Penh city from 1987 to 2020. Images: Landsat Satellite</figcaption>
+  <figcaption>Phnom Penh city from 1987 to 2020.</figcaption>
 </figure>
 
 ## Landsat Processing Methods
