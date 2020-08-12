@@ -27,7 +27,7 @@ More than thirty years ago, buildings and streets were barely on the map of Phno
 The yearly images were produced from the images of Landsat Satellite 5, 7 and 8 aiming at illustrating the spatial and temporal changes of urban growth in Phnom Penh city from 1988 to 2020.
 
 Here is the **Timelapse of Phnom Penh city** (1987 - 2020):
-<img src="/images/pp-growth/pp-growth.gif" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/pp-growth/pp-growth.gif" alt="">
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
   <figcaption>Phnom Penh city from 1987 to 2020.</figcaption>
@@ -46,6 +46,34 @@ The development of image for each year was performed in Jupiter Notebook without
 8. Add layer of each image following the target year into Map. For viewing, selection of Bands is different following to the type of Landsat Image.
 9. After receiving the cloudMasked images of each year, composite them into a timelapse imagery in a GIF format or a video based on own's interest. 
 
+**Sample Scripts**
+2. Import `geemap package` into Python
+```yaml
+# Installs geemap package
+import subprocess
+
+try:
+    import geemap
+except ImportError:
+    print('geemap package not installed. Installing ...')
+    subprocess.check_call(["python", '-m', 'pip', 'install', 'geemap'])
+
+# Checks whether this notebook is running on Google Colab
+try:
+    import google.colab
+    import geemap.eefolium as geemap
+except:
+    import geemap
+
+# Authenticates and initializes Earth Engine
+import ee
+
+try:
+    ee.Initialize()
+except Exception as e:
+    ee.Authenticate()
+    ee.Initialize()  
+```
 
 cloudMask script is available at (though need to convert to Python Script): https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C01_T1_SR
 
