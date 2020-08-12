@@ -53,6 +53,7 @@ After installation of these packages into your library based on the guideline of
 8. After receiving the cloudMasked images of each year, composite them into a timelapse imagery in a GIF format or a video based on own's interest. 
 
 # Sample Scripts
+In this sample script, I raised three years (i.e. 2000, 2010, and 2020) for different Landsat satellite images. As for other years, you modify and add more by yourself following the instruction below. 
 
 **1. Import** `geemap package` **into Python**
 ```yaml
@@ -166,4 +167,88 @@ PP_2020 = collection_2020 \
 ```
 
 **7. Add layer of each image into interactive Map.**
+
+
+```yaml
+---
+# visulization bands for Landsat 5
+vis_1 = {
+    'bands': ['B3', 'B2', 'B1'], # [Red, Green, Blue]
+    'min': 0,
+    'max': 4000,
+    'gamma': [1, 1, 1]
+}
+
+# visulization bands for Landsat 7
+vis_2 = {
+    'bands': ['B3', 'B2', 'B1'], # [Red, Green, Blue]
+    'min': 0,
+    'max': 4000,
+    'gamma': [1, 1, 1]
+}
+
+# visulization bands for Landsat 7
+vis_3 = {
+    'bands': ['B4', 'B3', 'B2'], # [Red, Green, Blue]
+    'min': 0,
+    'max': 4000,
+    'gamma': [1, 1, 1]
+}
+
+# Add layer to Map
+Map.addLayer(PP_2000, vis_1, 'Phnom Penh-2000')
+Map.addLayer(PP_2010, vis_2, 'Phnom Penh-2010')
+Map.addLayer(PP_2020, vis_3, 'Phnom Penh-2020')
+---
+```
+
+**8. Composite images into a timelapse imagery in a GIF format.**
+
+In order to composite images into a timelapse imagery, you need to have a collection of several images following a time frame. Due to different band type for visualization of Landsat satellite, I haven't found a way to write a single script to make GIF images from each satellite. Therefore, I composite the images from each satellite separately. For example, a composite of image collection from Landsat 5, a composite of image collection from Landsat 7, and a composite of image collection from Landsat 8. In the sample script above, there are only three years. Given that, there's no need to composite these three images in Python. You can make it manually online or using application in computer or mobile phone.
+
+However, you maybe use the below script in case you have more years of images from different Landsat satellite.
+```yaml
+---
+# Composite all images into a collection
+PhnomPenh987to013 = ee.ImageCollection([PP_1987,PP_1988, PP_1989,PP_1990,PP_1991,PP_1992,
+                                      PP_1993,PP_1994,PP_1995,PP_1996,PP_1997,PP_1998,PP_1999,PP_2000,
+                                      PP_2001,PP_2002,PP_2003,PP_2004,PP_2005,PP_2006,PP_2007,PP_2008,
+                                      PP_2009,PP_2010,PP_2011,PP_2012,PP_2013])
+# visulization bands for Landsat 5 and 7
+video_args1 = {
+  'dimensions': 768,
+  'region': roi,
+  'framesPerSecond': 1,
+  'bands': ['B3', 'B2', 'B1'],
+  'min': 0,
+  'max': 4000,
+  'gamma': [1, 1, 1]
+}
+
+# Export image
+import os
+work_dir = os.path.join(os.path.expanduser('~/Result')) # Set path for saving folder
+out_gif = os.path.join(work_dir, "PP_to2013.gif") # Save file as
+geemap.download_ee_video(PhnomPenh987to013, video_args1, out_gif) # Creating GIF
+
+# Composite all images into a collection
+PhnomPenh14to20 = ee.ImageCollection([PP_2014,PP_2015,PP_2016,PP_2017,PP_2018,PP_2019,PP_2020])
+# visulization bands for Landsat 8
+video_args = {
+  'dimensions': 768,
+  'region': roi,
+  'framesPerSecond': 1,
+  'bands': ['B4', 'B3', 'B2'],
+  'min': 0,
+  'max': 4000,
+  'gamma': [1, 1, 1]
+}
+
+# Export image
+import os
+work_dir = os.path.join(os.path.expanduser('~/Result'))
+out_gif = os.path.join(work_dir, "PhnomPenh14to20.gif")
+geemap.download_ee_video(PhnomPenh14to20, video_args, out_gif)
+---
+```
 
