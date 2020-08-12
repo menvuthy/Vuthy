@@ -190,7 +190,7 @@ vis_2 = {
     'gamma': [1, 1, 1]
 }
 
-# visulization bands for Landsat 7
+# visulization bands for Landsat 8
 vis_3 = {
     'bands': ['B4', 'B3', 'B2'], # [Red, Green, Blue]
     'min': 0,
@@ -209,7 +209,7 @@ Map.addLayer(PP_2020, vis_3, 'Phnom Penh-2020')
 
 In order to composite images into a timelapse imagery, you need to have a collection of several images following a time frame. Due to different band type for visualization of Landsat satellite, I haven't found a way to write a single script to make GIF images from each satellite. Therefore, I composite the images from each satellite separately. For example, a composite of image collection from Landsat 5, a composite of image collection from Landsat 7, and a composite of image collection from Landsat 8. In the sample script above, there are only three years. Given that, there's no need to composite these three images in Python. You can make it manually by using online or computer application.
 
-However, you maybe use the below script in case you have more years of images from different Landsat satellite.
+However, you may use the below script in case you have more years of images from different Landsat satellite.
 
 ```yaml
 ---
