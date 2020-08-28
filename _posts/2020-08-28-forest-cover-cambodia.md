@@ -1,6 +1,6 @@
 ---
-title: "High-Resolution Maps of Forest Cover Change in Cambodia: 2000 - 2019"
-tagline: "This visualization is based on data developed by Hansan et al (2013)."
+title: "High-Resolution Maps of Forest Cover in Cambodia: 2000 - 2019"
+tagline: "This visualization is based on global forest cover data developed by Hansan et al (2013)."
 header:
   overlay_image: /images/forest-cambo/head-image.png
   # caption: "Photo credit: [**Photopea**](https://photopea.com)"
