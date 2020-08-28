@@ -19,9 +19,9 @@ tags:
 last_modified_at: 2020-08-28
 permalink: /newsfeed/
 ---
-# Phnom Penh City: 1988 - 2020
+<!-- # Phnom Penh City: 1988 - 2020
 
-More than thirty years ago, buildings and streets were barely on the map of Phnom Penh city. In 1988 it was home to approximately 615,000 people; however, 33 years later that had risen to more than 2 million according to worldpopulationreview.com.
+More than thirty years ago, buildings and streets were barely on the map of Phnom Penh city. In 1988 it was home to approximately 615,000 people; however, 33 years later that had risen to more than 2 million according to worldpopulationreview.com. -->
 <!-- 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/pp-growth/pp-collage.jpg" alt="">
@@ -260,10 +260,10 @@ geemap.download_ee_video(PhnomPenh14to20, video_args, out_gif)
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/cAylX9PC8OU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-# That's all, everyone !
+<!-- # That's all, everyone !
 
 That's it for this piece of work! We have successfully implemented classic geoprocessing and remote sensing workflows without having to use ArcGIS or QGIS. For the whole workflow, you may contact me directly. If you have questions or suggestions especially on the problem I couldn't solve above, please feel free to let me know.
 
 Cheers,
 
-Vuthy
+Vuthy -->
