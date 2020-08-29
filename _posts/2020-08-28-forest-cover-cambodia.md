@@ -18,6 +18,15 @@ tags:
   - Earth Engine API
 last_modified_at: 2020-08-28
 # permalink: /newsfeed/
+gallery:
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/unsplash-gallery-image-2.jpg
+    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
 ---
 # Forest Cover in Cambodia: 2000 - 2019
 
@@ -28,21 +37,17 @@ Forest cover plays an essential role in delivering important ecosystem services,
 2. Examine the spatial and temporal changes of forest cover in Cambodia from 2000 to 2019.
 3. Calculate the yearly forest loss in Cambodia from 2000 to 2019.
 
-
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
 
 # Global Forest Cover and Loss
 
-<!-- <figure>
-    <!-- <a href="/assets/images/image-filename-1-large.jpg"><img src="/assets/images/image-filename-1.jpg"></a> -->
-    <a href="/images/forest-cambo/global-forest-cover.jpg"><img src="/images/forest-cambo/global-forest-cover.jpg"></a>
-    <figcaption>Global forest cover in 2000.</figcaption>
-</figure> -->
 
-<figure class="half">
+
+<!-- <figure class="half">
 	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
 	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
 	<figcaption>Two images.</figcaption>
-</figure>
+</figure> -->
 
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/forest-cambo/global-forest-cover.jpg" alt=""> -->
 
