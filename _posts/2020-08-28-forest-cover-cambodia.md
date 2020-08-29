@@ -21,15 +21,15 @@ gallery:
     image_path: /images/forest-cambo/global-forest-loss.jpg
     alt: "global-forest-cover-loss"
     title: "Figure 1b: Global Forest Cover Loss from 2000 to 2019"
-# gallery1:
-#   - url: /images/forest-cambo/global-forest-cover.jpg
-#     image_path: /images/forest-cambo/global-forest-cover.jpg
-#     alt: "global-forest-cover"
-#     title: "Figure 1a: Global Forest Cover in 2000"
-#   - url: /images/forest-cambo/global-forest-loss.jpg
-#     image_path: /images/forest-cambo/global-forest-loss.jpg
-#     alt: "global-forest-cover-loss"
-#     title: "Figure 1b: Global Forest Cover Loss from 2000 to 2019"
+gallery1:
+  - url: /images/forest-cambo/FC_2000.jpg
+    image_path: /images/forest-cambo/FC_2000.jpg
+    alt: "Forest Cover in 2000"
+    title: "Figure 2a: Forest Cover in 2000"
+  - url: /images/forest-cambo/FC_2019.jpg
+    image_path: /images/forest-cambo/FC_2019.jpg
+    alt: "Forest Cover in 2019"
+    title: "Figure 2b: Forest Cover in 2019"
 ---
 <!-- global-forest-loss.jpg -->
 
@@ -55,11 +55,17 @@ In this dataset, there are four important definitions as following:
 
 ## Forest Cover Loss and Gain in Cambodia
 
+Here is the comparison image of forest cover between 2000 and 2019 of the whole country.
+
+{% include gallery1 caption="Figure 2: (a) Forest cover in 2000 (left). (b) Forest cover in 2019 (right)" %}
+
 Video showing spatial and temporal changes of forest cover in Cambodia from 2000 to 2019.
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/4D_sMds61jY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The images for each year 
+   
+
+By only viewing the video, the forest cover loss of some areas are exaggerated due to the far view of image and also the low density of forest canopy; hence, it is important to zoom into some specific areas to have a closer view of the forest cover and loss. 
 
 
 
