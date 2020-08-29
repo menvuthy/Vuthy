@@ -20,6 +20,15 @@ gallery:
     image_path: /images/forest-cambo/global-forest-loss.jpg
     alt: "global-forest-cover-loss"
     title: "Figure 1b: Global Forest Cover Loss from 2000 to 2019"
+gallery1:
+  - url: /images/forest-cambo/FC_2000.jpg
+    image_path: /images/forest-cambo/FC_2000.jpg
+    alt: "Forest Cover in 2000"
+    title: "Figure 2a: Forest Cover in 2000"
+  - url: /images/forest-cambo/FC_2019.jpg
+    image_path: /images/forest-cambo/FC_2019.jpg
+    alt: "Forest Cover in 2019"
+    title: "Figure 2b: Forest Cover in 2019"
 ---
 
 Forest cover plays an essential role in delivering important ecosystem services, including biodiversity richness, climate regulation, carbon storage, and water supplies (1). However, spatially and temporally detailed information on global-scale forest cover changes at a high resolution did not exist until M.C. Hansen and his team in the University of Maryland, USA developed a global-scale forest change and published the works in 2013 (2). Hansen et al (2) mapped global tree cover extent, loss, and gain annually for the period from 2000 to 2012 at a spatial resolution of 30 m, especially the datasets have been updated every year. Importance of data for practical engineering.
@@ -45,6 +54,8 @@ In this dataset, there are four important definitions as following:
 ## Forest Cover Loss and Gain in Cambodia
 
 Here is the comparison image of forest cover between 2000 and 2019 of the whole country.
+
+{% include gallery1 caption="Figure 2: (a) Forest cover in 2000 (left). (b) Forest cover in 2019 (right)" %}
 
 Video showing spatial and temporal changes of forest cover in Cambodia from 2000 to 2019.
 
