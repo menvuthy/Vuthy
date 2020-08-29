@@ -90,7 +90,7 @@ Video showing spatial and temporal changes of forest cover in Cambodia from 2000
 By only viewing the video, the forest cover loss of some areas are exaggerated due to the far view of image and also the low density of forest canopy at those areas; hence, it is important to zoom into some specific areas to have a closer view of the forest cover and loss. Below are the images of some well-known areas in Cambodia which provide clearer and closer look on forest cover and loss.
 {: style="text-align: justify;"}
 
-{% include gallery id="gallery2"%}
+{% include gallery id="gallery2" %}
 {% include gallery id="gallery3" caption="Figure 3: Forest cover loss in the period 2000-2019. (a) Cambodia overview. (b) Area around Tonle Sap Lake. (c) Techo Sen Reussey Treb Park. (d) Khnang Psa mountainous area." %}
 
 
