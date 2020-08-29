@@ -116,10 +116,14 @@ author:
       url: "https://www.facebook.com/profile.php?id=100009035175916"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/menvuthy"
+      url: "https://github.com/menvuthy"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube-square"
+      url: "https://www.youtube.com/channel/UCFmc7BFwMXKV-fr5YVgQdcQ"
+      
 
 # Site Footer
 footer:
