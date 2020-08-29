@@ -52,7 +52,7 @@ gallery2:
 Forest cover plays an essential role in delivering important ecosystem services, including biodiversity richness, climate regulation, carbon storage, and water supplies (1). However, spatially and temporally detailed information on global-scale forest cover changes at a high resolution did not exist until M.C. Hansen and his team in the University of Maryland, USA developed a global-scale forest change and published the works in 2013 (2). Hansen et al (2) mapped global tree cover extent, loss, and gain annually for the period from 2000 to 2012 at a spatial resolution of 30 m, especially the datasets have been updated every year. 
 {: style="text-align: justify;"}
 
-The data source of information content presented here is publicly availble for both [download](https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.7.html) and [visualizations](http://earthenginepartners.appspot.com/science-2013-global-forest). However, downloading and processing such a large dataset are extremely tedious, and extracting it for analysis on a cloud platform can be the main challenges for some engineers and scientists who are struggling with remote sensing technology. Therefore, here I will illustrate one of many remote sensing methods to extract the datasets to:
+The data source of information content presented here is publicly availble for both [download](https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.7.html) and [web-based visualizations](http://earthenginepartners.appspot.com/science-2013-global-forest). However, downloading and processing such a large dataset are extremely tedious, and extracting it for analysis on a cloud platform can be the main challenges for some engineers and scientists who are struggling with remote sensing technology. Therefore, here I will illustrate one of many remote sensing methods to extract the datasets to:
 {: style="text-align: justify;"}
 
 1. Visualize the global forest cover in 2000, and forest cover loss during the period 2000-2019. 
@@ -92,7 +92,13 @@ By only viewing the video, the forest cover loss of some areas are exaggerated d
 {% include gallery id="gallery2" layout="half" caption="Figure 3: Forest cover loss in the period 2000-2019. (a) Cambodia overview. (b) Area around Tonle Sap Lake. (c) Techo Sen Reussey Treb Park. (d) Khnang Psa mountainous area." %}
 
 
+## Yearly Forest Cover and Loss in Cambodia
 
+The yearly forest cover and loss are shown in figures below:
+
+
+
+The forest cover area was calculated by summing all forest pixels within the boundary of Cambodia in 2019, while forest cover loss was calculated based on provided script in Google Earth Engine.
 
 ## Reference
 1. Foley, Jonathan A., et al. "Global consequences of land use." science 309.5734 (2005): 570-574.
