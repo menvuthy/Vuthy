@@ -4,11 +4,11 @@ title: "Cambodia: Forest Cover Change in 21st Century"
 tagline: "This visualization is based on high-resolution global forest cover data developed by Hansan et al (2013)."
 header:
   overlay_image: /images/forest-cambo/homepage_img.jpg
-# tags:
-#   - table of contents
-# toc: true
-# toc_label: "Content"
-# toc_icon: "cog"
+tags:
+  - table of contents
+toc: true
+toc_label: "Content"
+toc_icon: "cog"
 categories:
   - Global Forest Cover
 tags:
@@ -37,9 +37,10 @@ Forest cover plays an essential role in delivering important ecosystem services,
 2. Examine the spatial and temporal changes of forest cover in Cambodia from 2000 to 2019.
 3. Calculate the yearly forest loss in Cambodia from 2000 to 2019.
 
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+{% include gallery caption=" **Global Forest Cover in 2000**." %}
 
-# Global Forest Cover and Loss
+## Global Forest Cover and Loss
+
 
 
 
