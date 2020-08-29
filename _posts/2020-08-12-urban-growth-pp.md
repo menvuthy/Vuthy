@@ -18,7 +18,7 @@ tags:
   - Geemap
   - Earth Engine API
 last_modified_at: 2020-08-12
-permalink: /newsfeed/
+# permalink: /newsfeed/
 ---
 # Phnom Penh City: 1988 - 2020
 
