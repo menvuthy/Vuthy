@@ -16,11 +16,20 @@ gallery:
   - url: /images/forest-cambo/global-forest-cover.jpg
     image_path: /images/forest-cambo/global-forest-cover.jpg
     alt: "global-forest-cover"
-    title: "Figure 1: Global Forest Cover in 2000"
+    title: "Figure 1a: Global Forest Cover in 2000"
   - url: /images/forest-cambo/global-forest-loss.jpg
     image_path: /images/forest-cambo/global-forest-loss.jpg
     alt: "global-forest-cover-loss"
-    title: "Figure 1: Global Forest Cover Loss from 2000 to 2019"
+    title: "Figure 1b: Global Forest Cover Loss from 2000 to 2019"
+# gallery1:
+#   - url: /images/forest-cambo/global-forest-cover.jpg
+#     image_path: /images/forest-cambo/global-forest-cover.jpg
+#     alt: "global-forest-cover"
+#     title: "Figure 1a: Global Forest Cover in 2000"
+#   - url: /images/forest-cambo/global-forest-loss.jpg
+#     image_path: /images/forest-cambo/global-forest-loss.jpg
+#     alt: "global-forest-cover-loss"
+#     title: "Figure 1b: Global Forest Cover Loss from 2000 to 2019"
 ---
 <!-- global-forest-loss.jpg -->
 
@@ -41,11 +50,9 @@ In this dataset, there are four important definitions as following:
 * **Forest Loss Year** is a disaggregation of total ‘Forest Loss’ to annual time scales.
 {: style="text-align: justify;"}
 
-### Global Forest Cover
+{% include gallery caption="Figure 1: (a) Global forest cover in 2000 (left). (b) Global forest cover loss from 2000 to 2019 (right)" %}
 
-{% include gallery caption="Figure 1: Global forest cover in 2000." %}
-
-
+## Forest Cover and Loss in Cambodia
 
 
 
