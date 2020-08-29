@@ -33,6 +33,7 @@ gallery1:
 ---
 
 Forest cover plays an essential role in delivering important ecosystem services, including biodiversity richness, climate regulation, carbon storage, and water supplies (1). However, spatially and temporally detailed information on global-scale forest cover changes at a high resolution did not exist until M.C. Hansen and his team in the University of Maryland, USA developed a global-scale forest change and published the works in 2013 (2). Hansen et al (2) mapped global tree cover extent, loss, and gain annually for the period from 2000 to 2012 at a spatial resolution of 30 m, especially the datasets have been updated every year. 
+{: style="text-align: justify;"}
 
 The data source of information content presented here is publicly availble for both [download](https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.7.html) and [visualizations](http://earthenginepartners.appspot.com/science-2013-global-forest). However, downloading and processing such a large dataset are extremely tedious, and extracting it for analysis on a cloud platform can be the main challenges for some engineers and scientists who are struggling with remote sensing technology. Therefore, here I will illustrate one of many remote sensing methods to extract the datasets to:
 {: style="text-align: justify;"}
@@ -66,8 +67,7 @@ Here is the comparison image of forest cover between 2000 and 2019 of the whole 
 Video showing spatial and temporal changes of forest cover in Cambodia from 2000 to 2019.
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/4D_sMds61jY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
- 
+-----
 
 By only viewing the video, the forest cover loss of some areas are exaggerated due to the far view of image and also the low density of forest canopy; hence, it is important to zoom into some specific areas to have a closer view of the forest cover and loss. 
 {: style="text-align: justify;"}
