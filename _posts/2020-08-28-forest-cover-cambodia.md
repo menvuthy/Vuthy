@@ -19,9 +19,9 @@ tags:
 last_modified_at: 2020-08-28
 # permalink: /newsfeed/
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
+  - url: /images/forest-cambo/global-forest-cover.jpg
+    image_path: /images/forest-cambo/global-forest-cover.jpg
+    alt: "global-forest-cover"
     title: "Image 1 title caption"
   # - url: /assets/images/unsplash-gallery-image-2.jpg
   #   image_path: /assets/images/unsplash-gallery-image-2-th.jpg
