@@ -21,12 +21,12 @@ gallery:
     alt: "global-forest-cover-loss"
     title: "Figure 1b: Global Forest Cover Loss from 2000 to 2019"
 gallery1:
-  - url: /images/forest-cambo/FC_2000.jpg
-    image_path: /images/forest-cambo/FC_2000.jpg
+  - url: /images/forest-cambo/FC-2000.jpg
+    image_path: /images/forest-cambo/FC-2000.jpg
     alt: "Forest Cover in 2000"
     title: "Figure 2a: Forest Cover in 2000"
-  - url: /images/forest-cambo/FC_2019.jpg
-    image_path: /images/forest-cambo/FC_2019.jpg
+  - url: /images/forest-cambo/FC-2019.jpg
+    image_path: /images/forest-cambo/FC-2019.jpg
     alt: "Forest Cover in 2019"
     title: "Figure 2b: Forest Cover in 2019"
 ---
