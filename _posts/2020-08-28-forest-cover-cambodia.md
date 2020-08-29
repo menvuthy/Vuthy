@@ -32,13 +32,19 @@ Forest cover plays an essential role in delivering important ecosystem services,
 
 # Global Forest Cover and Loss
 
-<figure>
+<!-- <figure>
     <!-- <a href="/assets/images/image-filename-1-large.jpg"><img src="/assets/images/image-filename-1.jpg"></a> -->
     <a href="/images/forest-cambo/global-forest-cover.jpg"><img src="/images/forest-cambo/global-forest-cover.jpg"></a>
     <figcaption>Global forest cover in 2000.</figcaption>
+</figure> -->
+
+<figure class="half">
+	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
+	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
+	<figcaption>Two images.</figcaption>
 </figure>
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/forest-cambo/global-forest-cover.jpg" alt="">
+<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/forest-cambo/global-forest-cover.jpg" alt=""> -->
 
 
 
