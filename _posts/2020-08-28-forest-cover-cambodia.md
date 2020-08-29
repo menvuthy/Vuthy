@@ -12,15 +12,15 @@ tags:
   - QGIS
   - Earth Engine API
 last_modified_at: 2020-08-28
-gallery:
-  - url: /images/forest-cambo/global-forest-cover.jpg
-    image_path: /images/forest-cambo/global-forest-cover.jpg
-    alt: "global-forest-cover"
-    title: "Figure 1a: Global Forest Cover in 2000"
-  - url: /images/forest-cambo/global-forest-loss.jpg
-    image_path: /images/forest-cambo/global-forest-loss.jpg
-    alt: "global-forest-cover-loss"
-    title: "Figure 1b: Global Forest Cover Loss from 2000 to 2019"
+# gallery:
+#   - url: /images/forest-cambo/global-forest-cover.jpg
+#     image_path: /images/forest-cambo/global-forest-cover.jpg
+#     alt: "global-forest-cover"
+#     title: "Figure 1a: Global Forest Cover in 2000"
+#   - url: /images/forest-cambo/global-forest-loss.jpg
+#     image_path: /images/forest-cambo/global-forest-loss.jpg
+#     alt: "global-forest-cover-loss"
+#     title: "Figure 1b: Global Forest Cover Loss from 2000 to 2019"
 # gallery1:
 #   - url: /images/forest-cambo/FC_2000.jpg
 #     image_path: /images/forest-cambo/FC_2000.jpg
@@ -32,7 +32,7 @@ gallery:
 #     title: "Figure 2b: Forest Cover in 2019"
 ---
 
-Forest cover plays an essential role in delivering important ecosystem services, including biodiversity richness, climate regulation, carbon storage, and water supplies (1). However, spatially and temporally detailed information on global-scale forest cover changes at a high resolution did not exist until M.C. Hansen and his team in the University of Maryland, USA developed a global-scale forest change and published the works in 2013 (2). Hansen et al (2) mapped global tree cover extent, loss, and gain annually for the period from 2000 to 2012 at a spatial resolution of 30 m, especially the datasets have been updated every year. Importance of data for practical engineering.
+<!-- Forest cover plays an essential role in delivering important ecosystem services, including biodiversity richness, climate regulation, carbon storage, and water supplies (1). However, spatially and temporally detailed information on global-scale forest cover changes at a high resolution did not exist until M.C. Hansen and his team in the University of Maryland, USA developed a global-scale forest change and published the works in 2013 (2). Hansen et al (2) mapped global tree cover extent, loss, and gain annually for the period from 2000 to 2012 at a spatial resolution of 30 m, especially the datasets have been updated every year. Importance of data for practical engineering.
 Therefore, here I will illustrate one of many remote sensing methods to extract the datasets to:
 {: style="text-align: justify;"}
 
@@ -52,7 +52,7 @@ In this dataset, there are four important definitions as following:
 
 {% include gallery caption="Figure 1: (a) Global forest cover in 2000 (left). (b) Global forest cover loss from 2000 to 2019 (right)" %}
 
-## Forest Cover Loss and Gain in Cambodia
+## Forest Cover Loss and Gain in Cambodia -->
 <!-- 
 Here is the comparison image of forest cover between 2000 and 2019 of the whole country.
 
