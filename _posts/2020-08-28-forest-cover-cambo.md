@@ -1,4 +1,5 @@
 ---
+classes: wide
 title: "Cambodia: Forest Cover Change in 21st Century"
 tagline: "This visualization is based on high-resolution global forest cover data developed by Hansan et al (2013)."
 header:
@@ -40,7 +41,7 @@ Therefore, here I will illustrate one of many remote sensing methods to extract 
 3. Calculate the yearly forest loss in Cambodia from 2000 to 2019.
 
 **Primary Notice:** This dataset illustration and visualization aims at serving for **Education Purpose** only.
-{: .notice--primary}
+{: .notice--success}
 
 ## Global Forest Cover and Loss
 
