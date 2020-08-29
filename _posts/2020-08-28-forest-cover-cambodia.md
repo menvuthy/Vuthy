@@ -17,7 +17,7 @@ tags:
   - QGIS
   - Earth Engine API
 last_modified_at: 2020-08-28
-permalink: /newsfeed/
+# permalink: /newsfeed/
 ---
 # Forest Cover in Cambodia: 2000 - 2019
 
@@ -31,6 +31,12 @@ Forest cover plays an essential role in delivering important ecosystem services,
 
 
 # Global Forest Cover and Loss
+
+<figure>
+    <!-- <a href="/assets/images/image-filename-1-large.jpg"><img src="/assets/images/image-filename-1.jpg"></a> -->
+    <a href="/images/forest-cambo/global-forest-cover.jpg"><img src="/images/forest-cambo/global-forest-cover.jpg"></a>
+    <figcaption>Global forest cover in 2000.</figcaption>
+</figure>
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/forest-cambo/global-forest-cover.jpg" alt="">
 
