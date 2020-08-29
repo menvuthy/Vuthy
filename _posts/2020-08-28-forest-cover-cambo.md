@@ -39,6 +39,8 @@ Therefore, here I will illustrate one of many remote sensing methods to extract 
 2. Examine the spatial and temporal changes of both forest cover loss and gain in Cambodia from 2000 to 2019.
 3. Calculate the yearly forest loss in Cambodia from 2000 to 2019.
 
+**Primary Notice:** This dataset illustration and visualization aims at serving for **Education Purpose** only.
+{: .notice--primary}
 
 ## Global Forest Cover and Loss
 
