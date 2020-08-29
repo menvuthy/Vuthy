@@ -5,11 +5,6 @@ tagline: "This timelapse image reveals 33-year growth of Phnom Penh city."
 header:
   overlay_image: /images/pp-growth/head-image.png
   caption: "Photo credit: [**Photopea**](https://photopea.com)"
-# tags:
-#   - table of contents
-# toc: true
-# toc_label: "Content"
-# toc_icon: "cog"
 categories:
   - Remote Sensing
   - Landsat Satellite
@@ -18,7 +13,6 @@ tags:
   - Geemap
   - Earth Engine API
 last_modified_at: 2020-08-12
-# permalink: /newsfeed/
 ---
 # Phnom Penh City: 1988 - 2020
 
