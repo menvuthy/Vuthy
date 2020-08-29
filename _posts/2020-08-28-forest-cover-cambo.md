@@ -20,6 +20,16 @@ gallery:
     image_path: /images/forest-cambo/global-forest-loss.jpg
     alt: "global-forest-cover-loss"
     title: "Figure 1b: Global Forest Cover Loss from 2000 to 2019"
+gallery2:
+  - url: https://flic.kr/p/8a6Ven
+    image_path: https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg
+    alt: "Black and grays with a hint of green"
+  - url: https://flic.kr/p/8a738X
+    image_path: https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg
+    alt: "Made for open text placement"
+  - url: https://flic.kr/p/8a6VXP
+    image_path: https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg
+    alt: "Fog in the trees"
 ---
 
 Forest cover plays an essential role in delivering important ecosystem services, including biodiversity richness, climate regulation, carbon storage, and water supplies (1). However, spatially and temporally detailed information on global-scale forest cover changes at a high resolution did not exist until M.C. Hansen and his team in the University of Maryland, USA developed a global-scale forest change and published the works in 2013 (2). Hansen et al (2) mapped global tree cover extent, loss, and gain annually for the period from 2000 to 2012 at a spatial resolution of 30 m, especially the datasets have been updated every year. Importance of data for practical engineering.
@@ -45,7 +55,7 @@ In this dataset, there are four important definitions as following:
 ## Forest Cover Loss and Gain in Cambodia
 
 Here is the comparison image of forest cover between 2000 and 2019 of the whole country.
-
+{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
 Video showing spatial and temporal changes of forest cover in Cambodia from 2000 to 2019.
 
 By only viewing the video, the forest cover loss of some areas are exaggerated due to the far view of image and also the low density of forest canopy; hence, it is important to zoom into some specific areas to have a closer view of the forest cover and loss. 
