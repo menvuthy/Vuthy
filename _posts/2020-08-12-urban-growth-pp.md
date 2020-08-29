@@ -5,11 +5,11 @@ tagline: "This timelapse image reveals 33-year growth of Phnom Penh city."
 header:
   overlay_image: /images/pp-growth/head-image.png
   caption: "Photo credit: [**Photopea**](https://photopea.com)"
-tags:
-  - table of contents
-toc: true
-toc_label: "Content"
-toc_icon: "cog"
+# tags:
+#   - table of contents
+# toc: true
+# toc_label: "Content"
+# toc_icon: "cog"
 categories:
   - Remote Sensing
   - Landsat Satellite
