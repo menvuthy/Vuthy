@@ -17,7 +17,12 @@ gallery:
     image_path: /images/forest-cambo/global-forest-cover.jpg
     alt: "global-forest-cover"
     title: "Figure 1: Global Forest Cover in 2000"
+  - url: /images/forest-cambo/global-forest-loss.jpg
+    image_path: /images/forest-cambo/global-forest-loss.jpg
+    alt: "global-forest-cover-loss"
+    title: "Figure 1: Global Forest Cover Loss from 2000 to 2019"
 ---
+<!-- global-forest-loss.jpg -->
 
 Forest cover plays an essential role in delivering important ecosystem services, including biodiversity richness, climate regulation, carbon storage, and water supplies (1). However, spatially and temporally detailed information on global-scale forest cover changes at a high resolution did not exist until M.C. Hansen and his team in the University of Maryland, USA developed a global-scale forest change and published the works in 2013 (2). Hansen et al (2) mapped global tree cover extent, loss, and gain annually for the period from 2000 to 2012 at a spatial resolution of 30 m, especially the datasets have been updated every year. Therefore, here I will illustrate one of many remote sensing methods to extract the datasets to:
 {: style="text-align: justify;"}
@@ -37,7 +42,10 @@ In this dataset, there are four important definitions as following:
 {: style="text-align: justify;"}
 
 ### Global Forest Cover
+
 {% include gallery caption="Figure 1: Global forest cover in 2000." %}
+
+
 
 
 
