@@ -16,20 +16,37 @@ gallery:
   - url: /images/forest-cambo/global-forest-cover.jpg
     image_path: /images/forest-cambo/global-forest-cover.jpg
     alt: "global-forest-cover"
-    title: "Figure 1a: Global Forest Cover in 2000"
+    title: "Figure 1a: Global Forest Cover in 2000."
   - url: /images/forest-cambo/global-forest-loss.jpg
     image_path: /images/forest-cambo/global-forest-loss.jpg
     alt: "global-forest-cover-loss"
-    title: "Figure 1b: Global Forest Cover Loss from 2000 to 2019"
+    title: "Figure 1b: Global Forest Cover Loss from 2000 to 2019."
 gallery1:
   - url: /images/forest-cambo/FC-2000.jpg
     image_path: /images/forest-cambo/FC-2000.jpg
     alt: "Forest Cover in 2000"
-    title: "Figure 2a: Forest Cover in 2000"
+    title: "Figure 2a: Forest Cover in 2000."
   - url: /images/forest-cambo/FC-2019.jpg
     image_path: /images/forest-cambo/FC-2019.jpg
     alt: "Forest Cover in 2019"
-    title: "Figure 2b: Forest Cover in 2019"
+    title: "Figure 2b: Forest Cover in 2019."
+gallery2:
+  - url: /images/forest-cambo/FCL-Cambo.jpg
+    image_path: /images/forest-cambo/FCL-Cambo.jpg
+    alt: "FCL-Cambo"
+    title: "Figure 3a: Forest Cover Loss in Cambodia, 2000-2019."
+  - url: /images/forest-cambo/FCL-TonleSap.jpg
+    image_path: /images/forest-cambo/FCL-TonleSap.jpg
+    alt: "FCL-TonleSap"
+    title: "Figure 3b: Forest Cover Loss in Tonle Sap Area, 2000-2019."
+  - url: /images/forest-cambo/FCL-TechoSen.jpg
+    image_path: /images/forest-cambo/FCL-TechoSen.jpg
+    alt: "FCL-TechoSen"
+    title: "Figure 3c: Forest Cover Loss in Techo Sen Reussey Treb Park, 2000-2019."
+  - url: /images/forest-cambo/FCL-KhnangPsa.jpg
+    image_path: /images/forest-cambo/FCL-KhnangPsa.jpg
+    alt: "FCL-KhnangPsa"
+    title: "Figure 3d: Forest Cover Loss in Khnang Psa Mountain, 2000-2019."
 ---
 
 Forest cover plays an essential role in delivering important ecosystem services, including biodiversity richness, climate regulation, carbon storage, and water supplies (1). However, spatially and temporally detailed information on global-scale forest cover changes at a high resolution did not exist until M.C. Hansen and his team in the University of Maryland, USA developed a global-scale forest change and published the works in 2013 (2). Hansen et al (2) mapped global tree cover extent, loss, and gain annually for the period from 2000 to 2012 at a spatial resolution of 30 m, especially the datasets have been updated every year. 
@@ -69,8 +86,10 @@ Video showing spatial and temporal changes of forest cover in Cambodia from 2000
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/4D_sMds61jY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 -----
 
-By only viewing the video, the forest cover loss of some areas are exaggerated due to the far view of image and also the low density of forest canopy; hence, it is important to zoom into some specific areas to have a closer view of the forest cover and loss. 
+By only viewing the video, the forest cover loss of some areas are exaggerated due to the far view of image and also the low density of forest canopy at those areas; hence, it is important to zoom into some specific areas to have a closer view of the forest cover and loss. Below are the images of some well-known areas in Cambodia which provide clearer and closer look on forest cover and loss.
 {: style="text-align: justify;"}
+
+{% include gallery id="gallery2" caption="Figure 3: Forest cover loss in the period 2000-2019. (a) Cambodia overview. (b) Area around Tonle Sap Lake. (c) Techo Sen Reussey Treb Park. (d) Khnang Psa mountainous area." %}
 
 
 ## Reference
