@@ -48,10 +48,19 @@ gallery2:
     alt: "FCL-KhnangPsa"
     title: "Figure 3d: Forest Cover Loss in Khnang Psa Mountain, 2000-2019."
 gallery3:
+  - url: /images/forest-cambo/gain.jpg
+    image_path: /images/forest-cambo/gain.jpg
+    alt: "gain"
+    title: "Figure 4a: Forest Gain in Cambodia, 2000-2012."
+  - url: /images/forest-cambo/gain_neTSL.jpg
+    image_path: /images/forest-cambo/gain_neTSL.jpg
+    alt: "gain_neTSL"
+    title: "Figure 4b: Forest Gain in Northeastern Tonle Sap Lake area, 2000-2012."
+gallery4:
   - url: /images/forest-cambo/yearlyforest.jpg
     image_path: /images/forest-cambo/yearlyforest.jpg
     alt: "yearly-forest"
-    title: "Figure 4: Yearly Forest Cover and Loss Estimation."
+    title: "Figure 5: Yearly Forest Cover and Loss Estimation."
 ---
 
 Forest cover plays an essential role in delivering important ecosystem services, including biodiversity richness, climate regulation, carbon storage, and water supplies (1). However, spatially and temporally detailed information on global-scale forest cover changes at a high resolution did not exist until M.C. Hansen and his team in the University of Maryland, USA developed a global-scale forest change and published the works in 2013 (2). Hansen et al (2) mapped global tree cover extent, loss, and gain annually for the period from 2000 to 2012 from Landsat imagery at a spatial resolution of 30 m, especially the datasets have been updated every year. 
@@ -77,14 +86,16 @@ In this dataset, there are four important definitions as following:
 * **Forest Loss Year** is a disaggregation of total ‘Forest Loss’ to annual time scales.
 {: style="text-align: justify;"}
 
-{% include gallery caption="Figure 1: (a) Global forest cover in 2000 (left). (b) Global forest cover loss from 2000 to 2019 (right)" %}
+{% include gallery caption="Figure 1: (a) Global forest cover in 2000. (b) Global forest cover loss from 2000 to 2019." %}
 
 
 ## Forest Cover Loss and Gain in Cambodia
 
+### Forest Cover Loss
+
 Figure 2 shows the comparison image of forest cover between 2000 and 2019 of the whole country.
 
-{% include gallery id="gallery1" caption="Figure 2: (a) Forest cover in 2000 (left). (b) Forest cover in 2019 (right)." %}
+{% include gallery id="gallery1" caption="Figure 2: (a) Forest cover in 2000. (b) Forest cover in 2019." %}
 
 Video showing spatial and temporal changes of forest cover in Cambodia from 2000 to 2019.
 
@@ -96,16 +107,24 @@ By only viewing the video, the forest cover loss of some areas are exaggerated d
 
 {% include gallery id="gallery2" layout="half" caption="Figure 3: Forest cover loss in the period 2000-2019. (a) Cambodia overview. (b) Area around Tonle Sap Lake. (c) Techo Sen Reussey Treb Park. (d) Khnang Psa mountainous area." %}
 
+### Forest Cover Gain
+
+Figure 3 shows the image of forest gain between 2000 and 2012 of the whole Cambodia and Northeastern Tonle Sap Lake area.
+
+{% include gallery id="gallery3" caption="Figure 4: Forest Gain 2000-2012. (a) Cambodia. (b) Northeastern Tonle Sap Lake area." %}
 
 ## Yearly Forest Cover and Loss in Cambodia
 
 Forest loss was defined as a stand-replacement disturbance or the complete removal of tree cover canopy at the Landsat pixel scale (2). The yearly forest cover and loss are shown in figures below (Figure 4):
+{: style="text-align: justify;"}
 
-{% include gallery id="gallery3" caption="Figure 4: Yearly forest cover and loss estimated for Cambodia." %}
+{% include gallery id="gallery4" caption="Figure 5: Yearly forest cover and loss estimated for Cambodia." %}
 
 
 
 The forest cover area was calculated by summing all forest pixels within the boundary of Cambodia in 2019, while forest cover loss was calculated based on provided script in Google Earth Engine.
+{: style="text-align: justify;"}
+
 
 ## Reference
 1. Foley, Jonathan A., et al. "Global consequences of land use." science 309.5734 (2005): 570-574.
