@@ -128,7 +128,34 @@ Extraction, computation and visualization of Hansen et al. 2013 (2) global fores
 
 **1. Extraction and Visualization of Global Forest Cover and Loss**
 
-There are many methods to extract and visulaize the remote sensing dataset, for example, by using Earth Engine JavaScript API. Under this purpose, it is, however, conducted in QGIS since the performace or speed of interactive maps are better. In order to connect QGIS with the earth engine datasets, installation of [Google Earth Engine Plugin](https://youtu.be/RNbzhlMHekU) is first necessary.
+There are many methods to extract and visulaize the remote sensing dataset, for example, by using Earth Engine JavaScript API. Under this purpose, it is, however, conducted in QGIS since the performace and loading speed of interactive maps are better. In order to connect QGIS with the earth engine datasets, installation of [Google Earth Engine Plugin](https://youtu.be/RNbzhlMHekU) is first necessary. After that, open the Python Console in QGIS, and the global forest cover data will appear by running the script I provide here with the short description written with the hashtag (#) sign.
+{: style="text-align: justify;"}
+
+```yaml
+---
+import ee
+from ee_plugin import Map
+
+# Add Earth Engine dataset
+image = ee.Image('UMD/hansen/global_forest_change_2019_v1_7')
+forest = image.select(['treecover2000'])
+loss = image.select(['loss'])
+lossYear = image.select(['lossyear'])
+
+vis = {
+'min': 0, 
+'max': 100, 
+'palette': ['#000000', '#005500', '#00AB00', '#00FF00']
+}
+
+
+# Add the tree cover layer in green.
+Map.addLayer(forest.updateMask(forest), vis , 'Global Forest in 2000')
+Map.addLayer(loss.updateMask(loss), {'palette': ['#FF0000']} , 'Loss')
+---
+```
+
+
 
 The forest cover area was calculated by summing all forest pixels within the boundary of Cambodia in 2019, while forest cover loss was calculated based on provided script in Google Earth Engine.
 {: style="text-align: justify;"}
