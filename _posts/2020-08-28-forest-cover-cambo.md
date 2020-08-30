@@ -47,6 +47,11 @@ gallery2:
     image_path: /images/forest-cambo/FCL-KhnangPsa.jpg
     alt: "FCL-KhnangPsa"
     title: "Figure 3d: Forest Cover Loss in Khnang Psa Mountain, 2000-2019."
+gallery3:
+  - url: /images/forest-cambo/yearlyforest.jpg
+    image_path: /images/forest-cambo/yearlyforest.jpg
+    alt: "yearly-forest"
+    title: "Figure 4: Yearly Forest Cover and Loss Estimation."
 ---
 
 Forest cover plays an essential role in delivering important ecosystem services, including biodiversity richness, climate regulation, carbon storage, and water supplies (1). However, spatially and temporally detailed information on global-scale forest cover changes at a high resolution did not exist until M.C. Hansen and his team in the University of Maryland, USA developed a global-scale forest change and published the works in 2013 (2). Hansen et al (2) mapped global tree cover extent, loss, and gain annually for the period from 2000 to 2012 from Landsat imagery at a spatial resolution of 30 m, especially the datasets have been updated every year. 
@@ -96,7 +101,7 @@ By only viewing the video, the forest cover loss of some areas are exaggerated d
 
 Forest loss was defined as a stand-replacement disturbance or the complete removal of tree cover canopy at the Landsat pixel scale (2). The yearly forest cover and loss are shown in figures below (Figure 4):
 
-
+{% include gallery id="gallery3" caption="Figure 4: Yearly forest cover and loss estimated for Cambodia." %}
 
 
 
