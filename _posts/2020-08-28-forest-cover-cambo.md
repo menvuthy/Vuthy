@@ -413,4 +413,9 @@ Vuthy
 1. Foley, Jonathan A., et al. "Global consequences of land use." science 309.5734 (2005): 570-574.
 2. Hansen, Matthew C., et al. "High-resolution global maps of 21st-century forest cover change." science 342.6160 (2013): 850-853.
 
-<!-- no -->
+**Related websites**
+1. https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.7.html
+2. https://developers.google.com/earth-engine/tutorials/tutorial_forest_02
+3. https://github.com/giswqs/geemap
+4. https://sites.google.com/site/earthengineapidocs/tutorials/global-forest-change-tutorial?authuser=1
+
