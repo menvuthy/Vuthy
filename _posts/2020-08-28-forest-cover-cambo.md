@@ -346,6 +346,10 @@ Map.addLayer(forestAt2019.updateMask(forestAt2019), vis, 'Forest in 2019')
 
 **3. Computation of Yearly Forest Loss in Cambodia**
 
+The computation for yearly forest cover and loss are conducted both in [Earth Engine Code Editor](https://code.earthengine.google.com) and Python in Jupiter Notebook. Based on the instruction on how to quantify the yearly forest loss in the [GEE guideline](https://developers.google.com/earth-engine/tutorials/tutorial_forest_03a), the yearly forest loss in Cambodia can be estimated by changing the region of interest of the provided script. Regarding the detail estimation method, please carefully read the guideline of dataset usage.
+{: style="text-align: justify;"}
+
+
 The forest cover area was calculated by summing all forest pixels within the boundary of Cambodia in 2019, while forest cover loss was calculated based on provided script in Google Earth Engine.
 {: style="text-align: justify;"}
 
