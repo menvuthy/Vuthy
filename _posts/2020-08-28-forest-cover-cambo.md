@@ -91,7 +91,7 @@ In this dataset, there are four important definitions as following:
 
 ## Forest Cover Loss and Gain in Cambodia
 
-* ### Forest Cover Loss
+* **Forest Cover Loss**
 
 Figure 2 shows the comparison image of forest cover between 2000 and 2019 of the whole country.
 
@@ -107,7 +107,7 @@ By only viewing the video, the forest cover loss of some areas are exaggerated d
 
 {% include gallery id="gallery2" layout="half" caption="Figure 3: Forest cover loss in the period 2000-2019. (a) Cambodia overview. (b) Area around Tonle Sap Lake. (c) Techo Sen Reussey Treb Park. (d) Khnang Psa mountainous area." %}
 
-* ### Forest Cover Gain
+* **Forest Cover Gain**
 
 Figure 4 shows the image of forest gain between 2000 and 2012 of the whole Cambodia and Northeastern Tonle Sap Lake area.
 {: style="text-align: justify;"}
@@ -116,7 +116,7 @@ Figure 4 shows the image of forest gain between 2000 and 2012 of the whole Cambo
 
 ## Yearly Forest Cover and Loss in Cambodia
 
-Forest loss was defined as a stand-replacement disturbance or the complete removal of tree cover canopy at the Landsat pixel scale (2). The yearly forest cover and loss are shown in figures below (Figure 5):
+Forest loss was defined as a stand-replacement disturbance or the complete removal of tree cover canopy at the Landsat pixel scale (2). The estimation yearly forest cover and loss are shown in figures below (Figure 5):
 {: style="text-align: justify;"}
 
 {% include gallery id="gallery4" caption="Figure 5: Yearly forest cover and loss estimated for Cambodia." %}
@@ -124,8 +124,11 @@ Forest loss was defined as a stand-replacement disturbance or the complete remov
 ## Methodology
 
 Extraction, computation and visualization of Hansen et al. 2013 (2) global forest cover data in this work are performed on cloud platform with the help of QGIS, Python, and Google Earth Engine. Therefore, it is important to equip with some background on programming language and QGIS application. Below, I will instruct how to extract, visualize, and compute the global forest cover data, and Cambodia will be chosen as a case study.
+{: style="text-align: justify;"}
 
-1. ### Extraction and Visualization of Global Forest Cover and Loss
+**1. Extraction and Visualization of Global Forest Cover and Loss**
+
+There are many methods to extract and visulaize the remote sensing dataset, for example, by using Earth Engine JavaScript API. Under this purpose, it is, however, conducted in QGIS since the performace or speed of interactive maps are better. In order to connect QGIS with the earth engine datasets, installation of [Google Earth Engine Plugin](https://youtu.be/RNbzhlMHekU) is first necessary.
 
 The forest cover area was calculated by summing all forest pixels within the boundary of Cambodia in 2019, while forest cover loss was calculated based on provided script in Google Earth Engine.
 {: style="text-align: justify;"}
