@@ -72,7 +72,7 @@ The data source of information content presented here is publicly availble for b
 
 1. Visualize the global forest cover in 2000, and forest cover loss during the period 2000-2019. 
 2. Examine the spatial and temporal changes of both forest cover loss and gain in Cambodia from 2000 to 2019.
-3. Compute the yearly forest loss in Cambodia from 2000 to 2019.
+3. Compute the yearly forest cover and loss in Cambodia from 2000 to 2019.
 {: style="text-align: justify;"}
 
 **Primary Notice:** These dataset illustration and visualization are aimed for [Education Purpose](#)  only.
