@@ -265,54 +265,10 @@ forestAt2001 = forest.where(lossInFirst1.eq(1), 0)
 #2002
 lossInFirst2 = lossYear.gte(1).And(lossYear.lte(2))
 forestAt2002 = forest.where(lossInFirst2.eq(1), 0)
-#2003
-lossInFirst3 = lossYear.gte(1).And(lossYear.lte(3))
-forestAt2003 = forest.where(lossInFirst3.eq(1), 0)
-#2004
-lossInFirst4 = lossYear.gte(1).And(lossYear.lte(4))
-forestAt2004 = forest.where(lossInFirst4.eq(1), 0)
-#2005
-lossInFirst5 = lossYear.gte(1).And(lossYear.lte(5))
-forestAt2005 = forest.where(lossInFirst5.eq(1), 0)
-#2006
-lossInFirst6 = lossYear.gte(1).And(lossYear.lte(6))
-forestAt2006 = forest.where(lossInFirst6.eq(1), 0)
-#2007
-lossInFirst7 = lossYear.gte(1).And(lossYear.lte(7))
-forestAt2007 = forest.where(lossInFirst7.eq(1), 0)
-#2008
-lossInFirst8 = lossYear.gte(1).And(lossYear.lte(8))
-forestAt2008 = forest.where(lossInFirst8.eq(1), 0)
-#2009
-lossInFirst9 = lossYear.gte(1).And(lossYear.lte(9))
-forestAt2009 = forest.where(lossInFirst9.eq(1), 0)
-#2010
-lossInFirst10 = lossYear.gte(1).And(lossYear.lte(10))
-forestAt2010 = forest.where(lossInFirst10.eq(1), 0)
-#2011
-lossInFirst11 = lossYear.gte(1).And(lossYear.lte(11))
-forestAt2011 = forest.where(lossInFirst11.eq(1), 0)
-#2012
-lossInFirst12 = lossYear.gte(1).And(lossYear.lte(12))
-forestAt2012 = forest.where(lossInFirst12.eq(1), 0)
-#2013
-lossInFirst13 = lossYear.gte(1).And(lossYear.lte(13))
-forestAt2013 = forest.where(lossInFirst13.eq(1), 0)
-#2014
-lossInFirst14 = lossYear.gte(1).And(lossYear.lte(14))
-forestAt2014 = forest.where(lossInFirst14.eq(1), 0)
-#2015
-lossInFirst15 = lossYear.gte(1).And(lossYear.lte(15))
-forestAt2015 = forest.where(lossInFirst15.eq(1), 0)
-#2016
-lossInFirst16 = lossYear.gte(1).And(lossYear.lte(16))
-forestAt2016 = forest.where(lossInFirst16.eq(1), 0)
-#2017
-lossInFirst17 = lossYear.gte(1).And(lossYear.lte(17))
-forestAt2017 = forest.where(lossInFirst17.eq(1), 0)
-#2018
-lossInFirst18 = lossYear.gte(1).And(lossYear.lte(18))
-forestAt2018 = forest.where(lossInFirst18.eq(1), 0)
+.
+.
+.
+
 #2019
 lossInFirst19= lossYear.gte(1).And(lossYear.lte(19))
 forestAt2019 = forest.where(lossInFirst19.eq(1), 0)
@@ -324,23 +280,9 @@ vis = {
 }
 
 Map.addLayer(forestAt2001.updateMask(forestAt2001), vis, 'Forest in 2001')
-Map.addLayer(forestAt2002.updateMask(forestAt2002), vis, 'Forest in 2002')
-Map.addLayer(forestAt2003.updateMask(forestAt2003), vis, 'Forest in 2003')
-Map.addLayer(forestAt2004.updateMask(forestAt2004), vis, 'Forest in 2004')
-Map.addLayer(forestAt2005.updateMask(forestAt2005), vis, 'Forest in 2005')
-Map.addLayer(forestAt2006.updateMask(forestAt2006), vis, 'Forest in 2006')
-Map.addLayer(forestAt2007.updateMask(forestAt2007), vis, 'Forest in 2007')
-Map.addLayer(forestAt2008.updateMask(forestAt2008), vis, 'Forest in 2008')
-Map.addLayer(forestAt2009.updateMask(forestAt2009), vis, 'Forest in 2009')
-Map.addLayer(forestAt2010.updateMask(forestAt2010), vis, 'Forest in 2010')
-Map.addLayer(forestAt2011.updateMask(forestAt2011), vis, 'Forest in 2011')
-Map.addLayer(forestAt2012.updateMask(forestAt2012), vis, 'Forest in 2012')
-Map.addLayer(forestAt2013.updateMask(forestAt2013), vis, 'Forest in 2013')
-Map.addLayer(forestAt2014.updateMask(forestAt2014), vis, 'Forest in 2014')
-Map.addLayer(forestAt2015.updateMask(forestAt2015), vis, 'Forest in 2015')
-Map.addLayer(forestAt2016.updateMask(forestAt2016), vis, 'Forest in 2016')
-Map.addLayer(forestAt2017.updateMask(forestAt2017), vis, 'Forest in 2017')
-Map.addLayer(forestAt2018.updateMask(forestAt2018), vis, 'Forest in 2018')
+.
+.
+.
 Map.addLayer(forestAt2019.updateMask(forestAt2019), vis, 'Forest in 2019')
 ---
 ```
