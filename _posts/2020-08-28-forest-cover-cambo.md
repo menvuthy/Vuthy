@@ -1,5 +1,6 @@
 ---
 classes: wide
+comments: true
 title: "Cambodia: Forest Cover Change in 21st Century"
 tagline: "This visualization is based on high-resolution global forest cover data developed by Hansan et al (2013)."
 header:
@@ -349,10 +350,121 @@ Map.addLayer(forestAt2019.updateMask(forestAt2019), vis, 'Forest in 2019')
 The computation for yearly forest cover and loss are conducted both in [Earth Engine Code Editor](https://code.earthengine.google.com) and Python in Jupiter Notebook. Based on the instruction on how to quantify the yearly forest loss in the [GEE guideline](https://developers.google.com/earth-engine/tutorials/tutorial_forest_03a), the yearly forest loss in Cambodia can be estimated by changing the region of interest of the provided script. Regarding the detail estimation method, please carefully read the guideline of dataset usage.
 {: style="text-align: justify;"}
 
-
-The forest cover area was calculated by summing all forest pixels within the boundary of Cambodia in 2019, while forest cover loss was calculated based on provided script in Google Earth Engine.
+Here is the script to run in GEE Code Editor for calculating yearly forest loss in Cambodia:
 {: style="text-align: justify;"}
 
+```yaml
+---
+// Load country boundaries from LSIB.
+var countries = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017');
+// Get a feature collection with just the Congo feature.
+var cambo = countries.filter(ee.Filter.eq('country_co', 'CB'));
+Map.addLayer(cambo, {}, 'Cambodia')
+
+// Get the loss image.
+// This dataset is updated yearly, so we get the latest version.
+var gfc2017 = ee.Image('UMD/hansen/global_forest_change_2019_v1_7');
+var lossImage = gfc2017.select(['loss']);
+var lossAreaImage = lossImage.multiply(ee.Image.pixelArea());
+
+var lossYear = gfc2017.select(['lossyear']);
+var lossByYear = lossAreaImage.addBands(lossYear).reduceRegion({
+  reducer: ee.Reducer.sum().group({
+    groupField: 1
+    }),
+  geometry: cambo,
+  scale: 30,
+  maxPixels: 1e9
+});
+print(lossByYear);
+
+var statsFormatted = ee.List(lossByYear.get('groups'))
+  .map(function(el) {
+    var d = ee.Dictionary(el);
+    return [ee.Number(d.get('group')).format("20%02d"), d.get('sum')];
+  });
+var statsDictionary = ee.Dictionary(statsFormatted.flatten());
+print(statsDictionary);
+
+var chart = ui.Chart.array.values({
+  array: statsDictionary.values(),
+  axis: 0,
+  xLabels: statsDictionary.keys()
+}).setChartType('ColumnChart')
+  .setOptions({
+    title: 'Yearly Forest Loss',
+    hAxis: {title: 'Year', format: '####'},
+    vAxis: {title: 'Area (square meters)'},
+    legend: { position: "none" },
+    lineWidth: 1,
+    pointSize: 3
+  });
+print(chart);
+---
+```
+
+In order to calculate yearly forest cover, `zonal_statistics_by_group` function in `geemap module` was used in Python Jupyter Notebook to sum all forest cover pixels based on the size and forest canopy density of each pixel. Before calculation, installation of  `geemap package` may be necessary at the beginning if it is not yet installed on PC. The installation instruction is available [here](https://github.com/giswqs/geemap).
+{: style="text-align: justify;"}
+
+To run the script below, the script in section 2 about creating yearly forest cover map should be firstly run in Jupyter Notebook by just omitting "*from ee_plugin import Map*" and import some other modules as following:
+{: style="text-align: justify;"}
+
+```yaml
+---
+# Installs geemap package
+import subprocess
+
+try:
+    import geemap
+except ImportError:
+    print('geemap package not installed. Installing ...')
+    subprocess.check_call(["python", '-m', 'pip', 'install', 'geemap'])
+
+# Checks whether this notebook is running on Google Colab
+try:
+    import google.colab
+    import geemap.eefolium as geemap
+except:
+    import geemap
+
+# Authenticates and initializes Earth Engine
+import ee
+
+try:
+    ee.Initialize()
+except Exception as e:
+    ee.Authenticate()
+    ee.Initialize()  
+import os
+
+[*** Script from Section 2...]
+
+# determine the output folder
+out_dir = os.path.join(os.path.expanduser('~'), 'Downloads')
+
+# statistics_type can be either 'SUM' or 'PERCENTAGE'
+# denominator can be used to convert square meters to other areal units, such as square kilimeters or hectare
+forest_cover = os.path.join(out_dir, 'forest-cover-2001.csv')  
+geemap.zonal_statistics_by_group(forestAt2001.updateMask(forestAt2001), roi, forest_cover, statistics_type='SUM', denominator=10000, decimal_places=2)
+
+forest_cover = os.path.join(out_dir, 'forest-cover-2002.csv')  
+geemap.zonal_statistics_by_group(forestAt2002.updateMask(forestAt2002), roi, forest_cover, statistics_type='SUM', denominator=10000, decimal_places=2)
+.
+.
+.
+forest_cover = os.path.join(out_dir, 'forest-cover-2019.csv')  
+geemap.zonal_statistics_by_group(forestAt2019.updateMask(forestAt2019), roi, forest_cover, statistics_type='SUM', denominator=10000, decimal_places=2)
+---
+```
+
+# That's all, everyone !
+
+That's it for this piece of work! I hope this instruction can be useful for engineering student or young professional who may need this lesson to work on their project. For the whole workflow, you may contact me directly. If you have questions or suggestions, please feel free to let me know.
+{: style="text-align: justify;"}
+
+Cheers,
+
+Vuthy
 
 ## Reference
 1. Foley, Jonathan A., et al. "Global consequences of land use." science 309.5734 (2005): 570-574.
