@@ -398,6 +398,7 @@ forest_cover = os.path.join(out_dir, 'forest-cover-2019.csv')
 geemap.zonal_statistics_by_group(forestAt2019.updateMask(forestAt2019), roi, forest_cover, statistics_type='SUM', denominator=10000, decimal_places=2)
 ---
 ```
+-----
 
 # That's all, everyone !
 
