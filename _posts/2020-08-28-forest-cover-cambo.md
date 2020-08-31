@@ -120,7 +120,7 @@ Figure 4 shows the image of forest gain between 2000 and 2012 of the whole Cambo
 Forest loss was defined as a stand-replacement disturbance or the complete removal of tree cover canopy at the Landsat pixel scale (2). The estimation yearly forest cover and loss are shown in figures below (Figure 5):
 {: style="text-align: justify;"}
 
-**Warning Notice:** All computed values here are the [rough and unoffical](#) calculation based on the instruction from [Google Earth Engine](https://developers.google.com/earth-engine/tutorials/tutorial_forest_03a). The user should be concerned of the accuracy with the actual data in their region of interest and the comparison with the official data source.
+**Warning Notice:** All computed values here are the [rough and unofficial](#) calculation based on the instruction from [Google Earth Engine](https://developers.google.com/earth-engine/tutorials/tutorial_forest_03a). The user should be concerned of the accuracy with the actual data in their region of interest and the comparison with the official data source.
 {: .notice--danger}
 {% include gallery id="gallery4" caption="Figure 5: Yearly forest cover and loss estimated for Cambodia." %}
 
