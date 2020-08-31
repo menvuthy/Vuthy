@@ -414,8 +414,8 @@ Vuthy
 2. Hansen, Matthew C., et al. "High-resolution global maps of 21st-century forest cover change." science 342.6160 (2013): 850-853.
 
 **Related websites**
-1. [https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.7.html](https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.7.html)
-2. [https://developers.google.com/earth-engine/tutorials/tutorial_forest_02](https://developers.google.com/earth-engine/tutorials/tutorial_forest_02)
-3. [https://github.com/giswqs/geemap](https://github.com/giswqs/geemap)
-4. [https://sites.google.com/site/earthengineapidocs/tutorials/global-forest-change-tutorial?authuser=1](https://sites.google.com/site/earthengineapidocs/tutorials/global-forest-change-tutorial?authuser=1)
+1. [Global Forest Change 2000–2019 Data Download](https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.7.html)
+2. [Introduction to Hansen et al. Global Forest Change Data](https://developers.google.com/earth-engine/tutorials/tutorial_forest_02)
+3. [Geemap Package Documentation](https://github.com/giswqs/geemap)
+4. [API Tutorial: Hansen/UMD/Google Global Forest Change](https://sites.google.com/site/earthengineapidocs/tutorials/global-forest-change-tutorial?authuser=1)
 
