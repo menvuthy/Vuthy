@@ -4,8 +4,8 @@ main:
     url: /newsfeed/
   - title: "GraphPlotting"
     url: /graphplotting/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "About"
+    url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
