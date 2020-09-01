@@ -2,11 +2,11 @@
 main:
   - title: News Feed
     url: /newsfeed/
-  - title: "About"
-    url: /about/
+  # - title: "About"
+  #   url: /about/
   # - title: "Graph Plotting"
   #   url: /graphplotting/
-  - title: "Graph Plotting"
-    url: /portfolio/
-  - title: "Graph"
-    url: /graph/
+  # - title: "Graph Plotting"
+  #   url: /portfolio/
+  # - title: "Graph"
+  #   url: /graph/
