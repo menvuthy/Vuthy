@@ -4,7 +4,9 @@ main:
     url: /newsfeed/
   - title: "About"
     url: /about/
-  - title: "Graph Plotting"
-    url: /graphplotting/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  # - title: "Graph Plotting"
+  #   url: /graphplotting/
+  - title: "Portfolio"
+    url: /portfolio/
+
+  

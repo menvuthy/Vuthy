@@ -1,6 +1,6 @@
 ---
-title: "Graph Plotting"
-permalink: /graphplotting/
-layout: docs
-author_profile: true
+# title: "Graph Plotting"
+# permalink: /graphplotting/
+# layout: archive
+# author_profile: true
 ---
