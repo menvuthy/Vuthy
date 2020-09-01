@@ -2,8 +2,6 @@
 main:
   - title: News Feed
     url: /newsfeed/
-  - title: "GraphPlotting"
-    url: /graphplotting/
   - title: "About"
     url: /about/
   # - title: "Sample Collections"
