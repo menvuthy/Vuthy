@@ -1,6 +1,6 @@
 ---
 title: "GraphPlotting"
 permalink: /graphplotting/
-layout: posts
+layout: graphs
 author_profile: true
 ---
