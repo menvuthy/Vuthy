@@ -8,5 +8,5 @@ main:
   #   url: /graphplotting/
   - title: "Graph Plotting"
     url: /portfolio/
-
-  
+  - title: "Graph"
+    url: /graph/

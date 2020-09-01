@@ -219,6 +219,10 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  graph:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Sass/SCSS
 sass:
@@ -275,12 +279,22 @@ defaults:
       comments: true
       share: true
       related: true
-      
+
 defaults:
   # _portfolio
   - scope:
       path: ""
       type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: graph
     values:
       layout: single
       author_profile: false
