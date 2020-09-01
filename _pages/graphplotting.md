@@ -1,6 +1,10 @@
 ---
-# title: "Graph Plotting"
-# permalink: /graphplotting/
-# layout: archive
-# author_profile: true
+title: Portfolio
+layout: collection
+permalink: /graphplotting/
+collection: portfolio
+# entries_layout: grid
+classes: wide
 ---
+
+
