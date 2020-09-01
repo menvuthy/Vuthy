@@ -1,9 +1,9 @@
 ---
 title: Portfolio
 layout: collection
-permalink: /graphplotting/
+permalink: /portfolio/
 collection: portfolio
-# entries_layout: grid
+entries_layout: grid
 classes: wide
 ---
 
