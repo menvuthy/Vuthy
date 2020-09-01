@@ -302,12 +302,11 @@ defaults:
 #       author_profile: false
 #       share: true
 
-# defaults:
-#   # _portfolio
-#   - scope:
-#       path: ""
-#       type: graph
-#     values:
-#       layout: single
-#       author_profile: false
-#       share: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: graph
+    values:
+      layout: single
+      author_profile: false
+      share: true
