@@ -3,7 +3,7 @@ title: Graph
 layout: collection
 permalink: /graph/
 collection: graph
-entries_layout: grid
+entries_layout: posts
 classes: wide
 ---
 
