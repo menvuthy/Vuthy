@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: News Feed
-    url: /newsfeed/
-  - title: "Graph"
+  - title: Curiosity
+    url: /curiosity/
+  - title: "Graph Plotting"
     url: /graph/
   # - title: "About"
   #   url: /about/

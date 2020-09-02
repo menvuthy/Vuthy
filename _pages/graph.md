@@ -1,5 +1,5 @@
 ---
-title: Graph
+title: "Graph Plotting"
 layout: collection
 permalink: /graph/
 collection: graph
