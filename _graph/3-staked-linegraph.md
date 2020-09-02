@@ -1,6 +1,9 @@
 ---
 classes: wide
 title: "Three Stacked Line Chart"
+header:
+#   image: /assets/images/unsplash-gallery-image-1.jpg
+  teaser: images/GraphPlotting/3-stacked-line-chart/stacked-line-chart.jpg
 categories:
   - Python
 tags:
