@@ -95,3 +95,6 @@ plt.show()
 
 {% include gallery caption="Figure 2: Three stacked line chart plotted in Python." %}
 
+-----
+
+Source code is available at: [GitHub](https://github.com/menvuthy/Code_Collection.git)
