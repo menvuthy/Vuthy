@@ -2,17 +2,17 @@
 classes: wide
 title: "Python: Side-by-side Bar With Line"
 header:
-  teaser: images/GraphPlotting/stacked-bar-with-line/side-by-side-bar-line.png
+  teaser: images/GraphPlotting/side-by-side-bar-with-line/side-by-side-bar-line.png
 categories:
   - Python
 gallery:
-  - url: images/GraphPlotting/stacked-bar-with-line/data-table.png
-    image_path: images/GraphPlotting/stacked-bar-with-line/data-table.png
+  - url: images/GraphPlotting/side-by-side-bar-with-line/data-table.png
+    image_path: images/GraphPlotting/side-by-side-bar-with-line/data-table.png
     alt: "Data-table-side-by-side-bar-with-line"
     title: "Figure 1: Data table for side-by-side bar with line."
 gallery1:
-  - url: images/GraphPlotting/stacked-bar-with-line/side-by-side-bar-line.png
-    image_path: images/GraphPlotting/stacked-bar-with-line/side-by-side-bar-line.png
+  - url: images/GraphPlotting/side-by-side-bar-with-line/side-by-side-bar-line.png
+    image_path: images/GraphPlotting/side-by-side-bar-with-line/side-by-side-bar-line.png
     alt: "stacked-bar-line"
     title: "Figure 2: Side-by-side bar with line graph."
 ---
