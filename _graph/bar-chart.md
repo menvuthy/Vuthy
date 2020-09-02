@@ -9,7 +9,7 @@ categories:
 tags:
   - Line Chart
   - Stacked Chart
-# last_modified_at: 2020-08-12
+
 gallery:
   - url: images/GraphPlotting/side-by-side-bar-chart/damage.png
     image_path: images/GraphPlotting/side-by-side-bar-chart/damage.png
