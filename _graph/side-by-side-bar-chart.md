@@ -22,7 +22,7 @@ gallery1:
     title: "Figure 2: Side-by-side bar chart."
 ---
 
-Here I will show how to plot Three Stacked Line Graph with the code in Python Jupiter Notebook.
+Here I will show how to plot Side-by-side Stacked Line Graph with the code in Python Jupiter Notebook.
 
 
 ## 1. Data Table
