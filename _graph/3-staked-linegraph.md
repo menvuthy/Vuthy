@@ -1,6 +1,6 @@
 ---
 classes: wide
-title: "Three Stacked Line Chart"
+title: "Python: Three Stacked Line Chart"
 header:
 #   image: /assets/images/unsplash-gallery-image-1.jpg
   teaser: images/GraphPlotting/3-stacked-line-chart/stacked-line-chart.jpg
@@ -14,8 +14,25 @@ gallery:
   - url: images/GraphPlotting/3-stacked-line-chart/stacked-line-chart.jpg
     image_path: images/GraphPlotting/3-stacked-line-chart/stacked-line-chart.jpg
     alt: "3-stacked-line-chart"
-    title: "Three stacked line chart."
+    title: "Figure 1: Three stacked line chart."
+gallery1:
+  - url: images/GraphPlotting/3-stacked-line-chart/DT-3stacked-line-graph.png
+    image_path: images/GraphPlotting/3-stacked-line-chart/DT-3stacked-line-graph.png
+    alt: "Data-table-3-stacked-line-chart"
+    title: "Figure 2: Data table for three stacked line chart."
+
 ---
+
+Here I will show how to plot Three Stacked Line Graph with the code in Python Jupiter Notebook.
+
+
+## 1. Data Table
+
+Name data table as: `rice_class_data.csv`
+
+{% include gallery id="gallery1" caption="Figure 1: Data table for three stacked line chart." %}
+
+## 2. Code
 
 ```yaml
 ---
@@ -24,10 +41,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import rc
 
+# set font type
 plt.rcParams["font.family"] = "Arial"
 
+# import data table
 data_table = pd.read_csv('rice_class_data.csv')
 
+# assign values
 communes = data_table.iloc[:,0].values
 reported_er = data_table.iloc[:,1].values
 reported_mr = data_table.iloc[:,3].values
@@ -37,6 +57,7 @@ predicted_mr = data_table.iloc[:,4].values
 predicted_lr = data_table.iloc[:,6].values
 indx = np.arange(len(communes))
 
+# create plot
 fig, axs = plt.subplots(3, sharex=True, sharey=True, figsize= (15,10))
 # fig.suptitle('Rice Production by Communes', fontsize=20, fontweight = 'bold')
 plt.rc('xtick', labelsize=15)
@@ -70,5 +91,5 @@ plt.show()
 ---
 ```
 
-{% include gallery caption="Figure 1: Three stacked line chart plotted in Python." %}
+{% include gallery caption="Figure 2: Three stacked line chart plotted in Python." %}
 
