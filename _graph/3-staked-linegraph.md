@@ -6,9 +6,6 @@ header:
   teaser: images/GraphPlotting/3-stacked-line-chart/stacked-line-chart.jpg
 categories:
   - Python
-tags:
-  - Line Chart
-  - Stacked Chart
 # last_modified_at: 2020-08-12
 gallery:
   - url: images/GraphPlotting/3-stacked-line-chart/stacked-line-chart.jpg

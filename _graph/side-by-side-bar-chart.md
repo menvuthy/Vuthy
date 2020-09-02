@@ -6,10 +6,6 @@ header:
   teaser: images/GraphPlotting/side-by-side-bar-chart/affected-rice.png
 categories:
   - Python
-tags:
-  - Line Chart
-  - Stacked Chart
-
 gallery:
   - url: images/GraphPlotting/side-by-side-bar-chart/damage.png
     image_path: images/GraphPlotting/side-by-side-bar-chart/damage.png
