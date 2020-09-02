@@ -4,6 +4,7 @@ title: "Cambodia: Forest Cover Change in 21st Century"
 tagline: "This visualization is based on high-resolution global forest cover data developed by Hansan et al (2013)."
 header:
   overlay_image: /images/forest-cambo/homepage_img.jpg
+  teaser: /images/forest-cambo/homepage_img.jpg
 categories:
   - Forest Cover
 tags:
