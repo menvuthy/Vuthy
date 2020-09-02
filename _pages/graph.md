@@ -4,7 +4,7 @@ layout: collection
 permalink: /graph/
 collection: graph
 header:
-  image: /images/GraphPlotting/graphplotting-head.jpg
+  overlay_image: /images/GraphPlotting/graphplotting-head.jpg
 entries_layout: grid
 classes: wide
 ---
