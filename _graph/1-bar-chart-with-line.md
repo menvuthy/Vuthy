@@ -25,7 +25,7 @@ Here I will show how to plot Bar Chart With Line Graph with the code in Python J
 
 Name data table as: `yearly-loss.csv`
 
-{% include gallery caption="Figure 1: Data table for bar chart with line." %}
+{% include gallery layout="half" caption="Figure 1: Data table for bar chart with line." %}
 
 ## 2. Code
 
