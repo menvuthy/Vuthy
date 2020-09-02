@@ -91,5 +91,7 @@ plt.show()
 ---
 ```
 
+## 3. Plot
+
 {% include gallery caption="Figure 2: Three stacked line chart plotted in Python." %}
 
