@@ -86,7 +86,7 @@ plt.show()
 
 ## 3. Plot
 
-{% include gallery id="gallery1" caption="Figure 2: Comparison of reported and estimated rice crop area.." %}
+{% include gallery id="gallery1" caption="Figure 2: Comparison of reported and estimated rice crop area." %}
 
 -----
 
