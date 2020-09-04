@@ -1,31 +1,29 @@
 ---
 classes: wide
-title: "Python: Three Stacked Line Chart"
+title: "Python: Comparison of reported and estimated rice crop area."
 header:
-#   image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: images/GraphPlotting/3-stacked-line-chart/stacked-line-chart.jpg
+  teaser: images/GraphPlotting/reported-estimated-rice-area/reported-estimated-rice-area.jpg
 categories:
   - Python
 # last_modified_at: 2020-08-12
 gallery:
-  - url: images/GraphPlotting/3-stacked-line-chart/stacked-line-chart.jpg
-    image_path: images/GraphPlotting/3-stacked-line-chart/stacked-line-chart.jpg
-    alt: "3-stacked-line-chart"
-    title: "Figure 1: Three stacked line chart."
+  - url: images/GraphPlotting/reported-estimated-rice-area/dt-reported-estimated-rice-area.png
+    image_path: images/GraphPlotting/reported-estimated-rice-area/dt-reported-estimated-rice-area.png
+    alt: "dt-reported-estimated-rice-area"
+    title: "Figure 1: Data table for reported and estimated rice crop area plot."
 gallery1:
-  - url: images/GraphPlotting/3-stacked-line-chart/DT-3stacked-line-graph.png
-    image_path: images/GraphPlotting/3-stacked-line-chart/DT-3stacked-line-graph.png
-    alt: "Data-table-3-stacked-line-chart"
-    title: "Figure 2: Data table for three stacked line chart."
-
+  - url: images/GraphPlotting/reported-estimated-rice-area/reported-estimated-rice-area.jpg
+    image_path: images/GraphPlotting/reported-estimated-rice-area/reported-estimated-rice-area.jpg
+    alt: "reported-estimated-rice-area"
+    title: "Figure 2: Comparison of reported and estimated rice crop area."
 ---
 
-Here I will show how to plot Three Stacked Line Graph with the code in Python Jupiter Notebook.
+Here I will show how to plot Three Stacked Line Graph to show the comparion of reported and estiamted rice crop area with the code written in Python Jupiter Notebook.
 
 
 ## 1. Data Table
 
-Name data table as: `rice_class_data.csv`
+Data source name: `data_table.csv`
 
 {% include gallery id="gallery1" caption="Figure 1: Data table for three stacked line chart." %}
 
@@ -42,7 +40,7 @@ from matplotlib import rc
 plt.rcParams["font.family"] = "Arial"
 
 # import data table
-data_table = pd.read_csv('rice_class_data.csv')
+data_table = pd.read_csv('data_table.csv')
 
 # assign values
 communes = data_table.iloc[:,0].values
@@ -90,7 +88,7 @@ plt.show()
 
 ## 3. Plot
 
-{% include gallery caption="Figure 2: Three stacked line chart plotted in Python." %}
+{% include gallery caption="Figure 2: Comparison of reported and estimated rice crop area.." %}
 
 -----
 
