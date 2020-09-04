@@ -1,30 +1,29 @@
 ---
 classes: wide
-title: "Python: Side-by-side Bar With Line"
+title: "Python: Comparison of Reported and Estimated Total Damaged Rice Crop"
 header:
-  teaser: images/GraphPlotting/side-by-side-bar-with-line/side-by-side-bar-line.png
+  teaser: /images/GraphPlotting/total-estimated-damages-rice/total-estimated-damages-rice.png
 categories:
   - Python
 gallery:
-  - url: images/GraphPlotting/side-by-side-bar-with-line/data-table.png
-    image_path: images/GraphPlotting/side-by-side-bar-with-line/data-table.png
-    alt: "Data-table-side-by-side-bar-with-line"
-    title: "Figure 1: Data table for side-by-side bar with line."
+  - url: /images/GraphPlotting/total-estimated-damages-rice/data-table.png
+    image_path: /images/GraphPlotting/total-estimated-damages-rice/data-table.png
+    alt: "Data-table-total-damaged-rice-crop"
+    title: "Figure 1: Data table for total damaged rice crop plot."
 gallery1:
-  - url: images/GraphPlotting/side-by-side-bar-with-line/side-by-side-bar-line.png
-    image_path: images/GraphPlotting/side-by-side-bar-with-line/side-by-side-bar-line.png
+  - url: /images/GraphPlotting/total-estimated-damages-rice/total-estimated-damages-rice.png
+    image_path: /images/GraphPlotting/total-estimated-damages-rice/total-estimated-damages-rice.png
     alt: "stacked-bar-line"
-    title: "Figure 2: Side-by-side bar with line graph."
+    title: "Figure 2: Comparison of reported and estimated total damaged rice crop."
 ---
 
-Here I will show how to plot Side-by-side Bar with Line Graph with the code in Python Jupiter Notebook.
-
+Here I will show how to plot side-by-side bar with line graph to show the comparison of reported and estimated total damaged rice crop with the code written in Python Jupiter Notebook.
 
 ## 1. Data Table
 
-Name data table as: `data_table.csv`
+Data source name: `data_table.csv`
 
-{% include gallery caption="Figure 1: Data table for side-by-side bar with line." %}
+{% include gallery caption="Figure 1: Data table for total damaged rice crop plot." %}
 
 ## 2. Code
 
@@ -82,7 +81,7 @@ plt.show()
 
 ## 3. Plot
 
-{% include gallery id="gallery1" caption="Figure 2: Side-by-side bar with line plotted in Python." %}
+{% include gallery id="gallery1" caption="Figure 2: Comparison of reported and estimated total damaged rice crop." %}
 
 -----
 
