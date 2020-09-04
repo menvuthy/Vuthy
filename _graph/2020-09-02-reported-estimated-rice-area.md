@@ -17,7 +17,7 @@ gallery1:
     title: "Figure 2: Comparison of reported and estimated rice crop area."
 ---
 
-Here I will show how to plot Three Stacked Line Graph to show the comparion of reported and estiamted rice crop area with the code written in Python Jupiter Notebook.
+Here I will show how to plot three stacked line graph to show the comparion of reported and estimated rice crop area with the code written in Python Jupiter Notebook.
 
 ## 1. Data Table
 
