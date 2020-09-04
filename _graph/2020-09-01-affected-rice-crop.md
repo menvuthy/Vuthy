@@ -1,31 +1,30 @@
 ---
 classes: wide
-title: "Python: Side-by-side Bar Chart"
+title: "Python: Comparison of Reported and Estimated Affected Rice Crop Area"
 header:
 #   image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: images/GraphPlotting/side-by-side-bar-chart/affected-rice.png
+  teaser: images/GraphPlotting/affected-rice-crop/affected-rice.png
 categories:
   - Python
 gallery:
-  - url: images/GraphPlotting/side-by-side-bar-chart/damage.png
-    image_path: images/GraphPlotting/side-by-side-bar-chart/damage.png
-    alt: "Data-table-side-by-side-bar-chart"
-    title: "Figure 1: Data table for side-by-side bar chart."
+  - url: images/GraphPlotting/affected-rice-crop/data_table.png
+    image_path: images/GraphPlotting/affected-rice-crop/data_table.png
+    alt: "Data-table-affected-rice"
+    title: "Figure 1: Data table for affected rice crop area plot."
 gallery1:
-  - url: images/GraphPlotting/side-by-side-bar-chart/affected-rice.png
-    image_path: images/GraphPlotting/side-by-side-bar-chart/affected-rice.png
-    alt: "side-by-side-bar-chart"
-    title: "Figure 2: Side-by-side bar chart."
+  - url: images/GraphPlotting/affected-rice-crop/affected-rice.png
+    image_path: images/GraphPlotting/affected-rice-crop/affected-rice.png
+    alt: "affected-rice-crop"
+    title: "Figure 2: Comparison of reported and estimated affected rice crop area."
 ---
 
-Here I will show how to plot Side-by-side Stacked Line Graph with the code in Python Jupiter Notebook.
-
+Here I will show how to plot side-by-side stacked line graph to show the comparison of reported and estimated affected rice crop area with the code written in Python Jupiter Notebook.
 
 ## 1. Data Table
 
-Name data table as: `damage.csv`
+Data source name: `data_table.csv`
 
-{% include gallery caption="Figure 1: Data table for side-by-side bar chart." %}
+{% include gallery caption="Figure 1: Data table for affected rice crop area plot." %}
 
 ## 2. Code
 
@@ -40,7 +39,7 @@ from matplotlib import rc
 plt.rcParams["font.family"] = "Arial"
 
 # import data table
-df = pd.read_csv('damage.csv')
+df = pd.read_csv('data_table.csv')
 
 # assign values
 xl = np.arange(len(df))
@@ -76,7 +75,7 @@ plt.show()
 
 ## 3. Plot
 
-{% include gallery id="gallery1" caption="Figure 2: Side-by-side bar chart plotted in Python." %}
+{% include gallery id="gallery1" caption="Figure 2: Comparison of reported and estimated affected rice crop area." %}
 
 -----
 

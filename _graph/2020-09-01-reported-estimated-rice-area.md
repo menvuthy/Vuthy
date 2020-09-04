@@ -1,11 +1,10 @@
 ---
 classes: wide
-title: "Python: Comparison of reported and estimated rice crop area."
+title: "Python: Comparison of Reported and Estimated Rice Crop Area."
 header:
   teaser: images/GraphPlotting/reported-estimated-rice-area/reported-estimated-rice-area.jpg
 categories:
   - Python
-# last_modified_at: 2020-08-12
 gallery:
   - url: images/GraphPlotting/reported-estimated-rice-area/dt-reported-estimated-rice-area.png
     image_path: images/GraphPlotting/reported-estimated-rice-area/dt-reported-estimated-rice-area.png
@@ -20,12 +19,11 @@ gallery1:
 
 Here I will show how to plot Three Stacked Line Graph to show the comparion of reported and estiamted rice crop area with the code written in Python Jupiter Notebook.
 
-
 ## 1. Data Table
 
 Data source name: `data_table.csv`
 
-{% include gallery id="gallery1" caption="Figure 1: Data table for three stacked line chart." %}
+{% include gallery id="gallery1" caption="Figure 1: Data table for reported and estimated rice crop area plot." %}
 
 ## 2. Code
 
