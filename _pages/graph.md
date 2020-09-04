@@ -6,6 +6,7 @@ collection: graph
 header:
   overlay_image: /images/GraphPlotting/graphplotting-head.jpg
 entries_layout: grid
+author_profile: true
 classes: wide
 ---
 
