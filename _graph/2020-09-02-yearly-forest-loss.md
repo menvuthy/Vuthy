@@ -1,31 +1,29 @@
 ---
 classes: wide
-title: "Python: Bar Chart with Line"
+title: "Python: Yearly Forest Loss"
 header:
-#   image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: /images/GraphPlotting/bar-chart-with-line/yearly-loss.png
+  teaser: images/GraphPlotting/yearly-forest-loss/yearly-loss.png
 categories:
   - Python
 gallery:
-  - url: /images/GraphPlotting/bar-chart-with-line/bar-chart-with-line.png
-    image_path: /images/GraphPlotting/bar-chart-with-line/bar-chart-with-line.png
-    alt: "Data-table-bar-chart-"
-    title: "Figure 1: Data table for bar chart with line."
+  - url: /images/GraphPlotting/yearly-forest-loss/data_table.png
+    image_path: /images/GraphPlotting/yearly-forest-loss/data_table.png
+    alt: "data-table-yearly-forest-loss"
+    title: "Figure 1: Data table for yearly forest loss plot."
 gallery1:
-  - url: /images/GraphPlotting/bar-chart-with-line/yearly-loss.png
-    image_path: /images/GraphPlotting/bar-chart-with-line/yearly-loss.png
-    alt: "bar-chart-with-line"
-    title: "Figure 2: Bar chart with line."
+  - url: images/GraphPlotting/yearly-forest-loss/yearly-loss.png
+    image_path: images/GraphPlotting/yearly-forest-loss/yearly-loss.png
+    alt: "yearly-forest-loss"
+    title: "Figure 2: Yearly forest loss in Cambodia."
 ---
 
-Here I will show how to plot Bar Chart With Line Graph with the code in Python Jupiter Notebook.
-
+Here I will show how to plot bar chart with line graph to show the yearly forest loss in Cambodia with the code written in Python Jupiter Notebook.
 
 ## 1. Data Table
 
-Name data table as: `yearly-loss.csv`
+Data source name: `yearly-loss.csv`
 
-{% include gallery layout="half" caption="Figure 1: Data table for bar chart with line." %}
+{% include gallery layout="half" caption="Figure 1: Data table for yearly forest loss plot." %}
 
 ## 2. Code
 
@@ -98,7 +96,7 @@ plt.show()
 
 ## 3. Plot
 
-{% include gallery id="gallery1" caption="Figure 2: Bar chart with line plotted in Python." %}
+{% include gallery id="gallery1" caption="Figure 2: Yearly forest loss in Cambodia." %}
 
 -----
 
