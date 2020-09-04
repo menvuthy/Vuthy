@@ -23,7 +23,7 @@ Here I will show how to plot three stacked line graph to show the comparion of r
 
 Data source name: `data_table.csv`
 
-{% include gallery id="gallery1" caption="Figure 1: Data table for reported and estimated rice crop area plot." %}
+{% include gallery caption="Figure 1: Data table for reported and estimated rice crop area plot." %}
 
 ## 2. Code
 
@@ -86,7 +86,7 @@ plt.show()
 
 ## 3. Plot
 
-{% include gallery caption="Figure 2: Comparison of reported and estimated rice crop area.." %}
+{% include gallery id="gallery1" caption="Figure 2: Comparison of reported and estimated rice crop area.." %}
 
 -----
 
