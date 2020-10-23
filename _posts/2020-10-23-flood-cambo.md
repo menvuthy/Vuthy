@@ -188,6 +188,6 @@ Even though various data were collected and described in Figure 1 by NCDM, the a
 {% include gallery id="Svayrieng" caption="Figure 12: Image of Sentinel-1 SAR and detected flooding area in Svay Rieng." %}
 
 ### Prey Veng
-{% include gallery id="Preyveng" caption="Figure 12: Image of Sentinel-1 SAR and detected flooding area in Prey Veng." %}
+{% include gallery id="Preyveng" caption="Figure 13: Image of Sentinel-1 SAR and detected flooding area in Prey Veng." %}
 
 Source code is available at: [GitHub](https://github.com/menvuthy/Code_Collection.git)
