@@ -86,6 +86,15 @@ Pursat:
     image_path: /images/flood-cambo/Pursat.jpg
     alt: "detected-water"
     title: "Figure 7b: Detected flooding area in Pursat."
+Kampong Chhnang:
+  - url: /images/flood-cambo/Kampong Chhnang_VV.jpg
+    image_path: /images/flood-cambo/Kampong Chhnang_VV.jpg
+    alt: "sentinel-1-sar-image"
+    title: "Figure 8a: Image of Sentinel-1 SAR in Kampong Chhnang."
+  - url: /images/flood-cambo/Kampong Chhnangrsat.jpg
+    image_path: /images/flood-cambo/Kampong Chhnang.jpg
+    alt: "detected-water"
+    title: "Figure 8b: Detected flooding area in Kampong Chhnang."
 ---
 
 Heavy rain lashed Cambodia for over two weeks in October 2020, flooding 18 provinces and Phnom Pench city. According to figures reported by National Committee for Disaster Management in Cambodia from 1st to 19th October, 25 people were reported dead in the floods, about 300,000 people or 78,000 families were affected, and about 37,000 people or 9,000 families were displaced to safer zones. In addition, flood has also destroyed 56 houses and affected over 73,000 houses, while 568 schools were inundated. In this flood event, at least 80,000 ha crops and 210,000 ha paddy fields were inundated, whereas theirs damages has not been so far reported. On the other hand, many national and provincial roads were severely impacted by the effects of this prolonged flood.
@@ -117,5 +126,8 @@ Even though various data were collected and described in Figure 1 by NCDM, the a
 
 ### Pursat
 {% include gallery id="Pursat" caption="Figure 7: Image of Sentinel-1 SAR and detected flooding area in Pursat." %}
+
+### Kampong Chhnang
+{% include gallery id="Kampongchhnang" caption="Figure 8: Image of Sentinel-1 SAR and detected flooding area in Kampong Chhnang." %}
 
 Source code is available at: [GitHub](https://github.com/menvuthy/Code_Collection.git)
