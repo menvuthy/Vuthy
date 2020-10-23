@@ -1,7 +1,7 @@
 ---
 classes: wide
-title: "Sentinel-1 SAR: Cambodia's Flood in October 2020"
-tagline: "This is a quick way to detect and extract the inundation area for analysis based on the Sentinel-1 SAR GRD image by using Earth Engine."
+title: "Sentinel-1 SAR: Cambodia Flood in October 2020"
+tagline: "This is a quick way to detect and extract the inundation area for analysis based on the Sentinel-1 SAR GRD images by using Earth Engine."
 header:
   overlay_image: /images/flood-cambo/Homepage.jpg
   teaser: /images/flood-cambo/Homepage.jpg
