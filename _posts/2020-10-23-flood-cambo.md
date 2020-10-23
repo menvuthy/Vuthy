@@ -221,7 +221,7 @@ Visualizing the Sentinel-1 SAR images, dectecting waterbody, and extracting it f
 
 **1. Visualizing the Sentinel-1 SAR GRD images**
 
-The platform to run the script is [CodeGEE](code.earthengine.google.com). Filter the collection of Sentinel-1 SAR GRU images for the VV and VH product from the descending track. Filter the date of interest, and add image layer into the map by clipping only Cambodia boundary. Here I used only VV products to analyze the waterbody. VH product can also be used; however, threshold value for determining the waterbody may be slightly different from VH product.
+The platform to run the script is [CodeGEE](https://code.earthengine.google.com). Filter the collection of Sentinel-1 SAR GRU images for the VV and VH product from the descending track. Filter the date of interest, and add image layer into the map by clipping only Cambodia boundary. Here I used only VV products to analyze the waterbody. VH product can also be used; however, threshold value for determining the waterbody may be slightly different from VH product.
 {: style="text-align: justify;"}
 
 ```yaml
@@ -319,7 +319,7 @@ I hope this instruction can be useful for engineering student or young professio
 Thank you!
 
 **Related websites**
-1. [Code Platform of Google Earth Engine](code.earthengine.google.com)
+1. [Code Platform of Google Earth Engine](https://code.earthengine.google.com)
 
 -----
 
