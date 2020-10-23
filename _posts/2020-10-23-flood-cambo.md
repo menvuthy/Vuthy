@@ -41,38 +41,16 @@ gallery2:
     image_path: /images/flood-cambo/Inundation Area.jpg
     alt: "extracted-water"
     title: "Figure 2c: Extracted flooding area."
+Phnompenh:
+  - url: /images/flood-cambo/Phnom Penh_VV.jpg
+    image_path: /images/flood-cambo/Phnom Penh_VV.jpg
+    alt: "sentinel-1-sar-image"
+    title: "Figure 3a: Image of Sentinel-1 SAR in Phnom Penh."
+  - url: /images/flood-cambo/Phnom Penh.jpg
+    image_path: /images/flood-cambo/Phnom Penh.jpg
+    alt: "detected-water"
+    title: "Figure 3b: Detected flooding area in Phnom Penh."
 
-# gallery2:
-#   - url: /images/forest-cambo/FCL-Cambo.jpg
-#     image_path: /images/forest-cambo/FCL-Cambo.jpg
-#     alt: "FCL-Cambo"
-#     title: "Figure 3a: Forest Cover Loss in Cambodia, 2000-2019."
-#   - url: /images/forest-cambo/FCL-TonleSap.jpg
-#     image_path: /images/forest-cambo/FCL-TonleSap.jpg
-#     alt: "FCL-TonleSap"
-#     title: "Figure 3b: Forest Cover Loss in Tonle Sap Area, 2000-2019."
-#   - url: /images/forest-cambo/FCL-TechoSen.jpg
-#     image_path: /images/forest-cambo/FCL-TechoSen.jpg
-#     alt: "FCL-TechoSen"
-#     title: "Figure 3c: Forest Cover Loss in Techo Sen Reussey Treb Park, 2000-2019."
-#   - url: /images/forest-cambo/FCL-KhnangPsa.jpg
-#     image_path: /images/forest-cambo/FCL-KhnangPsa.jpg
-#     alt: "FCL-KhnangPsa"
-#     title: "Figure 3d: Forest Cover Loss in Khnang Psa Mountain, 2000-2019."
-# gallery3:
-#   - url: /images/forest-cambo/gain.jpg
-#     image_path: /images/forest-cambo/gain.jpg
-#     alt: "gain"
-#     title: "Figure 4a: Forest Gain in Cambodia, 2000-2012."
-#   - url: /images/forest-cambo/gain_neTSL.jpg
-#     image_path: /images/forest-cambo/gain_neTSL.jpg
-#     alt: "gain_neTSL"
-#     title: "Figure 4b: Forest Gain in Northeastern Tonle Sap Lake area, 2000-2012."
-# gallery4:
-#   - url: /images/forest-cambo/yearlyforest.jpg
-#     image_path: /images/forest-cambo/yearlyforest.jpg
-#     alt: "yearly-forest"
-#     title: "Figure 5: Yearly Forest Cover and Loss Estimation."
 ---
 
 Heavy rain lashed Cambodia for over a week in October 2020, flooding 18 provinces and Phnom Pench city. According to figures reported by National Committee for Disaster Management in Cambodia from 1st to 19th October, 25 people were reported dead in the floods, about 300,000 people or 78,000 families were affected, and about 37,000 people or 9,000 families were displaced to safer zones. In addition, flood has also destroyed 56 houses and affected over 73,000 houses, while 568 schools were inundated. In this flood event, at least 80,000 ha crops and 210,000 ha paddy fields were inundated, whereas theirs damages has not been so far reported. On the other hand, many national and provincial roads were severely impacted by the effects of this prolonged flood.
@@ -88,7 +66,9 @@ Even though various data were collected and described in Figure 1 by NCDM, the a
 {% include gallery id="gallery1" %}
 {% include gallery id="gallery2" caption="Figure 2: (a) Sentinel-1 SAR Image of Cambodia from 15-20 October 2020. (b) Detected flooding area. (c) Extracted flooding area." %}
 
-## Overview of Inundation Area by Provinces
+## Overview of Inundation Area by City and Provinces
 
+### Phnom Penh City
+{% include gallery id="Phnompenh" caption="Figure 3: Image of Sentinel-1 SAR and detected flooding area in Phnom Penh." %}
 
 Source code is available at: [GitHub](https://github.com/menvuthy/Code_Collection.git)
