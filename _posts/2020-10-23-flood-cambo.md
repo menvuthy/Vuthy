@@ -170,6 +170,8 @@ Even though various data were collected and described in Figure 1 by NCDM, the a
 3. Extract and export the image of inundation area as a GeoTIFF or Raster format from the cloud storage of Google Earth Engine.
 {: style="text-align: justify;"}
 
+This map will serves practitioners, policy makers or engineers as an important information for developing strategy to effectively mitigate flood impact under uncertain climate in the future.
+
 ## Overview of Inundation Area in Cambodia
 
 {% include gallery id="gallery1" %}
