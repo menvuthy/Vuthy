@@ -173,6 +173,7 @@ Even though various data were collected and described in Figure 1 by NCDM, the a
 This map will serves practitioners, policy makers or engineers as an important information for developing strategy to effectively mitigate flood impact under uncertain climate in the future.
 {: style="text-align: justify;"}
 
+-----
 ## Overview of Inundation Area in Cambodia
 
 {% include gallery id="gallery1" %}
@@ -217,7 +218,6 @@ This map will serves practitioners, policy makers or engineers as an important i
 {% include gallery id="Sihanoukville" caption="Figure 14: Image of Sentinel-1 SAR and detected flooding area in Preah Sihanouk." %}
 
 -----
-
 ## Methodology
 
 Visualizing the Sentinel-1 SAR images, dectecting waterbody, and extracting it for other analysis can be performed in Google Earth Engine and QGIS by using EE Python API. Therefore, it is important to equip with some background on programming language and QGIS application. Below, I will instruct a few steps on how to visualize the images, detect waterbody and extract inundation area for other computation and analysis.
@@ -316,7 +316,6 @@ Export.image.toDrive({
 {: .notice--success}
 
 -----
-
 ## Comment
 
 I hope this instruction can be useful for engineering student or young professional who may need this lesson to work on their project. For the whole workflow, you may contact me directly. If you have any questions or suggestions, please feel free to let me know.
