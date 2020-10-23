@@ -74,7 +74,7 @@ Heavy rain lashed Cambodia for over a week in October 2020, flooding 18 province
 
 {% include gallery caption="Figure 1: Report and data summary on flood impact in 2020 in Cambodia." %}
 
-
+Even though various data were collected and described in Figure 1 by NCDM, the area of flooding which shows the extend and location of flooding has remained unofficially published by any related institutions. Therefore, I would like to reveal a quick method to detect and extract the inundated area based on Sentinel-1 SAR GRD images by using Google Earth Engine in QGIS application.
 
 
 Source code is available at: [GitHub](https://github.com/menvuthy/Code_Collection.git)
