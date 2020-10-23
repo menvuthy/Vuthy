@@ -27,15 +27,21 @@ gallery:
     image_path: /images/flood-cambo/report-3.jpg
     alt: "casaulties-table"
     title: "Figure 1b: Data table of casaulties caused by flood in 2020."
-# gallery1:
-#   - url: /images/forest-cambo/FC-2000.jpg
-#     image_path: /images/forest-cambo/FC-2000.jpg
-#     alt: "Forest Cover in 2000"
-#     title: "Figure 2a: Forest Cover in 2000."
-#   - url: /images/forest-cambo/FC-2019.jpg
-#     image_path: /images/forest-cambo/FC-2019.jpg
-#     alt: "Forest Cover in 2019"
-#     title: "Figure 2b: Forest Cover in 2019."
+gallery1:
+  - url: /images/flood-cambo/Inundation Area_VV.jpg
+    image_path: /images/flood-cambo/Inundation Area_VV.jpg
+    alt: "Sentinel-1 SAR Image"
+    title: "Figure 2a: Sentinel-1 SAR Image of Cambodia from 15-20 October 2020."
+gallery2:
+  - url: /images/flood-cambo/Inundation Area_VV_Flood.jpg
+    image_path: /images/flood-cambo/Inundation Area_VV_Flood.jpg
+    alt: "detected-water"
+    title: "Figure 2b: Detected flooding area."
+  - url: /images/flood-cambo/Inundation Area_VV_Flood.jpg
+    image_path: /images/flood-cambo/Inundation Area_VV_Flood.jpg
+    alt: "extracted-water"
+    title: "Figure 2c: Extracted flooding area."
+
 # gallery2:
 #   - url: /images/forest-cambo/FCL-Cambo.jpg
 #     image_path: /images/forest-cambo/FCL-Cambo.jpg
@@ -75,6 +81,12 @@ Heavy rain lashed Cambodia for over a week in October 2020, flooding 18 province
 {% include gallery caption="Figure 1: Report and data summary on flood impact in 2020 in Cambodia." %}
 
 Even though various data were collected and described in Figure 1 by NCDM, the area of flooding which shows the extend and location of flooding has remained unofficially published by any related institutions. Therefore, I would like to reveal a quick method to detect and extract the inundated area based on Sentinel-1 SAR GRD images by using Google Earth Engine in QGIS application.
+{: style="text-align: justify;"}
+
+## Overview of Inundation Area in Cambodia
+
+{% include gallery id="gallery1" %}
+{% include gallery id="gallery2" caption="Figure 2: (a) Sentinel-1 SAR Image of Cambodia from 15-20 October 2020. (b) Detected flooding area. (c) Extracted flooding area." %}
 
 
 Source code is available at: [GitHub](https://github.com/menvuthy/Code_Collection.git)
