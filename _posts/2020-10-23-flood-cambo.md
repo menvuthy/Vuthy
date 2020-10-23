@@ -78,8 +78,8 @@ Battambang:
     alt: "detected-water"
     title: "Figure 6b: Detected flooding area in Battambang."
 Pursat:
-  - url: /images/flood-cambo/Pursat.jpg
-    image_path: /images/flood-cambo/Pursat.jpg
+  - url: /images/flood-cambo/Pursat_VV.jpg
+    image_path: /images/flood-cambo/Pursat_VV.jpg
     alt: "sentinel-1-sar-image"
     title: "Figure 7a: Image of Sentinel-1 SAR in Pursat."
   - url: /images/flood-cambo/Pursat.jpg
@@ -97,7 +97,7 @@ Kampongchhnang:
     title: "Figure 8b: Detected flooding area in Kampong Chhnang."
 Kampongthom:
   - url: /images/flood-cambo/Kampong Thom_VV.jpg
-    image_path: /images/flood-cambo/Kampong Thom.jpg
+    image_path: /images/flood-cambo/Kampong Thom_VV.jpg
     alt: "sentinel-1-sar-image"
     title: "Figure 9a: Image of Sentinel-1 SAR in Kampong Thom."
   - url: /images/flood-cambo/Kampong Thom.jpg
@@ -220,6 +220,7 @@ Visualizing the Sentinel-1 SAR images, dectecting waterbody, and extracting it f
 {: style="text-align: justify;"}
 
 **1. Visualizing the Sentinel-1 SAR GRD images**
+
 The platform to run the script is [CodeGEE](code.earthengine.google.com). Filter the collection of Sentinel-1 SAR GRU images for the VV and VH product from the descending track. Filter the date of interest, and add image layer into the map by clipping only Cambodia boundary. Here I used only VV products to analyze the waterbody. VH product can also be used; however, threshold value for determining the waterbody may be slightly different from VH product.
 {: style="text-align: justify;"}
 
@@ -258,7 +259,8 @@ Map.addLayer(image.clip(roi), {min: -25, max: 5}, 'Image_VV');
 ```
 
 **2. Detecting inundation area**
-The threshold value to differentiate the waterbody from the image is determined from the value of frequency value of VV. The value in the first peak area are generally considered as water value, while other high frequency value represents other types of classification including building, road, bared soil, crops, and forest. In order to compute, the scale should be set based on the size of the region of interest. The smaller the ROI is, the smaller the scale is. In the Cambodia scale, I set 500 for resolution scale as the lower scale might not work due to the limition in GEE cloud.
+
+The threshold value to differentiate the waterbody from the image is determined from the value of frequency value of VV. The value in the first peak area are generally considered as water value, while other high frequency value represents other types of classification including building, road, bared soil, crops, and forest. In order to compute, the scale should be set based on the size of the region of interest. The smaller the ROI is, the smaller the scale is. In the Cambodia scale, 500 resolution is set due to the fact that the higher resolution might not work due to the limition in GEE cloud when it comes to exporting.
 {: style="text-align: justify;"}
 
 ```yaml
@@ -279,7 +281,46 @@ print(Chart.image.histogram(image, roi, 500));
 ```
 {% include gallery id="gallery3" caption="Figure 15: Histogram of VV showing the value for differnt type of landuse." %}
 
+**3. Extract and export the image of inundation area**
 
+The image pixels are classified as waterbody where theirs VV values are less than the threshold defined in Step 2, and the classified area can be extracted by masking the non-water area and clipped for Cambodia boundary. The classified image can be then exported as GeoTIFF by setting high maxPixels following the size of the region of interest. By running the code below in GEE, the result of inundation area as GeoTIFF file will be stored in the Google drive.
+{: style="text-align: justify;"}
 
+**Notice:** The smaller scale, the higher maxPixels.
+{: .notice--success}
+
+```yaml
+---
+// Chart the histogram
+print(Chart.image.histogram(image, roi, 500));
+
+// Classify the Image
+var flood = image.lt(-15);
+Map.addLayer(flood.mask(flood).clip(roi), {palette: 'blue'}, 'Flood');
+
+Export.image.toDrive({
+  image: flood.mask(flood).clip(roi),
+  description: 'FloodMap_2',
+  scale: 10,
+  region: roi,
+  maxPixels:4000000000000
+});
+---
+```
+
+**Notice:** In order to achieve similar result in QGIS, the script described above shall be converted into EE Python API.
+{: .notice--success}
+
+## Comment
+
+I hope this instruction can be useful for engineering student or young professional who may need this lesson to work on their project. For the whole workflow, you may contact me directly. If you have any questions or suggestions, please feel free to let me know.
+{: style="text-align: justify;"}
+
+Thank you!
+
+**Related websites**
+1. [Code Platform of Google Earth Engine](code.earthengine.google.com)
+
+-----
 
 Source code is available at: [GitHub](https://github.com/menvuthy/Code_Collection.git)
