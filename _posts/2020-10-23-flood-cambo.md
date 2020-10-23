@@ -153,7 +153,7 @@ gallery3:
   - url: /images/flood-cambo/Threshold.png
     image_path: /images/flood-cambo/Threshold.png
     alt: "threshold"
-    title: "Figure 15: Histogram of VV showing the value for differnt type of landuse."
+    title: "Figure 15: Histogram of VV showing the value for different type of landuse."
 
 ---
 
@@ -279,7 +279,7 @@ var histogram = image.reduceRegion({
 print(Chart.image.histogram(image, roi, 500));
 ---
 ```
-{% include gallery id="gallery3" caption="Figure 15: Histogram of VV showing the value for differnt type of landuse." %}
+{% include gallery id="gallery3" caption="Figure 15: Histogram of VV showing the value for different type of landuse." %}
 
 **3. Extract and export the image of inundation area**
 
