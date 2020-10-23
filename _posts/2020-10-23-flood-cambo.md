@@ -37,8 +37,8 @@ gallery2:
     image_path: /images/flood-cambo/Inundation Area_VV_Flood.jpg
     alt: "detected-water"
     title: "Figure 2b: Detected flooding area."
-  - url: /images/flood-cambo/Inundation Area_VV_Flood.jpg
-    image_path: /images/flood-cambo/Inundation Area_VV_Flood.jpg
+  - url: /images/flood-cambo/Inundation Area.jpg
+    image_path: /images/flood-cambo/Inundation Area.jpg
     alt: "extracted-water"
     title: "Figure 2c: Extracted flooding area."
 
