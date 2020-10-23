@@ -86,7 +86,7 @@ Pursat:
     image_path: /images/flood-cambo/Pursat.jpg
     alt: "detected-water"
     title: "Figure 7b: Detected flooding area in Pursat."
-Kampong Chhnang:
+Kampongchhnang:
   - url: /images/flood-cambo/Kampong Chhnang_VV.jpg
     image_path: /images/flood-cambo/Kampong Chhnang_VV.jpg
     alt: "sentinel-1-sar-image"
@@ -129,5 +129,8 @@ Even though various data were collected and described in Figure 1 by NCDM, the a
 
 ### Kampong Chhnang
 {% include gallery id="Kampongchhnang" caption="Figure 8: Image of Sentinel-1 SAR and detected flooding area in Kampong Chhnang." %}
+
+### Kampong Thom
+{% include gallery id="Kampongthom" caption="Figure 8: Image of Sentinel-1 SAR and detected flooding area in Kampong Thom." %}
 
 Source code is available at: [GitHub](https://github.com/menvuthy/Code_Collection.git)
