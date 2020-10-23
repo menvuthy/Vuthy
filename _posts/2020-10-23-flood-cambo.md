@@ -171,6 +171,7 @@ Even though various data were collected and described in Figure 1 by NCDM, the a
 {: style="text-align: justify;"}
 
 This map will serves practitioners, policy makers or engineers as an important information for developing strategy to effectively mitigate flood impact under uncertain climate in the future.
+{: style="text-align: justify;"}
 
 ## Overview of Inundation Area in Cambodia
 
