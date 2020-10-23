@@ -104,7 +104,15 @@ Kampongthom:
     image_path: /images/flood-cambo/Kampong Thom.jpg
     alt: "detected-water"
     title: "Figure 9b: Detected flooding area in Kampong Thom."
-
+Stungtreng:
+  - url: /images/flood-cambo/Stung Treng_VV.jpg
+    image_path: /images/flood-cambo/Stung Treng.jpg
+    alt: "sentinel-1-sar-image"
+    title: "Figure 10a: Image of Sentinel-1 SAR in Stung Treng."
+  - url: /images/flood-cambo/Stung Treng.jpg
+    image_path: /images/flood-cambo/Stung Treng.jpg
+    alt: "detected-water"
+    title: "Figure 10b: Detected flooding area in Stung Treng."
 ---
 
 Heavy rain lashed Cambodia for over two weeks in October 2020, flooding 18 provinces and Phnom Pench city. According to figures reported by National Committee for Disaster Management in Cambodia from 1st to 19th October, 25 people were reported dead in the floods, about 300,000 people or 78,000 families were affected, and about 37,000 people or 9,000 families were displaced to safer zones. In addition, flood has also destroyed 56 houses and affected over 73,000 houses, while 568 schools were inundated. In this flood event, at least 80,000 ha crops and 210,000 ha paddy fields were inundated, whereas theirs damages has not been so far reported. On the other hand, many national and provincial roads were severely impacted by the effects of this prolonged flood.
@@ -142,5 +150,8 @@ Even though various data were collected and described in Figure 1 by NCDM, the a
 
 ### Kampong Thom
 {% include gallery id="Kampongthom" caption="Figure 9: Image of Sentinel-1 SAR and detected flooding area in Kampong Thom." %}
+
+### Stung Treng
+{% include gallery id="Stungtreng" caption="Figure 9: Image of Sentinel-1 SAR and detected flooding area in Stung Treng." %}
 
 Source code is available at: [GitHub](https://github.com/menvuthy/Code_Collection.git)
