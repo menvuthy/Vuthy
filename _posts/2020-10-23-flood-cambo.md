@@ -216,6 +216,7 @@ This map will serves practitioners, policy makers or engineers as an important i
 ### Preah Sihanouk
 {% include gallery id="Sihanoukville" caption="Figure 14: Image of Sentinel-1 SAR and detected flooding area in Preah Sihanouk." %}
 
+-----
 
 ## Methodology
 
@@ -313,6 +314,8 @@ Export.image.toDrive({
 
 **Notice:** In order to achieve similar result in QGIS, the script described above shall be converted into EE Python API.
 {: .notice--success}
+
+-----
 
 ## Comment
 
