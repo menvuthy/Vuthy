@@ -54,20 +54,38 @@ Siemreap:
   - url: /images/flood-cambo/Siem Reap_VV.jpg
     image_path: /images/flood-cambo/Siem Reap_VV.jpg
     alt: "sentinel-1-sar-image"
-    title: "Figure 3a: Image of Sentinel-1 SAR in Siem Reap."
+    title: "Figure 4a: Image of Sentinel-1 SAR in Siem Reap."
   - url: /images/flood-cambo/Siem Reap.jpg
     image_path: /images/flood-cambo/Siem Reap.jpg
     alt: "detected-water"
-    title: "Figure 3b: Detected flooding area in Siem Reap."
+    title: "Figure 4b: Detected flooding area in Siem Reap."
 Banteaymeanchey:
   - url: /images/flood-cambo/Banteay Meanchey_VV.jpg
     image_path: /images/flood-cambo/Banteay Meanchey_VV.jpg
     alt: "sentinel-1-sar-image"
-    title: "Figure 3a: Image of Sentinel-1 SAR in Banteay Meanchey."
+    title: "Figure 5a: Image of Sentinel-1 SAR in Banteay Meanchey."
   - url: /images/flood-cambo/Banteay Meanchey.jpg
     image_path: /images/flood-cambo/Banteay Meanchey.jpg
     alt: "detected-water"
-    title: "Figure 3b: Detected flooding area in Banteay Meanchey."
+    title: "Figure 5b: Detected flooding area in Banteay Meanchey."
+Battambang:
+  - url: /images/flood-cambo/Battambang_VV.jpg
+    image_path: /images/flood-cambo/Battambang_VV.jpg
+    alt: "sentinel-1-sar-image"
+    title: "Figure 6a: Image of Sentinel-1 SAR in Battambang."
+  - url: /images/flood-cambo/Battambang.jpg
+    image_path: /images/flood-cambo/Battambang.jpg
+    alt: "detected-water"
+    title: "Figure 6b: Detected flooding area in Battambang."
+Pursat:
+  - url: /images/flood-cambo/Pursat.jpg
+    image_path: /images/flood-cambo/Pursat.jpg
+    alt: "sentinel-1-sar-image"
+    title: "Figure 7a: Image of Sentinel-1 SAR in Pursat."
+  - url: /images/flood-cambo/Pursat.jpg
+    image_path: /images/flood-cambo/Pursat.jpg
+    alt: "detected-water"
+    title: "Figure 7b: Detected flooding area in Pursat."
 ---
 
 Heavy rain lashed Cambodia for over two weeks in October 2020, flooding 18 provinces and Phnom Pench city. According to figures reported by National Committee for Disaster Management in Cambodia from 1st to 19th October, 25 people were reported dead in the floods, about 300,000 people or 78,000 families were affected, and about 37,000 people or 9,000 families were displaced to safer zones. In addition, flood has also destroyed 56 houses and affected over 73,000 houses, while 568 schools were inundated. In this flood event, at least 80,000 ha crops and 210,000 ha paddy fields were inundated, whereas theirs damages has not been so far reported. On the other hand, many national and provincial roads were severely impacted by the effects of this prolonged flood.
@@ -93,5 +111,11 @@ Even though various data were collected and described in Figure 1 by NCDM, the a
 
 ### Banteay Meanchey
 {% include gallery id="Banteaymeanchey" caption="Figure 5: Image of Sentinel-1 SAR and detected flooding area in Banteay Meanchey." %}
+
+### Battambang
+{% include gallery id="Battambang" caption="Figure 6: Image of Sentinel-1 SAR and detected flooding area in Battambang." %}
+
+### Pursat
+{% include gallery id="Pursat" caption="Figure 7: Image of Sentinel-1 SAR and detected flooding area in Pursat." %}
 
 Source code is available at: [GitHub](https://github.com/menvuthy/Code_Collection.git)
