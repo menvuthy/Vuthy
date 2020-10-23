@@ -156,7 +156,12 @@ Heavy rain lashed Cambodia for over two weeks in October 2020, flooding 18 provi
 
 {% include gallery caption="Figure 1: Report and data summary on flood impact in 2020 in Cambodia." %}
 
-Even though various data were collected and described in Figure 1 by NCDM, the area of flooding which shows the extend and location of flooding has remained unofficially published by any related institutions. Therefore, I would like to reveal a quick method to detect and extract the inundated area based on Sentinel-1 SAR GRD images by using Google Earth Engine in QGIS application.
+Even though various data were collected and described in Figure 1 by NCDM, the area of flooding which shows the extend and location of flooding has remained unofficially published by any related institutions. Therefore, I would like to reveal a quick method to detect and extract the inundated area based on Sentinel-1 SAR GRD images by using Google Earth Engine in QGIS application. The objectives are as follows:
+{: style="text-align: justify;"}
+
+1. Visualize the Sentinel-1 SAR GRD images of Cambodia from 15th to 20th October 2020 which is the most servere flooding period in the region. 
+2. Detect inundation area in the images by setting a specific threshold value for waterbody.
+3. Extract and export the image of inundation area as a GeoTIFF or Raster format from the cloud storage of Google Earth Engine.
 {: style="text-align: justify;"}
 
 ## Overview of Inundation Area in Cambodia
@@ -199,9 +204,12 @@ Even though various data were collected and described in Figure 1 by NCDM, the a
 ### Prey Veng
 {% include gallery id="Preyveng" caption="Figure 13: Image of Sentinel-1 SAR and detected flooding area in Prey Veng." %}
 
-<!-- ### Preah Sihanouk
-{% include gallery id="Sihanoukville" caption="Figure 14: Image of Sentinel-1 SAR and detected flooding area in Preah Sihanouk." %} -->
+### Preah Sihanouk
+{% include gallery id="Sihanoukville" caption="Figure 14: Image of Sentinel-1 SAR and detected flooding area in Preah Sihanouk." %}
 
 
+## Methodology
+
+Visualizing the Sentinel-1 SAR images, dectecting waterbody, and extracting it for other analysis can be performed in Google Earth Engine and QGIS by using EE Python API. Therefore, it is important to equip with some background on programming language and QGIS application. Below, I will instruct a few steps on how to visualize the images, detect waterbody and extract inundation area for other computation and analysis.
 
 Source code is available at: [GitHub](https://github.com/menvuthy/Code_Collection.git)
