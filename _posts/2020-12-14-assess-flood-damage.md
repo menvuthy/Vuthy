@@ -78,8 +78,18 @@ gallery11:
     image_path: /images/assess-flood-damage/dm-cpt.png
     alt: "dm-cpt"
     title: "Figure 11: Result summary of rice crop damage under the past and the present cropping patterns from 2-y to 200-y return period floods."    
+gallery12:
+  - url: /images/assess-flood-damage/dm-clm.png
+    image_path: /images/assess-flood-damage/dm-clm.png
+    alt: "dm-clm.png"
+    title: "Figure 12: Flood damage on early, medium and late rice crop under climate change impact."  
+gallery13:
+  - url: /images/assess-flood-damage/dm-clm-map.png
+    image_path: /images/assess-flood-damage/dm-clm-map.png
+    alt: "dm-clm-map.png"
+    title: "Figure 13: Map of damaged paddy area under the impact of climate change"
 ---
-## I. Introduction
+## Introduction
 Rice crops are mainly categorized into early, medium and late variety, and they are differently damaged by flood depending on its growth characteristic, productivity, and value.
 {: style="text-align: justify;"}
 
@@ -108,7 +118,7 @@ This study enriches more understanding on how early, medium and late rice crops 
 {: style="text-align: justify;"}
 
 -----
-## II. Study area and field survey
+## Study area and field survey
 
 **1. Study Area**
 
@@ -126,7 +136,7 @@ Target farmers: those who had experienced the rice crop damages caused by floo
 {: style="text-align: justify;"}
 {% include gallery id="gallery3" caption="Figure 4: Field survey activities with local farmers in the flood affected area in Pursat Province." %}
 
-## III. Methodology
+## Methodology
 
 Figure 5 shows the conceptual framework of this study.
 {: style="text-align: justify;"}
@@ -158,7 +168,7 @@ By following the above classification method, the paddy area map in 2019 (presen
 
 {% include gallery id="gallery9" caption="Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011." %}
 
-## IV. Damage Assessment
+## Flood damage assessment
 
 **1. Validation of Assessment Method**
 
@@ -180,5 +190,57 @@ Under the flood magnitude of various return period, the rice crop damage on pa
 
 {% include gallery id="gallery11" caption="Figure 11: Result summary of rice crop damage under the past and the present cropping patterns from 2-y to 200-y return period floods." %}
 
-**Reference**
-1. 
+* Damage area and damage cost of present cropping pattern were overall greater than the past. It also increases following the larger flood magnitudes.
+{: style="text-align: justify;"}
+* Under present cropping pattern, the damage is mainly attributed to Early rice crop, while in the past cropping pattern, the main contribution is from Late rice crop.
+{: style="text-align: justify;"}
+* First, it is because the area of rice cultivation expanded significantly in the present pattern. Last is because early rice has high price and production rate compared to others, so the more early rice is grown, the more damage comes from early rice.
+{: style="text-align: justify;"}
+
+Therefore, present cropping pattern requires higher budget for saving rice production chain after flooding. This information can be used for long-term cost-benefit analysis.
+{: style="text-align: justify;"}
+
+**3. Assessment under Present and Future Climate**
+
+Based on MRI-AGCM3.2S precipitation datasets from previous study [2], the damage under the past and future climate were assessed (Figure12).
+{: style="text-align: justify;"}
+
+{% include gallery id="gallery12" caption="Figure 12: Flood damage on early, medium and late rice crop under climate change impact." %}
+
+
+* There would be overall growth of rice crop damage in the future climate.
+{: style="text-align: justify;"}
+* Total damage under future climate would be more than 35,000 ha or 25 million USD = 14% higher than damage under present climate.
+{: style="text-align: justify;"}
+
+{% include gallery id="gallery13" caption="Figure 13: Map of damaged paddy area under the impact of climate change." %}
+
+* Bakan and Kandieng district are the most affected and damaged area in the future climate condition since they have more rice fields compared to others.
+{: style="text-align: justify;"}
+
+## Conclusion and acknowledgement
+
+**Summary**
+
+* Flood Depth-duration damage Curves (3-Type FDCs) for Early, Medium and Late rice crop were developed and showed more advantages over previous assessment methods.
+* Comparison of cropping patterns, and analysis of climate change impact were studied.
+* Method for creating Paddy Area Map based on MODIS satellite image was developed.
+
+
+**Impact**
+
+* This study enriches more understanding on how early, medium and late rice crops are affected by floodwater with the function of flood depth and flood duration.
+* The developed method can be applicable in other areas; particularly, in area with scarce data.
+* This study also provides an essential information about the areas of risk based on flood damage estimation and the impact of climate change on all types of rice crop
+* It can be useful for future development activities; in particular, when it comes to establishing a flood mitigation policy for the sake of disaster risk reduction and implementing the flood mitigation actions for climate change adaptation. 
+
+
+**Acknowledgement**
+
+This research was financially supported by Japanese Government (MEXT) Scholarship Program, educational support and guidance from River and Environmental Engineering Laboratory at The University of Tokyo. Furthermore, the field investigation was supported by JSPS KAKENHI Grant Number 18H03823 and the Water Cycle Data Integrator, Academic-Industry Collaboration Program, The University of Tokyo. The author also would like to highly appreciate all persons concerned and Cambodian government officers who helped facilitate towards the completion of this study. 
+## Reference
+[1]  IRRI, “Crop calendar,” tech. rep., International Rice Research Institute.
+
+[2] B.B.Shrestha,E.D.P.Perera,S.Kudo,M.Miyamoto,Y.Yamazaki,D.Kuribayashi, H. Sawano, T. Sayama, J. Magome, A. Hasegawa, et al., “Assessing flood disaster impacts in agriculture under climate change in the river basins of southeast asia,” Natural Hazards, vol. 97, no. 1, pp. 157–192, 2019.
+
+[3] T. Sayama, G. Ozawa, T. Kawakami, S. Nabesaka, and K. Fukami, “Rainfall– runoff–inundation analysis of the 2010 pakistan flood in the kabul river basin,” Hydrological Sciences Journal, vol. 57, no. 2, pp. 298–312, 2012.
