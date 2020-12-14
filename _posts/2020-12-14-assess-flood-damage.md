@@ -1,7 +1,7 @@
 ---
 classes: wide
 title: "Cambodia: Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop"
-tagline: "This visualization is based on high-resolution global forest cover data developed by Hansan et al (2013)."
+tagline: "iPoster of my research for American Geophysical Union Fall Meeting, Online Everywhere 1-17 December 2020.."
 # title: "Cambodia: Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop"
 # tagline: "My research iPoster for American Geophysical Union Fall Meeting, Online Everywhere 1-17 December 2020."
 header:
