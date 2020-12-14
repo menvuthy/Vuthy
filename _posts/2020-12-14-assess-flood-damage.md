@@ -3,8 +3,8 @@ classes: wide
 title: "Cambodia: Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop"
 tagline: "iPoster of my research for American Geophysical Union Fall Meeting, Online Everywhere 1-17 December 2020.."
 header:
-  overlay_image: /images/flood-cambo/Homepage.jpg
-  teaser: /images/flood-cambo/Homepage.jpg
+  overlay_image: /images/assess-flood-damage/banner.png
+  teaser: /images/assess-flood-damage/banner.png
 categories:
   - Flood
 tags:
