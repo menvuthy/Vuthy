@@ -155,7 +155,7 @@ Target farmers: those who had experienced the rice crop damages caused by floo
 {: style="text-align: justify;"}
 {% include gallery id="gallery3" caption="Figure 4: Field survey activities with local farmers in the flood affected area in Pursat Province." %}
 
-## Methodology
+<!-- ## Methodology
 
 Figure 5 shows the conceptual framework of this study.
 {: style="text-align: justify;"}
@@ -185,7 +185,7 @@ Based on the report from local government which indicates the location of early,
 By following the above classification method, the paddy area map in 2019 (present cropping pattern) and flood-affected paddy area map in 2011 (past cropping pattern) were developed.
 {: style="text-align: justify;"}
 
-{% include gallery id="gallery9" caption="Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011." %}
+{% include gallery id="gallery9" caption="Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011." %} -->
 
 <!-- ## Flood damage assessment
 
