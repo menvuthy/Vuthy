@@ -14,6 +14,13 @@ tags:
   - Python
   - Earth Engine API
 last_modified_at: 2020-12-14
+top-page:
+  - url: /images/assess-flood-damage/agu-interface.png
+    image_path: /images/assess-flood-damage/agu-interface.png
+    alt: "agu-interface.png"
+  - url: /images/assess-flood-damage/iposter.png
+    image_path: /images/assess-flood-damage/iposter.png
+    alt: "agu-interface.png"
 gallery:
   - url: /images/assess-flood-damage/rice-categories.png
     image_path: /images/assess-flood-damage/rice-categories.png
@@ -89,6 +96,7 @@ gallery13:
     alt: "dm-clm-map.png"
     title: "Figure 13: Map of damaged paddy area under the impact of climate change"
 ---
+{% include top-page %}
 ## Introduction
 Rice crops are mainly categorized into early, medium and late variety, and they are differently damaged by flood depending on its growth characteristic, productivity, and value.
 {: style="text-align: justify;"}
