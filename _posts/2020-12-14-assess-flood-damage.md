@@ -14,15 +14,7 @@ tags:
   - Python
   - Earth Engine API
 last_modified_at: 2020-12-14
-gallery0:
-  - url: /images/assess-flood-damage/agu-interface.png
-    image_path: /images/assess-flood-damage/agu-interface.png
-    alt: "agu-interface.png"
-    title: "Website interface of AGU Fall Meeting"
-  - url: /images/assess-flood-damage/iposter.png
-    image_path: /images/assess-flood-damage/iposter.png
-    alt: "iposter.png"
-    title: "Overview of iPoster"
+
 gallery:
   - url: /images/assess-flood-damage/rice-categories.png
     image_path: /images/assess-flood-damage/rice-categories.png
@@ -97,10 +89,19 @@ gallery13:
     image_path: /images/assess-flood-damage/dm-clm-map.png
     alt: "dm-clm-map.png"
     title: "Figure 13: Map of damaged paddy area under the impact of climate change"
+gallery14:
+  - url: /images/assess-flood-damage/agu-interface.png
+    image_path: /images/assess-flood-damage/agu-interface.png
+    alt: "agu-interface.png"
+    title: "Website interface of AGU Fall Meeting"
+  - url: /images/assess-flood-damage/iposter.png
+    image_path: /images/assess-flood-damage/iposter.png
+    alt: "iposter.png"
+    title: "Overview of iPoster"
 ---
 ## Overview of iPoster
 
-{% include gallery0 caption="Overview of iPoster on the website of AGU Fall Meeting conference." %}
+{% include gallery14 caption="Overview of iPoster on the website of AGU Fall Meeting conference." %}
 
 ## Introduction
 Rice crops are mainly categorized into early, medium and late variety, and they are differently damaged by flood depending on its growth characteristic, productivity, and value.
