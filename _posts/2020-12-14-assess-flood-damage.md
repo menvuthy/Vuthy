@@ -116,17 +116,17 @@ However, the estimation method of flood damage based on rice crop types remains 
 {: style="text-align: justify;"}
 
 Hence, this study attempts to:
-***1.*** develop the assessment methodology to estimate the flood damage on early, medium and late rice crops based on flood depth and flood duration through development of:
+  1. develop the assessment methodology to estimate the flood damage on early, medium and late rice crops based on flood depth and flood duration through development of:
 {: style="text-align: justify;"}
- * Three Types of Flood Depth-duration and damage Curves (3-Type FDCs) according to field survey with farmers in the flood-affected area.
+    * Three Types of Flood Depth-duration and damage Curves (3-Type FDCs) according to field survey with farmers in the flood-affected area.
 {: style="text-align: justify;"}
- * paddy area map of early, medium and late rice crop by using MODIS satellite imagery.
+    * paddy area map of early, medium and late rice crop by using MODIS satellite imagery.
 {: style="text-align: justify;"}
-***2.*** Assess the flood damage on rice crops under the past and the present cropping patterns and analyze the impact of different flood frequencies.
+  2. Assess the flood damage on rice crops under the past and the present cropping patterns and analyze the impact of different flood frequencies.
 {: style="text-align: justify;"}
-***3.*** Assess the flood damage on rice crops under the present climate (1979-2003) and future climate (2075-2099) conditions, based on MRI-AGCM3.2S precipitation datasets from previous study [2].
+  3. Assess the flood damage on rice crops under the present climate (1979-2003) and future climate (2075-2099) conditions, based on MRI-AGCM3.2S precipitation datasets from previous study [2].
 {: style="text-align: justify;"}
-
+  
 This study enriches more understanding on how early, medium and late rice crops are damaged by floodwater with the function of flood depth and flood duration. The assessment method can be applied in other areas; mainly, in the area with scarce data. It also provides essential information about the areas of risk which can be useful for future development activities; particularly, for establishing a flood mitigation policy and strategy for climate change adaptation.
 {: style="text-align: justify;"}
 
@@ -137,13 +137,13 @@ This study enriches more understanding on how early, medium and late rice crops 
 
 Pursat province is located at the Southwest of Tonle Sap Lake in Cambodia. It is known as one of the most vulnerable provinces to flood disasters in the country.
 {: style="text-align: justify;"}
-{% include gallery id="gallery1" layout="half" caption="Figure 2: Location of study area and annual rice production in Pursat Province." %}
+{% include gallery id="gallery1" caption="Figure 2: Location of study area and annual rice production in Pursat Province." %}
 
 **2. Field Survey**
 
 Target locations: villages which are located in the flood plain areas and in each districts.
 {: style="text-align: justify;"}
-{% include gallery id="gallery2" layout="half" caption="Figure 3: Location of study area and annual rice production in Pursat Province." %}
+{% include gallery id="gallery2" caption="Figure 3: Location of study area and annual rice production in Pursat Province." %}
 
 Target farmers: those who had experienced the rice crop damages caused by flood disasters. Flood depth and duration in their rice fields, and damage of their rice production were focused.
 {: style="text-align: justify;"}
