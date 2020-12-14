@@ -5,6 +5,8 @@ tagline: "iPoster of my research for American Geophysical Union Fall Meeting, On
 header:
   overlay_image: /images/assess-flood-damage/banner.png
   teaser: /images/assess-flood-damage/banner.png
+categories:
+tags:
 last_modified_at: 2020-12-14
 gallery:
   - url: /images/assess-flood-damage/rice-categories.png
