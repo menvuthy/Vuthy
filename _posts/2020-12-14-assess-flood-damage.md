@@ -135,7 +135,7 @@ This study enriches more understanding on how early, medium and late rice crops 
 {: style="text-align: justify;"}
 
 -----
-## Study area and field survey
+<!-- ## Study area and field survey
 
 **1. Study Area**
 
@@ -151,7 +151,7 @@ Target locations: villages which are located in the flood plain areas and in ea
 
 Target farmers: those who had experienced the rice crop damages caused by flood disasters. Flood depth and duration in their rice fields, and damage of their rice production were focused.
 {: style="text-align: justify;"}
-{% include gallery id="gallery3" caption="Figure 4: Field survey activities with local farmers in the flood affected area in Pursat Province." %}
+{% include gallery id="gallery3" caption="Figure 4: Field survey activities with local farmers in the flood affected area in Pursat Province." %} -->
 
 <!-- ## Methodology
 
