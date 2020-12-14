@@ -81,22 +81,27 @@ gallery11:
 gallery12:
   - url: /images/assess-flood-damage/dm-clm.png
     image_path: /images/assess-flood-damage/dm-clm.png
-    alt: "dm-clm.png"
+    alt: "dm-clm"
     title: "Figure 12: Flood damage on early, medium and late rice crop under climate change impact."  
 gallery13:
   - url: /images/assess-flood-damage/dm-clm-map.png
     image_path: /images/assess-flood-damage/dm-clm-map.png
-    alt: "dm-clm-map.png"
+    alt: "dm-clm-map"
     title: "Figure 13: Map of damaged paddy area under the impact of climate change"
 gallery14:
-  - url: /images/assess-flood-damage/agu-interface.png
-    image_path: /images/assess-flood-damage/agu-interface.png
-    alt: "agu-interface"
-    title: "Website interface of AGU Fall Meeting"
-  - url: /images/assess-flood-damage/iposter.png
-    image_path: /images/assess-flood-damage/iposter.png
-    alt: "iposter"
-    title: "Overview of iPoster"
+  - url: /images/assess-flood-damage/dm-clm-map.png
+    image_path: /images/assess-flood-damage/dm-clm-map.png
+    alt: "dm-clm-map"
+    title: "Figure 13: Map of damaged paddy area under the impact of climate change"
+# gallery14:
+#   - url: /images/assess-flood-damage/agu-interface.png
+#     image_path: /images/assess-flood-damage/agu-interface.png
+#     alt: "agu-interface"
+#     title: "Website interface of AGU Fall Meeting"
+#   - url: /images/assess-flood-damage/iposter.png
+#     image_path: /images/assess-flood-damage/iposter.png
+#     alt: "iposter"
+#     title: "Overview of iPoster"
 ---
 
 ## Overview of iPoster
@@ -182,7 +187,7 @@ By following the above classification method, the paddy area map in 2019 (presen
 
 {% include gallery id="gallery9" caption="Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011." %}
 
-## Flood damage assessment
+<!-- ## Flood damage assessment
 
 **1. Validation of Assessment Method**
 
@@ -257,4 +262,4 @@ This research was financially supported by Japanese Government (MEXT) Scholarshi
 
 [2] B.B.Shrestha,E.D.P.Perera,S.Kudo,M.Miyamoto,Y.Yamazaki,D.Kuribayashi, H. Sawano, T. Sayama, J. Magome, A. Hasegawa, et al., “Assessing flood disaster impacts in agriculture under climate change in the river basins of southeast asia,” Natural Hazards, vol. 97, no. 1, pp. 157–192, 2019.
 
-[3] T. Sayama, G. Ozawa, T. Kawakami, S. Nabesaka, and K. Fukami, “Rainfall– runoff–inundation analysis of the 2010 pakistan flood in the kabul river basin,” Hydrological Sciences Journal, vol. 57, no. 2, pp. 298–312, 2012.
+[3] T. Sayama, G. Ozawa, T. Kawakami, S. Nabesaka, and K. Fukami, “Rainfall– runoff–inundation analysis of the 2010 pakistan flood in the kabul river basin,” Hydrological Sciences Journal, vol. 57, no. 2, pp. 298–312, 2012. -->
