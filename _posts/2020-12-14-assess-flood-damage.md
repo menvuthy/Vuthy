@@ -1,7 +1,7 @@
 ---
 classes: wide
 title: "Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop: Pursat Province, Cambodia"
-tagline: "My Research iPoster for AGU Fall Meeting Conference, Online Everywhere | 1-17 December 2020."
+tagline: "My Research iPoster for AGU Fall Meeting Conference, Online Everywhere 1-17 December 2020."
 header:
   overlay_image: /images/flood-cambo/Homepage.jpg
   teaser: /images/flood-cambo/Homepage.jpg
