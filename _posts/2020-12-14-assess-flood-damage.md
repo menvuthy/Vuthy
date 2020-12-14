@@ -14,7 +14,6 @@ tags:
   - Python
   - Earth Engine API
 last_modified_at: 2020-12-14
-
 gallery:
   - url: /images/assess-flood-damage/rice-categories.png
     image_path: /images/assess-flood-damage/rice-categories.png
@@ -99,6 +98,7 @@ gallery14:
     alt: "iposter"
     title: "Overview of iPoster"
 ---
+
 ## Overview of iPoster
 
 <!-- {% include gallery14 caption="Overview of iPoster on the website of AGU Fall Meeting conference." %} -->
