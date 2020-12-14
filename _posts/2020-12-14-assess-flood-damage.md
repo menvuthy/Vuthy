@@ -98,13 +98,15 @@ gallery14:
     image_path: /images/assess-flood-damage/agu-interface.png
     alt: "agu-interface"
     title: "Website interface of AGU Fall Meeting"
-  - url: /images/assess-flood-damage/iposter.png
+gallery15:
+- url: /images/assess-flood-damage/iposter.png
     image_path: /images/assess-flood-damage/iposter.png
     alt: "iposter"
     title: "Overview of iPoster"
 ---
 ## Overview of iPoster at AGU Fall Meeting conference
 {% include gallery id="gallery14" %}
+{% include gallery id="gallery15" %}
 
 ## Introduction
 Rice crops are mainly categorized into early, medium and late variety, and they are differently damaged by flood depending on its growth characteristic, productivity, and value.
