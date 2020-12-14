@@ -1,6 +1,6 @@
 ---
 classes: wide
-title: "Cambodia: Forest Cover Change in 21st Century"
+title: "Cambodia: Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop"
 tagline: "This visualization is based on high-resolution global forest cover data developed by Hansan et al (2013)."
 # title: "Cambodia: Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop"
 # tagline: "My research iPoster for American Geophysical Union Fall Meeting, Online Everywhere 1-17 December 2020."
