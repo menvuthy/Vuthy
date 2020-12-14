@@ -253,7 +253,7 @@ This research was financially supported by Japanese Government (MEXT) Scholarshi
 
 -----
 ## Reference
-[1]  IRRI, “Crop calendar,” tech. rep., International Rice Research Institute.
+[1] IRRI, “Crop calendar,” tech. rep., International Rice Research Institute.
 
 [2] B.B.Shrestha,E.D.P.Perera,S.Kudo,M.Miyamoto,Y.Yamazaki,D.Kuribayashi, H. Sawano, T. Sayama, J. Magome, A. Hasegawa, et al., “Assessing flood disaster impacts in agriculture under climate change in the river basins of southeast asia,” Natural Hazards, vol. 97, no. 1, pp. 157–192, 2019.
 
