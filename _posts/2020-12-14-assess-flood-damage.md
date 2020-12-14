@@ -43,13 +43,33 @@ gallery5:
   - url: /images/assess-flood-damage/simulaiton result.png
     image_path: /images/assess-flood-damage/simulaiton result.png
     alt: "obs-sim-flood"
-    title: "Figure 6a. Comparison between observed and simulated discharge of 2011 Flood simulated in RRI model."
+    title: "Figure 6a: Comparison between observed and simulated discharge of 2011 Flood simulated in RRI model."
   - url: /images/assess-flood-damage/flood-2011.png
     image_path: /images/assess-flood-damage/flood-2011.png
     alt: "obs-sim-flood"
-    title: "Figure 6b. Flooding area and depth of 2011 flood simulated in RRI model."
+    title: "Figure 6b: Flooding area and depth of 2011 flood simulated in RRI model."
+gallery6:
+  - url: /images/assess-flood-damage/3-fdcs.png
+    image_path: /images/assess-flood-damage/3-fdcs.png
+    alt: "3-fdcs"
+    title: "Figure 7: Flood depth-duration damage curves for early, medium and late rice crop."
+gallery7:
+  - url: /images/assess-flood-damage/cost-production rate.png
+    image_path: /images/assess-flood-damage/cost-production rate.png
+    alt: "cost-production-rate"
+    title: "Figure 8: Rice production rate and farm gate price of each rice crop type."
+gallery8:
+  - url: /images/assess-flood-damage/classification-process.png
+    image_path: /images/assess-flood-damage/classification-process.png
+    alt: "classification-process"
+    title: "Figure 9: NDVI time series of early, medium and late rice crops from MODIS satellite data (left), diagram of paddy area classification method (right)."
+gallery9:
+  - url: /images/assess-flood-damage/paddy-map.png
+    image_path: /images/assess-flood-damage/paddy-map.png
+    alt: "paddy-map"
+    title: "Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011."
 ---
-## Introduction
+## I. Introduction
 Rice crops are mainly categorized into early, medium and late variety, and they are differently damaged by flood depending on its growth characteristic, productivity, and value.
 {: style="text-align: justify;"}
 
@@ -78,15 +98,15 @@ This study enriches more understanding on how early, medium and late rice crops 
 {: style="text-align: justify;"}
 
 -----
-## Study Area and Field Survey
+## II. Study Area and Field Survey
 
-**Study Area**
+**1. Study Area**
 
 Pursat province is located at the Southwest of Tonle Sap Lake in Cambodia. It is known as one of the most vulnerable provinces to flood disasters in the country.
 {: style="text-align: justify;"}
 {% include gallery id="gallery1" caption="Figure 2: Location of study area and annual rice production in Pursat Province." %}
 
-**Field Survey**
+**2. Field Survey**
 
 Target locations: villages which are located in the flood plain areas and in each districts.
 {: style="text-align: justify;"}
@@ -96,18 +116,37 @@ Target farmers: those who had experienced the rice crop damages caused by floo
 {: style="text-align: justify;"}
 {% include gallery id="gallery3" caption="Figure 4: Field survey activities with local farmers in the flood affected area in Pursat Province." %}
 
-## Methodology
+## III. Methodology
 
 Figure 5 shows the conceptual framework of this study.
 {: style="text-align: justify;"}
 {% include gallery id="gallery4" caption="Figure 5: Research flowchart." %}
 
-**Flood Simulation**
+**1. Flood Simulation**
 
 The simulation of flood events including 2011 flood (Figure 6a & 6b), 2-y to 200-y return period floods, and floods under present and future climate were conducted using Rainfall-Runoff Inundation (RRI) model [3].
+{: style="text-align: justify;"}
 {% include gallery id="gallery5" caption="Figure 6: a) Comparison between observed and simulated discharge of 2011 Flood simulated in RRI model. b) Flooding area and depth of 2011 flood simulated in RRI model." %}
 
+**2. Development of 3-Types FDCs**
 
+The data collected from field survey with 95 local farmers were used to develop flood depth-duration damage curves (Figure 7) and also to determine the rice production rate and farm gate price for damage cost calculation (Figure 8).
+{: style="text-align: justify;"}
+{% include gallery id="gallery6" caption="Figure 7: Flood depth-duration damage curves for early, medium and late rice crop." %}
+
+{% include gallery id="gallery7" caption="Figure 8: Rice production rate and farm gate price of each rice crop type." %}
+
+**3. Development of Paddy Area Map**
+
+Based on the report from local government which indicates the location of early, medium and late paddy areas, the characteristics of NDVI time series for each type of rice were observed from MODIS Satellite Data (Figure 9. left). From this observation, the method to classify the paddy areas for early, medium and late rice crops were determined (Figure 9. right).
+{: style="text-align: justify;"}
+
+{% include gallery id="gallery8" caption="Figure 9: NDVI time series of early, medium and late rice crops from MODIS satellite data (left), diagram of paddy area classification method (right)." %}
+
+By following the above classification method, the paddy area map in 2019 (present cropping pattern) and flood-affected paddy area map in 2011 (past cropping pattern) were developed.
+{: style="text-align: justify;"}
+
+{% include gallery id="gallery9" caption="Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011." %}
 
 ## Methodology
 
