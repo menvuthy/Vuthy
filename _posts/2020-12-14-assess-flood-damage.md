@@ -1,7 +1,9 @@
 ---
 classes: wide
-title: "Cambodia: Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop"
-tagline: "My research iPoster for American Geophysical Union Fall Meeting, Online Everywhere 1-17 December 2020."
+title: "Cambodia: Forest Cover Change in 21st Century"
+tagline: "This visualization is based on high-resolution global forest cover data developed by Hansan et al (2013)."
+# title: "Cambodia: Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop"
+# tagline: "My research iPoster for American Geophysical Union Fall Meeting, Online Everywhere 1-17 December 2020."
 header:
   overlay_image: /images/flood-cambo/Homepage.jpg
   teaser: /images/flood-cambo/Homepage.jpg
@@ -104,9 +106,6 @@ gallery3:
 #     title: "Overview of iPoster"
 ---
 
-## Overview of iPoster
-
-<!-- {% include gallery14 caption="Overview of iPoster on the website of AGU Fall Meeting conference." %} -->
 
 ## Introduction
 Rice crops are mainly categorized into early, medium and late variety, and they are differently damaged by flood depending on its growth characteristic, productivity, and value.
