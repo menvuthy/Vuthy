@@ -89,11 +89,6 @@ gallery13:
     alt: "dm-clm-map"
     title: "Figure 13: Map of damaged paddy area under the impact of climate change"
 gallery14:
-  - url: /images/assess-flood-damage/dm-clm-map.png
-    image_path: /images/assess-flood-damage/dm-clm-map.png
-    alt: "dm-clm-map"
-    title: "Figure 13: Map of damaged paddy area under the impact of climate change"
-gallery14:
   - url: /images/assess-flood-damage/agu-interface.png
     image_path: /images/assess-flood-damage/agu-interface.png
     alt: "agu-interface"
@@ -105,7 +100,9 @@ gallery15:
     title: "Overview of iPoster"
 ---
 ## Overview of iPoster at AGU Fall Meeting conference
+
 {% include gallery id="gallery14" %}
+
 {% include gallery id="gallery15" %}
 
 ## Introduction
