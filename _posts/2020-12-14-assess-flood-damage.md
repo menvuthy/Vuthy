@@ -220,7 +220,7 @@ Therefore, present cropping pattern requires higher budget for saving rice produ
 Based on MRI-AGCM3.2S precipitation datasets from previous study [2], the damage under the past and future climate were assessed (Figure12).
 {: style="text-align: justify;"}
 
-{% include gallery id="gallery12" caption="Figure 12: Flood damage on early, medium and late rice crop under climate change impact." %}
+<!-- {% include gallery id="gallery12" caption="Figure 12: Flood damage on early, medium and late rice crop under climate change impact." %} -->
 
 
 * There would be overall growth of rice crop damage in the future climate.
@@ -228,12 +228,12 @@ Based on MRI-AGCM3.2S precipitation datasets from previous study [2], the damage
 * Total damage under future climate would be more than 35,000 ha or 25 million USD = 14% higher than damage under present climate.
 {: style="text-align: justify;"}
 
-{% include gallery id="gallery13" caption="Figure 13: Map of damaged paddy area under the impact of climate change." %}
+<!-- {% include gallery id="gallery13" caption="Figure 13: Map of damaged paddy area under the impact of climate change." %} -->
 
 * Bakan and Kandieng district are the most affected and damaged area in the future climate condition since they have more rice fields compared to others.
 {: style="text-align: justify;"}
 
-## Conclusion and acknowledgement
+<!-- ## Conclusion and acknowledgement
 
 **Summary**
 
@@ -250,7 +250,7 @@ Based on MRI-AGCM3.2S precipitation datasets from previous study [2], the damage
 
 **Acknowledgement**
 
-This research was financially supported by Japanese Government (MEXT) Scholarship Program, educational support and guidance from River and Environmental Engineering Laboratory at The University of Tokyo. Furthermore, the field investigation was supported by JSPS KAKENHI Grant Number 18H03823 and the Water Cycle Data Integrator, Academic-Industry Collaboration Program, The University of Tokyo. The author also would like to highly appreciate all persons concerned and Cambodian government officers who helped facilitate towards the completion of this study. 
+This research was financially supported by Japanese Government (MEXT) Scholarship Program, educational support and guidance from River and Environmental Engineering Laboratory at The University of Tokyo. Furthermore, the field investigation was supported by JSPS KAKENHI Grant Number 18H03823 and the Water Cycle Data Integrator, Academic-Industry Collaboration Program, The University of Tokyo. The author also would like to highly appreciate all persons concerned and Cambodian government officers who helped facilitate towards the completion of this study.  -->
 <!-- ## Reference
 [1]  IRRI, “Crop calendar,” tech. rep., International Rice Research Institute.
 
