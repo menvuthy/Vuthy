@@ -92,11 +92,11 @@ gallery13:
 gallery14:
   - url: /images/assess-flood-damage/agu-interface.png
     image_path: /images/assess-flood-damage/agu-interface.png
-    alt: "agu-interface.png"
+    alt: "agu-interface"
     title: "Website interface of AGU Fall Meeting"
   - url: /images/assess-flood-damage/iposter.png
     image_path: /images/assess-flood-damage/iposter.png
-    alt: "iposter.png"
+    alt: "iposter"
     title: "Overview of iPoster"
 ---
 ## Overview of iPoster
