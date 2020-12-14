@@ -184,6 +184,7 @@ By following the above classification method, the paddy area map in 2019 (presen
 
 {% include gallery id="gallery9" caption="Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011." %}
 
+-----
 ## Flood damage assessment
 
 **1. Validation of Assessment Method**
@@ -232,6 +233,7 @@ Based on MRI-AGCM3.2S precipitation datasets from previous study [2], the damage
 * Bakan and Kandieng district are the most affected and damaged area in the future climate condition since they have more rice fields compared to others.
 {: style="text-align: justify;"}
 
+-----
 ## Conclusion and acknowledgement
 
 **Summary**
@@ -249,7 +251,9 @@ Based on MRI-AGCM3.2S precipitation datasets from previous study [2], the damage
 
 **Acknowledgement**
 
-This research was financially supported by Japanese Government (MEXT) Scholarship Program, educational support and guidance from River and Environmental Engineering Laboratory at The University of Tokyo. Furthermore, the field investigation was supported by JSPS KAKENHI Grant Number 18H03823 and the Water Cycle Data Integrator, Academic-Industry Collaboration Program, The University of Tokyo. The author also would like to highly appreciate all persons concerned and Cambodian government officers who helped facilitate towards the completion of this study. 
+This research was financially supported by Japanese Government (MEXT) Scholarship Program, educational support and guidance from River and Environmental Engineering Laboratory at The University of Tokyo. Furthermore, the field investigation was supported by JSPS KAKENHI Grant Number 18H03823 and the Water Cycle Data Integrator, Academic-Industry Collaboration Program, The University of Tokyo. The author also would like to highly appreciate all persons concerned and Cambodian government officers who helped facilitate towards the completion of this study.
+
+-----
 ## Reference
 [1]  IRRI, “Crop calendar,” tech. rep., International Rice Research Institute.
 
