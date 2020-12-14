@@ -58,41 +58,41 @@ gallery7:
     image_path: /images/assess-flood-damage/cost-production rate.png
     alt: "cost-production-rate"
     title: "Figure 8: Rice production rate and farm gate price of each rice crop type."
-# gallery8:
-#   - url: /images/assess-flood-damage/classification-process.png
-#     image_path: /images/assess-flood-damage/classification-process.png
-#     alt: "classification-process"
-#     title: "Figure 9: NDVI time series of early, medium and late rice crops from MODIS satellite data (left), diagram of paddy area classification method (right)."
-# gallery9:
-#   - url: /images/assess-flood-damage/paddy-map.png
-#     image_path: /images/assess-flood-damage/paddy-map.png
-#     alt: "paddy-map"
-#     title: "Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011."
-# gallery10:
-#   - url: /images/assess-flood-damage/dm-result-validation.png
-#     image_path: /images/assess-flood-damage/dm-result-validation.png
-#     alt: "dm-result-validation"
-#     title: "Table 1: Result summary of rice crop damage estimated by 3-Type FDCs and by MRC FDC, compared with reported damage."
-# gallery11:
-#   - url: /images/assess-flood-damage/dm-cpt.png
-#     image_path: /images/assess-flood-damage/dm-cpt.png
-#     alt: "dm-cpt"
-#     title: "Figure 11: Result summary of rice crop damage under the past and the present cropping patterns from 2-y to 200-y return period floods."    
-# gallery12:
-#   - url: /images/assess-flood-damage/dm-clm.png
-#     image_path: /images/assess-flood-damage/dm-clm.png
-#     alt: "dm-clm"
-#     title: "Figure 12: Flood damage on early, medium and late rice crop under climate change impact."  
-# gallery13:
-#   - url: /images/assess-flood-damage/dm-clm-map.png
-#     image_path: /images/assess-flood-damage/dm-clm-map.png
-#     alt: "dm-clm-map"
-#     title: "Figure 13: Map of damaged paddy area under the impact of climate change"
-# gallery14:
-#   - url: /images/assess-flood-damage/dm-clm-map.png
-#     image_path: /images/assess-flood-damage/dm-clm-map.png
-#     alt: "dm-clm-map"
-#     title: "Figure 13: Map of damaged paddy area under the impact of climate change"
+gallery8:
+  - url: /images/assess-flood-damage/classification-process.png
+    image_path: /images/assess-flood-damage/classification-process.png
+    alt: "classification-process"
+    title: "Figure 9: NDVI time series of early, medium and late rice crops from MODIS satellite data (left), diagram of paddy area classification method (right)."
+gallery9:
+  - url: /images/assess-flood-damage/paddy-map.png
+    image_path: /images/assess-flood-damage/paddy-map.png
+    alt: "paddy-map"
+    title: "Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011."
+gallery10:
+  - url: /images/assess-flood-damage/dm-result-validation.png
+    image_path: /images/assess-flood-damage/dm-result-validation.png
+    alt: "dm-result-validation"
+    title: "Table 1: Result summary of rice crop damage estimated by 3-Type FDCs and by MRC FDC, compared with reported damage."
+gallery11:
+  - url: /images/assess-flood-damage/dm-cpt.png
+    image_path: /images/assess-flood-damage/dm-cpt.png
+    alt: "dm-cpt"
+    title: "Figure 11: Result summary of rice crop damage under the past and the present cropping patterns from 2-y to 200-y return period floods."    
+gallery12:
+  - url: /images/assess-flood-damage/dm-clm.png
+    image_path: /images/assess-flood-damage/dm-clm.png
+    alt: "dm-clm"
+    title: "Figure 12: Flood damage on early, medium and late rice crop under climate change impact."  
+gallery13:
+  - url: /images/assess-flood-damage/dm-clm-map.png
+    image_path: /images/assess-flood-damage/dm-clm-map.png
+    alt: "dm-clm-map"
+    title: "Figure 13: Map of damaged paddy area under the impact of climate change"
+gallery14:
+  - url: /images/assess-flood-damage/dm-clm-map.png
+    image_path: /images/assess-flood-damage/dm-clm-map.png
+    alt: "dm-clm-map"
+    title: "Figure 13: Map of damaged paddy area under the impact of climate change"
 gallery14:
   - url: /images/assess-flood-damage/agu-interface.png
     image_path: /images/assess-flood-damage/agu-interface.png
@@ -104,7 +104,7 @@ gallery14:
     title: "Overview of iPoster"
 ---
 
-{% include gallery id="gallery14" caption="Figure 1: Growth duration and growth stage of early, medium and late rice crops by phase [1]." %}
+{% include gallery id="gallery14" caption="Overview of iPoster at AGU Fall Meeting conference. %}
 
 ## Introduction
 Rice crops are mainly categorized into early, medium and late variety, and they are differently damaged by flood depending on its growth characteristic, productivity, and value.
@@ -185,7 +185,7 @@ By following the above classification method, the paddy area map in 2019 (presen
 
 {% include gallery id="gallery9" caption="Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011." %}
 
-<!-- ## Flood damage assessment
+## Flood damage assessment
 
 **1. Validation of Assessment Method**
 
@@ -260,4 +260,4 @@ This research was financially supported by Japanese Government (MEXT) Scholarshi
 
 [2] B.B.Shrestha,E.D.P.Perera,S.Kudo,M.Miyamoto,Y.Yamazaki,D.Kuribayashi, H. Sawano, T. Sayama, J. Magome, A. Hasegawa, et al., “Assessing flood disaster impacts in agriculture under climate change in the river basins of southeast asia,” Natural Hazards, vol. 97, no. 1, pp. 157–192, 2019.
 
-[3] T. Sayama, G. Ozawa, T. Kawakami, S. Nabesaka, and K. Fukami, “Rainfall– runoff–inundation analysis of the 2010 pakistan flood in the kabul river basin,” Hydrological Sciences Journal, vol. 57, no. 2, pp. 298–312, 2012. -->
+[3] T. Sayama, G. Ozawa, T. Kawakami, S. Nabesaka, and K. Fukami, “Rainfall– runoff–inundation analysis of the 2010 pakistan flood in the kabul river basin,” Hydrological Sciences Journal, vol. 57, no. 2, pp. 298–312, 2012.
