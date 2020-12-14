@@ -193,8 +193,6 @@ The flood damages were assessed based on flood simulation, paddy area map, and 3
 {: style="text-align: justify;"}
 {% include gallery id="gallery10" caption="Table 1: Result summary of rice crop damage estimated by 3-Type FDCs and by MRC FDC, compared with reported damage." %}
 
-Table 1. Result summary of rice crop damage estimated by 3-Type FDCs and by MRC FDC, compared with reported damage.
-
 * The total damage of rice crop estimated by 3-Type FDCs well agreed with the reported damage.
 {: style="text-align: justify;"}
 * The newly developed method could assess the damage based on rice type, while it is unable with the conventional MRC method.
@@ -243,7 +241,6 @@ Based on MRI-AGCM3.2S precipitation datasets from previous study [2], the damage
 * Comparison of cropping patterns, and analysis of climate change impact were studied.
 * Method for creating Paddy Area Map based on MODIS satellite image was developed.
 
-
 **Impact**
 
 * This study enriches more understanding on how early, medium and late rice crops are affected by floodwater with the function of flood depth and flood duration.
@@ -251,13 +248,12 @@ Based on MRI-AGCM3.2S precipitation datasets from previous study [2], the damage
 * This study also provides an essential information about the areas of risk based on flood damage estimation and the impact of climate change on all types of rice crop
 * It can be useful for future development activities; in particular, when it comes to establishing a flood mitigation policy for the sake of disaster risk reduction and implementing the flood mitigation actions for climate change adaptation. 
 
-
 **Acknowledgement**
 
 This research was financially supported by Japanese Government (MEXT) Scholarship Program, educational support and guidance from River and Environmental Engineering Laboratory at The University of Tokyo. Furthermore, the field investigation was supported by JSPS KAKENHI Grant Number 18H03823 and the Water Cycle Data Integrator, Academic-Industry Collaboration Program, The University of Tokyo. The author also would like to highly appreciate all persons concerned and Cambodian government officers who helped facilitate towards the completion of this study. 
-## Reference
+<!-- ## Reference
 [1]  IRRI, “Crop calendar,” tech. rep., International Rice Research Institute.
 
 [2] B.B.Shrestha,E.D.P.Perera,S.Kudo,M.Miyamoto,Y.Yamazaki,D.Kuribayashi, H. Sawano, T. Sayama, J. Magome, A. Hasegawa, et al., “Assessing flood disaster impacts in agriculture under climate change in the river basins of southeast asia,” Natural Hazards, vol. 97, no. 1, pp. 157–192, 2019.
 
-[3] T. Sayama, G. Ozawa, T. Kawakami, S. Nabesaka, and K. Fukami, “Rainfall– runoff–inundation analysis of the 2010 pakistan flood in the kabul river basin,” Hydrological Sciences Journal, vol. 57, no. 2, pp. 298–312, 2012.
+[3] T. Sayama, G. Ozawa, T. Kawakami, S. Nabesaka, and K. Fukami, “Rainfall– runoff–inundation analysis of the 2010 pakistan flood in the kabul river basin,” Hydrological Sciences Journal, vol. 57, no. 2, pp. 298–312, 2012. -->
