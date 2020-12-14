@@ -98,15 +98,13 @@ gallery14:
     image_path: /images/assess-flood-damage/agu-interface.png
     alt: "agu-interface"
     title: "Website interface of AGU Fall Meeting"
-gallery15:
-- url: /images/assess-flood-damage/iposter.png
+  - url: /images/assess-flood-damage/iposter.png
     image_path: /images/assess-flood-damage/iposter.png
     alt: "iposter"
     title: "Overview of iPoster"
 ---
 ## Overview of iPoster at AGU Fall Meeting conference
 {% include gallery id="gallery14" %}
-<!-- {% include gallery id="gallery15" %} -->
 
 ## Introduction
 Rice crops are mainly categorized into early, medium and late variety, and they are differently damaged by flood depending on its growth characteristic, productivity, and value.
@@ -118,12 +116,16 @@ However, the estimation method of flood damage based on rice crop types remains 
 {: style="text-align: justify;"}
 
 Hence, this study attempts to:
-1. develop the assessment methodology to estimate the flood damage on early, medium and late rice crops based on flood depth and flood duration through development of:{: style="text-align: justify;"}
-  * Three Types of Flood Depth-duration and damage Curves (3-Type FDCs) according to field survey with farmers in the flood-affected area.{: style="text-align: justify;"}
-  * paddy area map of early, medium and late rice crop by using MODIS satellite imagery.
-  {: style="text-align: justify;"}
-2. Assess the flood damage on rice crops under the past and the present cropping patterns and analyze the impact of different flood frequencies.{: style="text-align: justify;"}
-3. Assess the flood damage on rice crops under the present climate (1979-2003) and future climate (2075-2099) conditions, based on MRI-AGCM3.2S precipitation datasets from previous study [2].{: style="text-align: justify;"}
+  1. develop the assessment methodology to estimate the flood damage on early, medium and late rice crops based on flood depth and flood duration through development of:
+{: style="text-align: justify;"}
+    * Three Types of Flood Depth-duration and damage Curves (3-Type FDCs) according to field survey with farmers in the flood-affected area.
+{: style="text-align: justify;"}
+    * paddy area map of early, medium and late rice crop by using MODIS satellite imagery.
+{: style="text-align: justify;"}
+  2. Assess the flood damage on rice crops under the past and the present cropping patterns and analyze the impact of different flood frequencies.
+{: style="text-align: justify;"}
+  3. Assess the flood damage on rice crops under the present climate (1979-2003) and future climate (2075-2099) conditions, based on MRI-AGCM3.2S precipitation datasets from previous study [2].
+{: style="text-align: justify;"}
   
 This study enriches more understanding on how early, medium and late rice crops are damaged by floodwater with the function of flood depth and flood duration. The assessment method can be applied in other areas; mainly, in the area with scarce data. It also provides essential information about the areas of risk which can be useful for future development activities; particularly, for establishing a flood mitigation policy and strategy for climate change adaptation.
 {: style="text-align: justify;"}
