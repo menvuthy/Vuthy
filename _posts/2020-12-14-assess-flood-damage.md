@@ -118,15 +118,13 @@ However, the estimation method of flood damage based on rice crop types remains 
 Hence, this study attempts to:
 1. develop the assessment methodology to estimate the flood damage on early, medium and late rice crops based on flood depth and flood duration through development of:
 {: style="text-align: justify;"}
-
-* Three Types of Flood Depth-duration and damage Curves (3-Type FDCs) according to field survey with farmers in the flood-affected area.
+ * Three Types of Flood Depth-duration and damage Curves (3-Type FDCs) according to field survey with farmers in the flood-affected area.
 {: style="text-align: justify;"}
-* paddy area map of early, medium and late rice crop by using MODIS satellite imagery.
-{: style="text-align: justify;"}
-
-2. Assess the flood damage on rice crops under the past and the present cropping patterns and analyze the impact of different flood frequencies.
+ * paddy area map of early, medium and late rice crop by using MODIS satellite imagery.
 {: style="text-align: justify;"}
 
+2. Assess the flood damage on rice crops under the past and the present cropping patterns and analyze the impact of different flood frequencies.
+{: style="text-align: justify;"}
 3. Assess the flood damage on rice crops under the present climate (1979-2003) and future climate (2075-2099) conditions, based on MRI-AGCM3.2S precipitation datasets from previous study [2].
 {: style="text-align: justify;"}
 
@@ -135,7 +133,7 @@ This study enriches more understanding on how early, medium and late rice crops 
 {: style="text-align: justify;"}
 
 -----
-<!-- ## Study area and field survey
+## Study area and field survey
 
 **1. Study Area**
 
@@ -153,7 +151,8 @@ Target farmers: those who had experienced the rice crop damages caused by floo
 {: style="text-align: justify;"}
 {% include gallery id="gallery3" caption="Figure 4: Field survey activities with local farmers in the flood affected area in Pursat Province." %} -->
 
-<!-- ## Methodology
+-----
+## Methodology
 
 Figure 5 shows the conceptual framework of this study.
 {: style="text-align: justify;"}
@@ -250,10 +249,10 @@ Based on MRI-AGCM3.2S precipitation datasets from previous study [2], the damage
 
 **Acknowledgement**
 
-This research was financially supported by Japanese Government (MEXT) Scholarship Program, educational support and guidance from River and Environmental Engineering Laboratory at The University of Tokyo. Furthermore, the field investigation was supported by JSPS KAKENHI Grant Number 18H03823 and the Water Cycle Data Integrator, Academic-Industry Collaboration Program, The University of Tokyo. The author also would like to highly appreciate all persons concerned and Cambodian government officers who helped facilitate towards the completion of this study.  -->
-<!-- ## Reference
+This research was financially supported by Japanese Government (MEXT) Scholarship Program, educational support and guidance from River and Environmental Engineering Laboratory at The University of Tokyo. Furthermore, the field investigation was supported by JSPS KAKENHI Grant Number 18H03823 and the Water Cycle Data Integrator, Academic-Industry Collaboration Program, The University of Tokyo. The author also would like to highly appreciate all persons concerned and Cambodian government officers who helped facilitate towards the completion of this study. 
+## Reference
 [1]  IRRI, “Crop calendar,” tech. rep., International Rice Research Institute.
 
 [2] B.B.Shrestha,E.D.P.Perera,S.Kudo,M.Miyamoto,Y.Yamazaki,D.Kuribayashi, H. Sawano, T. Sayama, J. Magome, A. Hasegawa, et al., “Assessing flood disaster impacts in agriculture under climate change in the river basins of southeast asia,” Natural Hazards, vol. 97, no. 1, pp. 157–192, 2019.
 
-[3] T. Sayama, G. Ozawa, T. Kawakami, S. Nabesaka, and K. Fukami, “Rainfall– runoff–inundation analysis of the 2010 pakistan flood in the kabul river basin,” Hydrological Sciences Journal, vol. 57, no. 2, pp. 298–312, 2012. -->
+[3] T. Sayama, G. Ozawa, T. Kawakami, S. Nabesaka, and K. Fukami, “Rainfall– runoff–inundation analysis of the 2010 pakistan flood in the kabul river basin,” Hydrological Sciences Journal, vol. 57, no. 2, pp. 298–312, 2012.
