@@ -1,7 +1,7 @@
 ---
 classes: wide
-title: "Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop: Pursat Province, Cambodia"
-tagline: "My Research iPoster for AGU Fall Meeting Conference, Online Everywhere 1-17 December 2020."
+title: "Cambodia: Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop"
+tagline: "My research iPoster for AGU Fall Meeting Conference, Online Everywhere 1-17 December 2020."
 header:
   overlay_image: /images/flood-cambo/Homepage.jpg
   teaser: /images/flood-cambo/Homepage.jpg
@@ -98,7 +98,7 @@ This study enriches more understanding on how early, medium and late rice crops 
 {: style="text-align: justify;"}
 
 -----
-## II. Study Area and Field Survey
+## II. Study area and field survey
 
 **1. Study Area**
 
