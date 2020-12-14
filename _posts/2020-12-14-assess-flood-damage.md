@@ -98,13 +98,13 @@ gallery14:
     image_path: /images/assess-flood-damage/agu-interface.png
     alt: "agu-interface"
     title: "Website interface of AGU Fall Meeting"
-  # - url: /images/assess-flood-damage/iposter.png
-  #   image_path: /images/assess-flood-damage/iposter.png
-  #   alt: "iposter"
-  #   title: "Overview of iPoster"
+  - url: /images/assess-flood-damage/iposter.png
+    image_path: /images/assess-flood-damage/iposter.png
+    alt: "iposter"
+    title: "Overview of iPoster"
 ---
 
-{% include gallery14 caption="Figure 1: Growth duration and growth stage of early, medium and late rice crops by phase [1]." %}
+{% include gallery id="gallery14" caption="Figure 1: Growth duration and growth stage of early, medium and late rice crops by phase [1]." %}
 
 ## Introduction
 Rice crops are mainly categorized into early, medium and late variety, and they are differently damaged by flood depending on its growth characteristic, productivity, and value.
