@@ -2,8 +2,6 @@
 classes: wide
 title: "Cambodia: Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop"
 tagline: "iPoster of my research for American Geophysical Union Fall Meeting, Online Everywhere 1-17 December 2020.."
-# title: "Cambodia: Assessment of Flood Damage on Early, Medium and Late Maturity Rice Crop"
-# tagline: "My research iPoster for American Geophysical Union Fall Meeting, Online Everywhere 1-17 December 2020."
 header:
   overlay_image: /images/flood-cambo/Homepage.jpg
   teaser: /images/flood-cambo/Homepage.jpg
@@ -36,30 +34,30 @@ gallery3:
     image_path: /images/assess-flood-damage/survey-farmer.png
     alt: "survey-acti"
     title: "Figure 4: Field survey activities with local farmers in the flood affected area in Pursat Province."    
-# gallery4:
-#   - url: /images/assess-flood-damage/diagram.png
-#     image_path: /images/assess-flood-damage/diagram.png
-#     alt: "diagram"
-#     title: "Figure 5: Research flowchart."
-# gallery5:
-#   - url: /images/assess-flood-damage/simulaiton result.png
-#     image_path: /images/assess-flood-damage/simulaiton result.png
-#     alt: "obs-sim-flood"
-#     title: "Figure 6a: Comparison between observed and simulated discharge of 2011 Flood simulated in RRI model."
-#   - url: /images/assess-flood-damage/flood-2011.png
-#     image_path: /images/assess-flood-damage/flood-2011.png
-#     alt: "obs-sim-flood"
-#     title: "Figure 6b: Flooding area and depth of 2011 flood simulated in RRI model."
-# gallery6:
-#   - url: /images/assess-flood-damage/3-fdcs.png
-#     image_path: /images/assess-flood-damage/3-fdcs.png
-#     alt: "3-fdcs"
-#     title: "Figure 7: Flood depth-duration damage curves for early, medium and late rice crop."
-# gallery7:
-#   - url: /images/assess-flood-damage/cost-production rate.png
-#     image_path: /images/assess-flood-damage/cost-production rate.png
-#     alt: "cost-production-rate"
-#     title: "Figure 8: Rice production rate and farm gate price of each rice crop type."
+gallery4:
+  - url: /images/assess-flood-damage/diagram.png
+    image_path: /images/assess-flood-damage/diagram.png
+    alt: "diagram"
+    title: "Figure 5: Research flowchart."
+gallery5:
+  - url: /images/assess-flood-damage/simulaiton result.png
+    image_path: /images/assess-flood-damage/simulaiton result.png
+    alt: "obs-sim-flood"
+    title: "Figure 6a: Comparison between observed and simulated discharge of 2011 Flood simulated in RRI model."
+  - url: /images/assess-flood-damage/flood-2011.png
+    image_path: /images/assess-flood-damage/flood-2011.png
+    alt: "obs-sim-flood"
+    title: "Figure 6b: Flooding area and depth of 2011 flood simulated in RRI model."
+gallery6:
+  - url: /images/assess-flood-damage/3-fdcs.png
+    image_path: /images/assess-flood-damage/3-fdcs.png
+    alt: "3-fdcs"
+    title: "Figure 7: Flood depth-duration damage curves for early, medium and late rice crop."
+gallery7:
+  - url: /images/assess-flood-damage/cost-production rate.png
+    image_path: /images/assess-flood-damage/cost-production rate.png
+    alt: "cost-production-rate"
+    title: "Figure 8: Rice production rate and farm gate price of each rice crop type."
 # gallery8:
 #   - url: /images/assess-flood-damage/classification-process.png
 #     image_path: /images/assess-flood-damage/classification-process.png
@@ -154,7 +152,7 @@ Target farmers: those who had experienced the rice crop damages caused by floo
 {: style="text-align: justify;"}
 {% include gallery id="gallery3" caption="Figure 4: Field survey activities with local farmers in the flood affected area in Pursat Province." %}
 
-<!-- ## Methodology
+## Methodology
 
 Figure 5 shows the conceptual framework of this study.
 {: style="text-align: justify;"}
@@ -184,7 +182,7 @@ Based on the report from local government which indicates the location of early,
 By following the above classification method, the paddy area map in 2019 (present cropping pattern) and flood-affected paddy area map in 2011 (past cropping pattern) were developed.
 {: style="text-align: justify;"}
 
-{% include gallery id="gallery9" caption="Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011." %} -->
+{% include gallery id="gallery9" caption="Figure 10: Paddy area map in 2019 and flood-affected paddy area map in 2011." %}
 
 <!-- ## Flood damage assessment
 
