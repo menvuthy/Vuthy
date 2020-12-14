@@ -101,7 +101,7 @@ gallery14:
 ---
 ## Overview of iPoster
 
-{% include gallery14 caption="Overview of iPoster on the website of AGU Fall Meeting conference." %}
+<!-- {% include gallery14 caption="Overview of iPoster on the website of AGU Fall Meeting conference." %} -->
 
 ## Introduction
 Rice crops are mainly categorized into early, medium and late variety, and they are differently damaged by flood depending on its growth characteristic, productivity, and value.
