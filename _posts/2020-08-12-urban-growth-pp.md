@@ -1,7 +1,7 @@
 ---
 classes: wide
 title: "Phnom Penh: Urban Growth from 1988 to 2020 by Landsat Satellite Imageries"
-tagline: "This timelapse image reveals 33-year growth of Phnom Penh city."
+tagline: "This timelapse image reveals 33-year growth of Phnom Penh."
 header:
   overlay_image: /images/pp-growth/head-image.png
   caption: "Photo credit: [**Photopea**](https://photopea.com)"
